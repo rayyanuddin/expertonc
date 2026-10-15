@@ -1,0 +1,2159 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\91988\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.0.0
+2 info using node@v20.18.0
+3 silly config load:file:C:\Users\91988\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\expertonc website\.npmrc
+5 silly config load:file:C:\Users\91988\.npmrc
+6 silly config load:file:C:\Users\91988\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\expertonc website\.npm-cache\_logs\2026-10-08T06_38_09_097Z-
+10 verbose logfile D:\expertonc website\.npm-cache\_logs\2026-10-08T06_38_09_097Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest lucide-react@^1.53.0
+15 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+16 http cache https://registry.npmjs.org/lucide-react 60ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/lucide-react set size:2383419 disposed:false
+18 silly fetch manifest @types/react@^19.3.0
+19 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@types%2freact 266ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+22 silly fetch manifest react@^19.3.0
+23 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+24 http cache https://registry.npmjs.org/react 22ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/react set size:7026094 disposed:false
+26 silly fetch manifest next@^16.4.0
+27 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+28 http cache https://registry.npmjs.org/next 67ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/next set size:31389147 disposed:false
+30 silly fetch manifest @opentelemetry/api@^1.1.0
+31 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 61ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:undefined disposed:false
+34 silly fetch manifest @playwright/test@^1.64.0
+35 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 272ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:undefined disposed:false
+38 silly fetch manifest babel-plugin-react-compiler@*
+39 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/babel-plugin-react-compiler 74ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler set size:undefined disposed:false
+42 silly fetch manifest react-dom@^19.3.0
+43 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/react-dom 214ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+46 silly fetch manifest sass@^1.3.0
+47 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/sass 80ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/sass set size:undefined disposed:false
+50 silly fetch manifest @tailwindcss/postcss@^4.3.3
+51 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fpostcss cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fpostcss 123ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fpostcss set size:undefined disposed:false
+54 silly fetch manifest tailwindcss@^4.3.3
+55 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/tailwindcss 240ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:undefined disposed:false
+58 silly fetch manifest vitest@^4.1.11
+59 silly packumentCache full:https://registry.npmjs.org/vitest cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/vitest 101ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/vitest set size:undefined disposed:false
+62 silly fetch manifest @edge-runtime/vm@*
+63 silly packumentCache full:https://registry.npmjs.org/@edge-runtime%2fvm cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/@edge-runtime%2fvm 278ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/@edge-runtime%2fvm set size:undefined disposed:false
+66 silly fetch manifest @opentelemetry/api@^1.9.0
+67 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+68 http cache https://registry.npmjs.org/@opentelemetry%2fapi 23ms (cache hit)
+69 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:268548 disposed:false
+70 silly fetch manifest @types/node@^22.20.5
+71 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+72 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 224ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+74 silly fetch manifest @vitest/browser-playwright@4.1.11
+75 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-playwright cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-playwright 71ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-playwright set size:undefined disposed:false
+78 silly fetch manifest playwright@*
+79 silly packumentCache full:https://registry.npmjs.org/playwright cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/playwright 374ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/playwright set size:undefined disposed:false
+82 silly fetch manifest @vitest/browser-preview@4.1.11
+83 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-preview cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-preview 70ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-preview set size:undefined disposed:false
+86 silly fetch manifest @vitest/browser-webdriverio@4.1.11
+87 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-webdriverio cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser-webdriverio 96ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser-webdriverio set size:undefined disposed:false
+90 silly fetch manifest webdriverio@*
+91 silly packumentCache full:https://registry.npmjs.org/webdriverio cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/webdriverio 122ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/webdriverio set size:undefined disposed:false
+94 silly fetch manifest puppeteer-core@>=22.x <=24.x
+95 silly packumentCache full:https://registry.npmjs.org/puppeteer-core cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/puppeteer-core 77ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/puppeteer-core set size:undefined disposed:false
+98 silly fetch manifest @vitest/coverage-istanbul@4.1.11
+99 silly packumentCache full:https://registry.npmjs.org/@vitest%2fcoverage-istanbul cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/@vitest%2fcoverage-istanbul 72ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/@vitest%2fcoverage-istanbul set size:undefined disposed:false
+102 silly fetch manifest @vitest/coverage-v8@4.1.11
+103 silly packumentCache full:https://registry.npmjs.org/@vitest%2fcoverage-v8 cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/@vitest%2fcoverage-v8 81ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/@vitest%2fcoverage-v8 set size:undefined disposed:false
+106 silly fetch manifest @vitest/browser@4.1.11
+107 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/@vitest%2fbrowser 83ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/@vitest%2fbrowser set size:undefined disposed:false
+110 silly fetch manifest @vitest/ui@4.1.11
+111 silly packumentCache full:https://registry.npmjs.org/@vitest%2fui cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/@vitest%2fui 86ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/@vitest%2fui set size:undefined disposed:false
+114 silly fetch manifest happy-dom@*
+115 silly packumentCache full:https://registry.npmjs.org/happy-dom cache-miss
+116 http fetch GET 200 https://registry.npmjs.org/happy-dom 103ms (cache miss)
+117 silly packumentCache full:https://registry.npmjs.org/happy-dom set size:undefined disposed:false
+118 silly fetch manifest jsdom@^25.0.1
+119 silly packumentCache full:https://registry.npmjs.org/jsdom cache-miss
+120 http fetch GET 200 https://registry.npmjs.org/jsdom 133ms (cache miss)
+121 silly packumentCache full:https://registry.npmjs.org/jsdom set size:undefined disposed:false
+122 silly fetch manifest canvas@^2.11.2
+123 silly packumentCache full:https://registry.npmjs.org/canvas cache-miss
+124 http fetch GET 200 https://registry.npmjs.org/canvas 53ms (cache miss)
+125 silly packumentCache full:https://registry.npmjs.org/canvas set size:undefined disposed:false
+126 silly placeDep ROOT @tailwindcss/postcss@4.3.3 OK for: expertonc-marketing@1.0.0 want: ^4.3.3
+127 silly placeDep ROOT lucide-react@1.53.0 REPLACE for: expertonc-marketing@1.0.0 want: ^1.53.0
+128 silly placeDep ROOT next@16.4.0 REPLACE for: expertonc-marketing@1.0.0 want: ^16.4.0
+129 silly placeDep ROOT tailwindcss@4.3.3 REPLACE for: expertonc-marketing@1.0.0 want: ^4.3.3
+130 silly placeDep ROOT vitest@4.1.11 REPLACE for: expertonc-marketing@1.0.0 want: ^4.1.11
+131 silly fetch manifest tailwindcss@4.3.3
+132 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+133 silly fetch manifest @tailwindcss/node@4.3.3
+134 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fnode cache-miss
+135 silly fetch manifest @tailwindcss/oxide@4.3.3
+136 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide cache-miss
+137 silly fetch manifest postcss@8.5.23
+138 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+139 silly fetch manifest @next/env@16.4.0
+140 silly packumentCache full:https://registry.npmjs.org/@next%2fenv cache-miss
+141 silly fetch manifest @swc/helpers@0.5.23
+142 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers cache-miss
+143 silly fetch manifest @next/swc-darwin-x64@16.4.0
+144 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+145 http cache https://registry.npmjs.org/tailwindcss 40ms (cache hit)
+146 silly packumentCache full:https://registry.npmjs.org/tailwindcss set size:10893093 disposed:false
+147 silly fetch manifest @next/swc-darwin-arm64@16.4.0
+148 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+149 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fnode 188ms (cache miss)
+150 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fnode set size:undefined disposed:false
+151 silly fetch manifest @next/swc-linux-x64-gnu@16.4.0
+152 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/postcss 260ms (cache miss)
+154 silly packumentCache full:https://registry.npmjs.org/postcss set size:undefined disposed:false
+155 silly fetch manifest @next/swc-linux-x64-musl@16.4.0
+156 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+157 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 285ms (cache miss)
+158 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers set size:undefined disposed:false
+159 silly fetch manifest @next/swc-win32-x64-msvc@16.4.0
+160 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-x64-msvc cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide 444ms (cache miss)
+162 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide set size:undefined disposed:false
+163 silly fetch manifest @next/swc-linux-arm64-gnu@16.4.0
+164 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+165 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 487ms (cache miss)
+166 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:undefined disposed:false
+167 silly fetch manifest @next/swc-linux-arm64-musl@16.4.0
+168 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+169 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 335ms (cache miss)
+170 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:undefined disposed:false
+171 silly fetch manifest @next/swc-win32-arm64-msvc@16.4.0
+172 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+173 http fetch GET 200 https://registry.npmjs.org/@next%2fenv 606ms (cache miss)
+174 silly packumentCache full:https://registry.npmjs.org/@next%2fenv set size:undefined disposed:false
+175 silly fetch manifest obug@^2.1.1
+176 silly packumentCache full:https://registry.npmjs.org/obug cache-miss
+177 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 390ms (cache miss)
+178 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:undefined disposed:false
+179 silly fetch manifest vite@^6.0.0 || ^7.0.0 || ^8.0.0
+180 silly packumentCache full:https://registry.npmjs.org/vite cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 570ms (cache miss)
+182 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:undefined disposed:false
+183 silly fetch manifest pathe@^2.0.3
+184 silly packumentCache full:https://registry.npmjs.org/pathe cache-miss
+185 http fetch GET 200 https://registry.npmjs.org/obug 104ms (cache miss)
+186 silly packumentCache full:https://registry.npmjs.org/obug set size:undefined disposed:false
+187 silly fetch manifest std-env@^4.0.0-rc.1
+188 silly packumentCache full:https://registry.npmjs.org/std-env cache-miss
+189 http fetch GET 200 https://registry.npmjs.org/pathe 46ms (cache miss)
+190 silly packumentCache full:https://registry.npmjs.org/pathe set size:undefined disposed:false
+191 silly fetch manifest tinyexec@^1.0.2
+192 silly packumentCache full:https://registry.npmjs.org/tinyexec cache-miss
+193 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-x64-msvc 495ms (cache miss)
+194 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-x64-msvc set size:undefined disposed:false
+195 silly fetch manifest picomatch@^4.0.3
+196 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+197 http fetch GET 200 https://registry.npmjs.org/tinyexec 60ms (cache miss)
+198 silly packumentCache full:https://registry.npmjs.org/tinyexec set size:undefined disposed:false
+199 silly fetch manifest tinyglobby@^0.2.15
+200 silly packumentCache full:https://registry.npmjs.org/tinyglobby cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/std-env 93ms (cache miss)
+202 silly packumentCache full:https://registry.npmjs.org/std-env set size:undefined disposed:false
+203 silly fetch manifest @vitest/spy@4.1.11
+204 silly packumentCache full:https://registry.npmjs.org/@vitest%2fspy cache-miss
+205 http fetch GET 200 https://registry.npmjs.org/picomatch 55ms (cache miss)
+206 silly packumentCache full:https://registry.npmjs.org/picomatch set size:undefined disposed:false
+207 silly fetch manifest tinyrainbow@^3.1.0
+208 silly packumentCache full:https://registry.npmjs.org/tinyrainbow cache-miss
+209 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 416ms (cache miss)
+210 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:undefined disposed:false
+211 silly fetch manifest magic-string@^0.30.21
+212 silly packumentCache full:https://registry.npmjs.org/magic-string cache-miss
+213 http fetch GET 200 https://registry.npmjs.org/tinyglobby 78ms (cache miss)
+214 silly packumentCache full:https://registry.npmjs.org/tinyglobby set size:undefined disposed:false
+215 silly fetch manifest @vitest/utils@4.1.11
+216 silly packumentCache full:https://registry.npmjs.org/@vitest%2futils cache-miss
+217 http fetch GET 200 https://registry.npmjs.org/tinyrainbow 50ms (cache miss)
+218 silly packumentCache full:https://registry.npmjs.org/tinyrainbow set size:undefined disposed:false
+219 silly fetch manifest @vitest/expect@4.1.11
+220 silly packumentCache full:https://registry.npmjs.org/@vitest%2fexpect cache-miss
+221 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 371ms (cache miss)
+222 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:undefined disposed:false
+223 silly fetch manifest @vitest/mocker@4.1.11
+224 silly packumentCache full:https://registry.npmjs.org/@vitest%2fmocker cache-miss
+225 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 446ms (cache miss)
+226 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:undefined disposed:false
+227 silly fetch manifest @vitest/runner@4.1.11
+228 silly packumentCache full:https://registry.npmjs.org/@vitest%2frunner cache-miss
+229 http fetch GET 200 https://registry.npmjs.org/@vitest%2fspy 168ms (cache miss)
+230 silly packumentCache full:https://registry.npmjs.org/@vitest%2fspy set size:undefined disposed:false
+231 silly fetch manifest es-module-lexer@^2.0.0
+232 silly packumentCache full:https://registry.npmjs.org/es-module-lexer cache-miss
+233 http fetch GET 200 https://registry.npmjs.org/magic-string 124ms (cache miss)
+234 silly packumentCache full:https://registry.npmjs.org/magic-string set size:undefined disposed:false
+235 silly fetch manifest @vitest/snapshot@4.1.11
+236 silly packumentCache full:https://registry.npmjs.org/@vitest%2fsnapshot cache-miss
+237 http fetch GET 200 https://registry.npmjs.org/@vitest%2fexpect 119ms (cache miss)
+238 silly packumentCache full:https://registry.npmjs.org/@vitest%2fexpect set size:undefined disposed:false
+239 silly fetch manifest @vitest/pretty-format@4.1.11
+240 silly packumentCache full:https://registry.npmjs.org/@vitest%2fpretty-format cache-miss
+241 http fetch GET 200 https://registry.npmjs.org/@vitest%2futils 131ms (cache miss)
+242 silly packumentCache full:https://registry.npmjs.org/@vitest%2futils set size:undefined disposed:false
+243 http fetch GET 200 https://registry.npmjs.org/es-module-lexer 51ms (cache miss)
+244 silly packumentCache full:https://registry.npmjs.org/es-module-lexer set size:undefined disposed:false
+245 http fetch GET 200 https://registry.npmjs.org/@vitest%2frunner 67ms (cache miss)
+246 silly packumentCache full:https://registry.npmjs.org/@vitest%2frunner set size:undefined disposed:false
+247 http fetch GET 200 https://registry.npmjs.org/@vitest%2fmocker 134ms (cache miss)
+248 silly packumentCache full:https://registry.npmjs.org/@vitest%2fmocker set size:undefined disposed:false
+249 http fetch GET 200 https://registry.npmjs.org/@vitest%2fsnapshot 82ms (cache miss)
+250 silly packumentCache full:https://registry.npmjs.org/@vitest%2fsnapshot set size:undefined disposed:false
+251 http fetch GET 200 https://registry.npmjs.org/@vitest%2fpretty-format 299ms (cache miss)
+252 silly packumentCache full:https://registry.npmjs.org/@vitest%2fpretty-format set size:undefined disposed:false
+253 http fetch GET 200 https://registry.npmjs.org/vite 1805ms (cache miss)
+254 silly packumentCache full:https://registry.npmjs.org/vite set size:undefined disposed:false
+255 silly placeDep ROOT @tailwindcss/node@4.3.3 OK for: @tailwindcss/postcss@4.3.3 want: 4.3.3
+256 silly placeDep ROOT @tailwindcss/oxide@4.3.3 OK for: @tailwindcss/postcss@4.3.3 want: 4.3.3
+257 silly fetch manifest jiti@^2.7.0
+258 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+259 silly fetch manifest lightningcss@1.32.0
+260 silly packumentCache full:https://registry.npmjs.org/lightningcss cache-miss
+261 silly fetch manifest enhanced-resolve@^5.24.1
+262 silly packumentCache full:https://registry.npmjs.org/enhanced-resolve cache-miss
+263 silly fetch manifest @jridgewell/remapping@^2.3.5
+264 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fremapping cache-miss
+265 silly fetch manifest @tailwindcss/oxide-darwin-x64@4.3.3
+266 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 cache-miss
+267 silly fetch manifest @tailwindcss/oxide-freebsd-x64@4.3.3
+268 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 cache-miss
+269 silly fetch manifest @tailwindcss/oxide-wasm32-wasi@4.3.3
+270 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi cache-miss
+271 http fetch GET 200 https://registry.npmjs.org/lightningcss 44ms (cache miss)
+272 silly packumentCache full:https://registry.npmjs.org/lightningcss set size:undefined disposed:false
+273 silly fetch manifest @tailwindcss/oxide-darwin-arm64@4.3.3
+274 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 cache-miss
+275 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fremapping 57ms (cache miss)
+276 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fremapping set size:undefined disposed:false
+277 silly fetch manifest @tailwindcss/oxide-android-arm64@4.3.3
+278 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 cache-miss
+279 http fetch GET 200 https://registry.npmjs.org/jiti 64ms (cache miss)
+280 silly packumentCache full:https://registry.npmjs.org/jiti set size:undefined disposed:false
+281 silly fetch manifest @tailwindcss/oxide-linux-x64-gnu@4.3.3
+282 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu cache-miss
+283 http fetch GET 200 https://registry.npmjs.org/enhanced-resolve 75ms (cache miss)
+284 silly packumentCache full:https://registry.npmjs.org/enhanced-resolve set size:undefined disposed:false
+285 silly fetch manifest @tailwindcss/oxide-linux-x64-musl@4.3.3
+286 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl cache-miss
+287 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi 108ms (cache miss)
+288 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-wasm32-wasi set size:undefined disposed:false
+289 silly fetch manifest @tailwindcss/oxide-win32-x64-msvc@4.3.3
+290 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc cache-miss
+291 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 142ms (cache miss)
+292 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-freebsd-x64 set size:undefined disposed:false
+293 silly fetch manifest @tailwindcss/oxide-linux-arm64-gnu@4.3.3
+294 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu cache-miss
+295 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 142ms (cache miss)
+296 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-android-arm64 set size:undefined disposed:false
+297 silly fetch manifest @tailwindcss/oxide-linux-arm64-musl@4.3.3
+298 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl cache-miss
+299 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 223ms (cache miss)
+300 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-x64 set size:undefined disposed:false
+301 silly fetch manifest @tailwindcss/oxide-win32-arm64-msvc@4.3.3
+302 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc cache-miss
+303 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu 191ms (cache miss)
+304 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-gnu set size:undefined disposed:false
+305 silly fetch manifest @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3
+306 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf cache-miss
+307 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 232ms (cache miss)
+308 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-darwin-arm64 set size:undefined disposed:false
+309 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl 218ms (cache miss)
+310 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-x64-musl set size:undefined disposed:false
+311 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc 230ms (cache miss)
+312 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-x64-msvc set size:undefined disposed:false
+313 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu 222ms (cache miss)
+314 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-gnu set size:undefined disposed:false
+315 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl 182ms (cache miss)
+316 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm64-musl set size:undefined disposed:false
+317 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc 190ms (cache miss)
+318 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-win32-arm64-msvc set size:undefined disposed:false
+319 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf 189ms (cache miss)
+320 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2foxide-linux-arm-gnueabihf set size:undefined disposed:false
+321 silly placeDep ROOT @jridgewell/remapping@2.3.5 OK for: @tailwindcss/node@4.3.3 want: ^2.3.5
+322 silly placeDep ROOT enhanced-resolve@5.26.0 OK for: @tailwindcss/node@4.3.3 want: ^5.24.1
+323 silly placeDep ROOT jiti@2.7.0 OK for: @tailwindcss/node@4.3.3 want: ^2.7.0
+324 silly placeDep ROOT lightningcss@1.32.0 OK for: @tailwindcss/node@4.3.3 want: 1.32.0
+325 silly placeDep ROOT magic-string@0.30.21 OK for: @tailwindcss/node@4.3.3 want: ^0.30.21
+326 silly fetch manifest @jridgewell/gen-mapping@^0.3.5
+327 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fgen-mapping cache-miss
+328 silly fetch manifest @jridgewell/trace-mapping@^0.3.24
+329 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2ftrace-mapping cache-miss
+330 silly fetch manifest tapable@^2.3.3
+331 silly packumentCache full:https://registry.npmjs.org/tapable cache-miss
+332 silly fetch manifest graceful-fs@^4.2.4
+333 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+334 silly fetch manifest lightningcss-darwin-x64@1.32.0
+335 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 cache-miss
+336 silly fetch manifest lightningcss-freebsd-x64@1.32.0
+337 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 cache-miss
+338 silly fetch manifest lightningcss-darwin-arm64@1.32.0
+339 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 cache-miss
+340 http fetch GET 200 https://registry.npmjs.org/tapable 51ms (cache miss)
+341 silly packumentCache full:https://registry.npmjs.org/tapable set size:undefined disposed:false
+342 silly fetch manifest lightningcss-android-arm64@1.32.0
+343 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 cache-miss
+344 http fetch GET 200 https://registry.npmjs.org/lightningcss-freebsd-x64 61ms (cache miss)
+345 silly packumentCache full:https://registry.npmjs.org/lightningcss-freebsd-x64 set size:undefined disposed:false
+346 silly fetch manifest lightningcss-linux-x64-gnu@1.32.0
+347 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu cache-miss
+348 http fetch GET 200 https://registry.npmjs.org/graceful-fs 82ms (cache miss)
+349 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:undefined disposed:false
+350 silly fetch manifest lightningcss-linux-x64-musl@1.32.0
+351 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl cache-miss
+352 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-x64 90ms (cache miss)
+353 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-x64 set size:undefined disposed:false
+354 silly fetch manifest lightningcss-win32-x64-msvc@1.32.0
+355 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-x64-msvc cache-miss
+356 http fetch GET 200 https://registry.npmjs.org/lightningcss-darwin-arm64 93ms (cache miss)
+357 silly packumentCache full:https://registry.npmjs.org/lightningcss-darwin-arm64 set size:undefined disposed:false
+358 silly fetch manifest lightningcss-linux-arm64-gnu@1.32.0
+359 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu cache-miss
+360 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fgen-mapping 98ms (cache miss)
+361 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fgen-mapping set size:undefined disposed:false
+362 silly fetch manifest lightningcss-linux-arm64-musl@1.32.0
+363 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl cache-miss
+364 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2ftrace-mapping 102ms (cache miss)
+365 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2ftrace-mapping set size:undefined disposed:false
+366 silly fetch manifest lightningcss-win32-arm64-msvc@1.32.0
+367 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc cache-miss
+368 http fetch GET 200 https://registry.npmjs.org/lightningcss-android-arm64 50ms (cache miss)
+369 silly packumentCache full:https://registry.npmjs.org/lightningcss-android-arm64 set size:undefined disposed:false
+370 silly fetch manifest lightningcss-linux-arm-gnueabihf@1.32.0
+371 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf cache-miss
+372 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-gnu 58ms (cache miss)
+373 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-gnu set size:undefined disposed:false
+374 silly fetch manifest @jridgewell/sourcemap-codec@^1.5.5
+375 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec cache-miss
+376 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-x64-musl 50ms (cache miss)
+377 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-x64-musl set size:undefined disposed:false
+378 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-gnu 40ms (cache miss)
+379 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-gnu set size:undefined disposed:false
+380 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc 44ms (cache miss)
+381 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-x64-msvc set size:undefined disposed:false
+382 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-arm64-msvc 40ms (cache miss)
+383 silly packumentCache full:https://registry.npmjs.org/lightningcss-win32-arm64-msvc set size:undefined disposed:false
+384 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf 43ms (cache miss)
+385 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf set size:undefined disposed:false
+386 http fetch GET 200 https://registry.npmjs.org/lightningcss-linux-arm64-musl 69ms (cache miss)
+387 silly packumentCache full:https://registry.npmjs.org/lightningcss-linux-arm64-musl set size:undefined disposed:false
+388 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 60ms (cache miss)
+389 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec set size:undefined disposed:false
+390 silly placeDep ROOT @jridgewell/gen-mapping@0.3.13 OK for: @jridgewell/remapping@2.3.5 want: ^0.3.5
+391 silly placeDep ROOT @jridgewell/trace-mapping@0.3.31 OK for: @jridgewell/remapping@2.3.5 want: ^0.3.24
+392 silly fetch manifest @jridgewell/sourcemap-codec@^1.5.0
+393 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec cache-miss
+394 silly fetch manifest @jridgewell/resolve-uri@^3.1.0
+395 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fresolve-uri cache-miss
+396 silly fetch manifest @jridgewell/sourcemap-codec@^1.4.14
+397 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec cache-miss
+398 http cache https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 43ms (cache hit)
+399 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec set size:65255 disposed:false
+400 http cache https://registry.npmjs.org/@jridgewell%2fsourcemap-codec 42ms (cache hit)
+401 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec set size:65255 disposed:false
+402 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fsourcemap-codec dispose
+403 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2fresolve-uri 93ms (cache miss)
+404 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2fresolve-uri set size:undefined disposed:false
+405 silly placeDep ROOT @jridgewell/sourcemap-codec@1.6.0 OK for: @jridgewell/gen-mapping@0.3.13 want: ^1.5.0
+406 silly placeDep ROOT @jridgewell/resolve-uri@3.1.2 OK for: @jridgewell/trace-mapping@0.3.31 want: ^3.1.0
+407 silly placeDep ROOT @tailwindcss/oxide-android-arm64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+408 silly placeDep ROOT @tailwindcss/oxide-darwin-arm64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+409 silly placeDep ROOT @tailwindcss/oxide-darwin-x64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+410 silly placeDep ROOT @tailwindcss/oxide-freebsd-x64@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+411 silly placeDep ROOT @tailwindcss/oxide-linux-arm-gnueabihf@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+412 silly placeDep ROOT @tailwindcss/oxide-linux-arm64-gnu@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+413 silly placeDep ROOT @tailwindcss/oxide-linux-arm64-musl@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+414 silly placeDep ROOT @tailwindcss/oxide-linux-x64-gnu@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+415 silly placeDep ROOT @tailwindcss/oxide-linux-x64-musl@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+416 silly placeDep ROOT @tailwindcss/oxide-wasm32-wasi@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+417 silly placeDep ROOT @tailwindcss/oxide-win32-arm64-msvc@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+418 silly placeDep ROOT @tailwindcss/oxide-win32-x64-msvc@4.3.3 OK for: @tailwindcss/oxide@4.3.3 want: 4.3.3
+419 silly placeDep ROOT graceful-fs@4.2.11 OK for: enhanced-resolve@5.26.0 want: ^4.2.4
+420 silly placeDep ROOT tapable@2.3.3 OK for: enhanced-resolve@5.26.0 want: ^2.3.3
+421 silly placeDep ROOT lightningcss-android-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+422 silly placeDep ROOT lightningcss-darwin-arm64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+423 silly placeDep ROOT lightningcss-darwin-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+424 silly placeDep ROOT lightningcss-freebsd-x64@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+425 silly placeDep ROOT lightningcss-linux-arm-gnueabihf@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+426 silly placeDep ROOT lightningcss-linux-arm64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+427 silly placeDep ROOT lightningcss-linux-arm64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+428 silly placeDep ROOT lightningcss-linux-x64-gnu@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+429 silly placeDep ROOT lightningcss-linux-x64-musl@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+430 silly placeDep ROOT lightningcss-win32-arm64-msvc@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+431 silly placeDep ROOT lightningcss-win32-x64-msvc@1.32.0 OK for: lightningcss@1.32.0 want: 1.32.0
+432 silly placeDep ROOT @next/env@16.4.0 OK for: next@16.4.0 want: 16.4.0
+433 silly placeDep ROOT @next/swc-darwin-arm64@16.4.0 OK for: next@16.4.0 want: 16.4.0
+434 silly placeDep ROOT @next/swc-darwin-x64@16.4.0 OK for: next@16.4.0 want: 16.4.0
+435 silly placeDep ROOT @next/swc-linux-arm64-gnu@16.4.0 OK for: next@16.4.0 want: 16.4.0
+436 silly placeDep ROOT @next/swc-linux-arm64-musl@16.4.0 OK for: next@16.4.0 want: 16.4.0
+437 silly placeDep ROOT @next/swc-linux-x64-gnu@16.4.0 OK for: next@16.4.0 want: 16.4.0
+438 silly placeDep ROOT @next/swc-linux-x64-musl@16.4.0 OK for: next@16.4.0 want: 16.4.0
+439 silly placeDep ROOT @next/swc-win32-arm64-msvc@16.4.0 OK for: next@16.4.0 want: 16.4.0
+440 silly placeDep ROOT @next/swc-win32-x64-msvc@16.4.0 OK for: next@16.4.0 want: 16.4.0
+441 silly placeDep ROOT @swc/helpers@0.5.23 OK for: next@16.4.0 want: 0.5.23
+442 silly placeDep node_modules/next postcss@8.5.23 OK for: next@16.4.0 want: 8.5.23
+443 silly fetch manifest @types/node@^20.0.0 || ^22.0.0 || >=24.0.0
+444 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+445 http cache https://registry.npmjs.org/@types%2fnode 30ms (cache hit)
+446 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:11171832 disposed:false
+447 silly fetch manifest jiti@>=1.21.0
+448 silly packumentCache full:https://registry.npmjs.org/jiti cache-miss
+449 http cache https://registry.npmjs.org/jiti 13ms (cache hit)
+450 silly packumentCache full:https://registry.npmjs.org/jiti set size:387989 disposed:false
+451 silly fetch manifest less@*
+452 silly packumentCache full:https://registry.npmjs.org/less cache-miss
+453 http fetch GET 200 https://registry.npmjs.org/less 75ms (cache miss)
+454 silly packumentCache full:https://registry.npmjs.org/less set size:undefined disposed:false
+455 silly fetch manifest lightningcss@^1.21.0
+456 silly packumentCache full:https://registry.npmjs.org/lightningcss cache-miss
+457 http cache https://registry.npmjs.org/lightningcss 9ms (cache hit)
+458 silly packumentCache full:https://registry.npmjs.org/lightningcss set size:191065 disposed:false
+459 silly fetch manifest sass@*
+460 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+461 http cache https://registry.npmjs.org/sass 10ms (cache hit)
+462 silly packumentCache full:https://registry.npmjs.org/sass set size:756819 disposed:false
+463 silly fetch manifest sass-embedded@*
+464 silly packumentCache full:https://registry.npmjs.org/sass-embedded cache-miss
+465 http fetch GET 200 https://registry.npmjs.org/sass-embedded 62ms (cache miss)
+466 silly packumentCache full:https://registry.npmjs.org/sass-embedded set size:undefined disposed:false
+467 silly fetch manifest stylus@*
+468 silly packumentCache full:https://registry.npmjs.org/stylus cache-miss
+469 http fetch GET 200 https://registry.npmjs.org/stylus 50ms (cache miss)
+470 silly packumentCache full:https://registry.npmjs.org/stylus set size:undefined disposed:false
+471 silly fetch manifest sugarss@*
+472 silly packumentCache full:https://registry.npmjs.org/sugarss cache-miss
+473 http fetch GET 200 https://registry.npmjs.org/sugarss 32ms (cache miss)
+474 silly packumentCache full:https://registry.npmjs.org/sugarss set size:undefined disposed:false
+475 silly fetch manifest postcss@^8.3.3
+476 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+477 http cache https://registry.npmjs.org/postcss 10ms (cache hit)
+478 silly packumentCache full:https://registry.npmjs.org/postcss set size:770032 disposed:false
+479 silly fetch manifest terser@^5.16.0
+480 silly packumentCache full:https://registry.npmjs.org/terser cache-miss
+481 http fetch GET 200 https://registry.npmjs.org/terser 69ms (cache miss)
+482 silly packumentCache full:https://registry.npmjs.org/terser set size:undefined disposed:false
+483 silly fetch manifest tsx@^4.8.1
+484 silly packumentCache full:https://registry.npmjs.org/tsx cache-miss
+485 http fetch GET 200 https://registry.npmjs.org/tsx 58ms (cache miss)
+486 silly packumentCache full:https://registry.npmjs.org/tsx set size:undefined disposed:false
+487 silly fetch manifest yaml@^2.4.2
+488 silly packumentCache full:https://registry.npmjs.org/yaml cache-miss
+489 http fetch GET 200 https://registry.npmjs.org/yaml 50ms (cache miss)
+490 silly packumentCache full:https://registry.npmjs.org/yaml set size:undefined disposed:false
+491 silly fetch manifest msw@^2.4.9
+492 silly packumentCache full:https://registry.npmjs.org/msw cache-miss
+493 http fetch GET 200 https://registry.npmjs.org/msw 195ms (cache miss)
+494 silly packumentCache full:https://registry.npmjs.org/msw set size:undefined disposed:false
+495 silly fetch manifest typescript@>= 4.8.x
+496 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+497 http fetch GET 200 https://registry.npmjs.org/typescript 385ms (cache miss)
+498 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+499 silly placeDep ROOT @vitest/expect@4.1.11 OK for: vitest@4.1.11 want: 4.1.11
+500 silly placeDep ROOT @vitest/mocker@4.1.11 OK for: vitest@4.1.11 want: 4.1.11
+501 silly placeDep ROOT @vitest/pretty-format@4.1.11 OK for: vitest@4.1.11 want: 4.1.11
+502 silly placeDep ROOT @vitest/runner@4.1.11 OK for: vitest@4.1.11 want: 4.1.11
+503 silly placeDep ROOT @vitest/snapshot@4.1.11 OK for: vitest@4.1.11 want: 4.1.11
+504 silly placeDep ROOT @vitest/spy@4.1.11 OK for: vitest@4.1.11 want: 4.1.11
+505 silly placeDep ROOT @vitest/utils@4.1.11 OK for: vitest@4.1.11 want: 4.1.11
+506 silly placeDep ROOT es-module-lexer@2.3.2 OK for: vitest@4.1.11 want: ^2.0.0
+507 silly placeDep ROOT obug@2.2.1 OK for: vitest@4.1.11 want: ^2.1.1
+508 silly placeDep ROOT pathe@2.0.3 OK for: vitest@4.1.11 want: ^2.0.3
+509 silly placeDep ROOT picomatch@4.0.7 OK for: vitest@4.1.11 want: ^4.0.3
+510 silly placeDep ROOT std-env@4.3.0 OK for: vitest@4.1.11 want: ^4.0.0-rc.1
+511 silly placeDep ROOT tinyexec@1.3.1 OK for: vitest@4.1.11 want: ^1.0.2
+512 silly placeDep ROOT tinyglobby@0.2.17 OK for: vitest@4.1.11 want: ^0.2.15
+513 silly placeDep ROOT tinyrainbow@3.2.0 OK for: vitest@4.1.11 want: ^3.1.0
+514 silly placeDep ROOT vite@6.4.4 OK for: vitest@4.1.11 want: ^6.0.0 || ^7.0.0 || ^8.0.0
+515 silly fetch manifest chai@^6.2.2
+516 silly packumentCache full:https://registry.npmjs.org/chai cache-miss
+517 silly fetch manifest @types/chai@^5.2.2
+518 silly packumentCache full:https://registry.npmjs.org/@types%2fchai cache-miss
+519 silly fetch manifest @standard-schema/spec@^1.1.0
+520 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2fspec cache-miss
+521 silly fetch manifest estree-walker@^3.0.3
+522 silly packumentCache full:https://registry.npmjs.org/estree-walker cache-miss
+523 silly fetch manifest convert-source-map@^2.0.0
+524 silly packumentCache full:https://registry.npmjs.org/convert-source-map cache-miss
+525 silly fetch manifest fdir@^6.5.0
+526 silly packumentCache full:https://registry.npmjs.org/fdir cache-miss
+527 silly fetch manifest fdir@^6.4.4
+528 silly packumentCache full:https://registry.npmjs.org/fdir cache-miss
+529 http fetch GET 200 https://registry.npmjs.org/fdir 43ms (cache miss)
+530 silly packumentCache full:https://registry.npmjs.org/fdir set size:undefined disposed:false
+531 silly fetch manifest rollup@^4.34.9
+532 silly packumentCache full:https://registry.npmjs.org/rollup cache-miss
+533 http fetch GET 200 https://registry.npmjs.org/fdir 70ms (cache miss)
+534 silly packumentCache full:https://registry.npmjs.org/fdir set size:undefined disposed:false
+535 silly fetch manifest esbuild@^0.25.0
+536 silly packumentCache full:https://registry.npmjs.org/esbuild cache-miss
+537 http fetch GET 200 https://registry.npmjs.org/convert-source-map 75ms (cache miss)
+538 silly packumentCache full:https://registry.npmjs.org/convert-source-map set size:undefined disposed:false
+539 silly fetch manifest fsevents@~2.3.3
+540 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+541 http fetch GET 200 https://registry.npmjs.org/estree-walker 80ms (cache miss)
+542 silly packumentCache full:https://registry.npmjs.org/estree-walker set size:undefined disposed:false
+543 http fetch GET 200 https://registry.npmjs.org/chai 86ms (cache miss)
+544 silly packumentCache full:https://registry.npmjs.org/chai set size:undefined disposed:false
+545 http fetch GET 200 https://registry.npmjs.org/@standard-schema%2fspec 88ms (cache miss)
+546 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2fspec set size:undefined disposed:false
+547 http fetch GET 200 https://registry.npmjs.org/@types%2fchai 91ms (cache miss)
+548 silly packumentCache full:https://registry.npmjs.org/@types%2fchai set size:undefined disposed:false
+549 http fetch GET 200 https://registry.npmjs.org/fsevents 73ms (cache miss)
+550 silly packumentCache full:https://registry.npmjs.org/fsevents set size:undefined disposed:false
+551 http fetch GET 200 https://registry.npmjs.org/esbuild 143ms (cache miss)
+552 silly packumentCache full:https://registry.npmjs.org/esbuild set size:undefined disposed:false
+553 http fetch GET 200 https://registry.npmjs.org/rollup 190ms (cache miss)
+554 silly packumentCache full:https://registry.npmjs.org/rollup set size:undefined disposed:false
+555 silly placeDep ROOT @standard-schema/spec@1.1.0 OK for: @vitest/expect@4.1.11 want: ^1.1.0
+556 silly placeDep ROOT @types/chai@5.2.3 OK for: @vitest/expect@4.1.11 want: ^5.2.2
+557 silly placeDep ROOT chai@6.3.0 OK for: @vitest/expect@4.1.11 want: ^6.2.2
+558 silly fetch manifest @types/deep-eql@*
+559 silly packumentCache full:https://registry.npmjs.org/@types%2fdeep-eql cache-miss
+560 silly fetch manifest assertion-error@^2.0.1
+561 silly packumentCache full:https://registry.npmjs.org/assertion-error cache-miss
+562 http fetch GET 200 https://registry.npmjs.org/@types%2fdeep-eql 41ms (cache miss)
+563 silly packumentCache full:https://registry.npmjs.org/@types%2fdeep-eql set size:undefined disposed:false
+564 http fetch GET 200 https://registry.npmjs.org/assertion-error 41ms (cache miss)
+565 silly packumentCache full:https://registry.npmjs.org/assertion-error set size:undefined disposed:false
+566 silly placeDep ROOT @types/deep-eql@4.0.2 OK for: @types/chai@5.2.3 want: *
+567 silly placeDep ROOT assertion-error@2.0.1 OK for: @types/chai@5.2.3 want: ^2.0.1
+568 silly placeDep ROOT estree-walker@3.0.3 OK for: @vitest/mocker@4.1.11 want: ^3.0.3
+569 silly fetch manifest @types/estree@^1.0.0
+570 silly packumentCache full:https://registry.npmjs.org/@types%2festree cache-miss
+571 http fetch GET 200 https://registry.npmjs.org/@types%2festree 53ms (cache miss)
+572 silly packumentCache full:https://registry.npmjs.org/@types%2festree set size:undefined disposed:false
+573 silly placeDep ROOT convert-source-map@2.0.0 OK for: @vitest/utils@4.1.11 want: ^2.0.0
+574 silly placeDep ROOT @types/estree@1.0.9 OK for: estree-walker@3.0.3 want: ^1.0.0
+575 silly fetch manifest picomatch@^4.0.4
+576 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+577 http cache https://registry.npmjs.org/picomatch 11ms (cache hit)
+578 silly packumentCache full:https://registry.npmjs.org/picomatch set size:134451 disposed:false
+579 silly placeDep ROOT fdir@6.5.0 OK for: tinyglobby@0.2.17 want: ^6.5.0
+580 silly placeDep ROOT esbuild@0.25.12 OK for: vite@6.4.4 want: ^0.25.0
+581 silly placeDep ROOT fsevents@2.3.3 OK for: vite@6.4.4 want: ~2.3.3
+582 silly placeDep ROOT rollup@4.64.2 OK for: vite@6.4.4 want: ^4.34.9
+583 silly fetch manifest @esbuild/aix-ppc64@0.25.12
+584 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 cache-miss
+585 silly fetch manifest @esbuild/linux-arm@0.25.12
+586 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm cache-miss
+587 silly fetch manifest @esbuild/linux-x64@0.25.12
+588 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 cache-miss
+589 silly fetch manifest @esbuild/sunos-x64@0.25.12
+590 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 cache-miss
+591 silly fetch manifest @esbuild/win32-x64@0.25.12
+592 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 cache-miss
+593 silly fetch manifest @esbuild/darwin-x64@0.25.12
+594 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 cache-miss
+595 silly fetch manifest @esbuild/linux-ia32@0.25.12
+596 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 cache-miss
+597 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-x64 68ms (cache miss)
+598 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-x64 set size:undefined disposed:false
+599 silly fetch manifest @esbuild/netbsd-x64@0.25.12
+600 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 cache-miss
+601 http fetch GET 200 https://registry.npmjs.org/@esbuild%2faix-ppc64 82ms (cache miss)
+602 silly packumentCache full:https://registry.npmjs.org/@esbuild%2faix-ppc64 set size:undefined disposed:false
+603 silly fetch manifest @esbuild/win32-ia32@0.25.12
+604 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 cache-miss
+605 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-x64 84ms (cache miss)
+606 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-x64 set size:undefined disposed:false
+607 silly fetch manifest @esbuild/android-arm@0.25.12
+608 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm cache-miss
+609 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-x64 93ms (cache miss)
+610 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-x64 set size:undefined disposed:false
+611 silly fetch manifest @esbuild/android-x64@0.25.12
+612 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 cache-miss
+613 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ia32 100ms (cache miss)
+614 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ia32 set size:undefined disposed:false
+615 silly fetch manifest @esbuild/freebsd-x64@0.25.12
+616 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 cache-miss
+617 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm 109ms (cache miss)
+618 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm set size:undefined disposed:false
+619 silly fetch manifest @esbuild/linux-arm64@0.25.12
+620 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 cache-miss
+621 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fsunos-x64 114ms (cache miss)
+622 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fsunos-x64 set size:undefined disposed:false
+623 silly fetch manifest @esbuild/linux-ppc64@0.25.12
+624 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 cache-miss
+625 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-x64 60ms (cache miss)
+626 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-x64 set size:undefined disposed:false
+627 silly fetch manifest @esbuild/linux-s390x@0.25.12
+628 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x cache-miss
+629 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-ia32 85ms (cache miss)
+630 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-ia32 set size:undefined disposed:false
+631 silly fetch manifest @esbuild/openbsd-x64@0.25.12
+632 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 cache-miss
+633 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-x64 73ms (cache miss)
+634 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-x64 set size:undefined disposed:false
+635 silly fetch manifest @esbuild/win32-arm64@0.25.12
+636 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 cache-miss
+637 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm 90ms (cache miss)
+638 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm set size:undefined disposed:false
+639 silly fetch manifest @esbuild/darwin-arm64@0.25.12
+640 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 cache-miss
+641 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-x64 82ms (cache miss)
+642 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-x64 set size:undefined disposed:false
+643 silly fetch manifest @esbuild/netbsd-arm64@0.25.12
+644 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 cache-miss
+645 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-ppc64 75ms (cache miss)
+646 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-ppc64 set size:undefined disposed:false
+647 silly fetch manifest @esbuild/android-arm64@0.25.12
+648 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 cache-miss
+649 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-arm64 89ms (cache miss)
+650 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-arm64 set size:undefined disposed:false
+651 silly fetch manifest @esbuild/freebsd-arm64@0.25.12
+652 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 cache-miss
+653 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-s390x 75ms (cache miss)
+654 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-s390x set size:undefined disposed:false
+655 silly fetch manifest @esbuild/linux-loong64@0.25.12
+656 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 cache-miss
+657 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-x64 65ms (cache miss)
+658 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-x64 set size:undefined disposed:false
+659 silly fetch manifest @esbuild/linux-riscv64@0.25.12
+660 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 cache-miss
+661 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 61ms (cache miss)
+662 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fnetbsd-arm64 set size:undefined disposed:false
+663 silly fetch manifest @esbuild/openbsd-arm64@0.25.12
+664 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 cache-miss
+665 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fwin32-arm64 92ms (cache miss)
+666 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fwin32-arm64 set size:undefined disposed:false
+667 silly fetch manifest @esbuild/linux-mips64el@0.25.12
+668 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el cache-miss
+669 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fdarwin-arm64 97ms (cache miss)
+670 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fdarwin-arm64 set size:undefined disposed:false
+671 silly fetch manifest @esbuild/openharmony-arm64@0.25.12
+672 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 cache-miss
+673 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-loong64 68ms (cache miss)
+674 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-loong64 set size:undefined disposed:false
+675 silly fetch manifest @rollup/rollup-darwin-x64@4.64.2
+676 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-x64 cache-miss
+677 http fetch GET 200 https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 81ms (cache miss)
+678 silly packumentCache full:https://registry.npmjs.org/@esbuild%2ffreebsd-arm64 set size:undefined disposed:false
+679 silly fetch manifest @rollup/rollup-freebsd-x64@4.64.2
+680 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 cache-miss
+681 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fandroid-arm64 99ms (cache miss)
+682 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fandroid-arm64 set size:undefined disposed:false
+683 silly fetch manifest @rollup/rollup-openbsd-x64@4.64.2
+684 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 cache-miss
+685 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 63ms (cache miss)
+686 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenbsd-arm64 set size:undefined disposed:false
+687 silly fetch manifest @napi-rs/lzma-linux-x64-gnu@1.5.1
+688 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2flzma-linux-x64-gnu cache-miss
+689 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-riscv64 86ms (cache miss)
+690 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-riscv64 set size:undefined disposed:false
+691 silly fetch manifest @rollup/rollup-darwin-arm64@4.64.2
+692 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 cache-miss
+693 http fetch GET 200 https://registry.npmjs.org/@esbuild%2flinux-mips64el 76ms (cache miss)
+694 silly packumentCache full:https://registry.npmjs.org/@esbuild%2flinux-mips64el set size:undefined disposed:false
+695 silly fetch manifest @rollup/rollup-android-arm64@4.64.2
+696 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm64 cache-miss
+697 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 68ms (cache miss)
+698 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-x64 set size:undefined disposed:false
+699 silly fetch manifest @rollup/rollup-freebsd-arm64@4.64.2
+700 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 cache-miss
+701 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 69ms (cache miss)
+702 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openbsd-x64 set size:undefined disposed:false
+703 silly fetch manifest @rollup/rollup-linux-x64-gnu@4.64.2
+704 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu cache-miss
+705 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-darwin-x64 87ms (cache miss)
+706 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-x64 set size:undefined disposed:false
+707 silly fetch manifest @rollup/rollup-win32-x64-gnu@4.64.2
+708 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu cache-miss
+709 http fetch GET 200 https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 102ms (cache miss)
+710 silly packumentCache full:https://registry.npmjs.org/@esbuild%2fopenharmony-arm64 set size:undefined disposed:false
+711 silly fetch manifest @rollup/rollup-linux-x64-musl@4.64.2
+712 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl cache-miss
+713 http fetch GET 200 https://registry.npmjs.org/@napi-rs%2flzma-linux-x64-gnu 68ms (cache miss)
+714 silly packumentCache full:https://registry.npmjs.org/@napi-rs%2flzma-linux-x64-gnu set size:undefined disposed:false
+715 silly fetch manifest @rollup/rollup-win32-x64-msvc@4.64.2
+716 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc cache-miss
+717 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 76ms (cache miss)
+718 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-darwin-arm64 set size:undefined disposed:false
+719 silly fetch manifest @rollup/rollup-linux-arm64-gnu@4.64.2
+720 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu cache-miss
+721 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 50ms (cache miss)
+722 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-freebsd-arm64 set size:undefined disposed:false
+723 silly fetch manifest @rollup/rollup-linux-ppc64-gnu@4.64.2
+724 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu cache-miss
+725 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-android-arm64 73ms (cache miss)
+726 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm64 set size:undefined disposed:false
+727 silly fetch manifest @rollup/rollup-linux-s390x-gnu@4.64.2
+728 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu cache-miss
+729 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu 72ms (cache miss)
+730 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-gnu set size:undefined disposed:false
+731 silly fetch manifest @rollup/rollup-win32-ia32-msvc@4.64.2
+732 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc cache-miss
+733 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc 98ms (cache miss)
+734 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-msvc set size:undefined disposed:false
+735 silly fetch manifest @rollup/rollup-android-arm-eabi@4.64.2
+736 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi cache-miss
+737 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu 92ms (cache miss)
+738 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-gnu set size:undefined disposed:false
+739 silly fetch manifest @rollup/rollup-linux-arm64-musl@4.64.2
+740 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl cache-miss
+741 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu 128ms (cache miss)
+742 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-gnu set size:undefined disposed:false
+743 silly fetch manifest @rollup/rollup-linux-ppc64-musl@4.64.2
+744 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl cache-miss
+745 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl 117ms (cache miss)
+746 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-x64-musl set size:undefined disposed:false
+747 silly fetch manifest @rollup/rollup-win32-arm64-msvc@4.64.2
+748 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc cache-miss
+749 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu 90ms (cache miss)
+750 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-s390x-gnu set size:undefined disposed:false
+751 silly fetch manifest @rollup/rollup-linux-loong64-gnu@4.64.2
+752 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu cache-miss
+753 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl 67ms (cache miss)
+754 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-ppc64-musl set size:undefined disposed:false
+755 silly fetch manifest @rollup/rollup-linux-riscv64-gnu@4.64.2
+756 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu cache-miss
+757 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi 81ms (cache miss)
+758 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-android-arm-eabi set size:undefined disposed:false
+759 silly fetch manifest @rollup/rollup-openharmony-arm64@4.64.2
+760 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 cache-miss
+761 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl 81ms (cache miss)
+762 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm64-musl set size:undefined disposed:false
+763 silly fetch manifest @rollup/rollup-linux-loong64-musl@4.64.2
+764 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl cache-miss
+765 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc 99ms (cache miss)
+766 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-ia32-msvc set size:undefined disposed:false
+767 silly fetch manifest @rollup/rollup-linux-riscv64-musl@4.64.2
+768 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl cache-miss
+769 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu 75ms (cache miss)
+770 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-gnu set size:undefined disposed:false
+771 silly fetch manifest @rollup/rollup-linux-arm-gnueabihf@4.64.2
+772 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf cache-miss
+773 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc 94ms (cache miss)
+774 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-arm64-msvc set size:undefined disposed:false
+775 silly fetch manifest @rollup/rollup-linux-arm-musleabihf@4.64.2
+776 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf cache-miss
+777 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 46ms (cache miss)
+778 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-openharmony-arm64 set size:undefined disposed:false
+779 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu 58ms (cache miss)
+780 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-gnu set size:undefined disposed:false
+781 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl 68ms (cache miss)
+782 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-loong64-musl set size:undefined disposed:false
+783 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl 68ms (cache miss)
+784 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-riscv64-musl set size:undefined disposed:false
+785 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu 288ms (cache miss)
+786 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-win32-x64-gnu set size:undefined disposed:false
+787 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf 87ms (cache miss)
+788 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-gnueabihf set size:undefined disposed:false
+789 http fetch GET 200 https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf 99ms (cache miss)
+790 silly packumentCache full:https://registry.npmjs.org/@rollup%2frollup-linux-arm-musleabihf set size:undefined disposed:false
+791 silly placeDep ROOT @esbuild/aix-ppc64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+792 silly placeDep ROOT @esbuild/android-arm@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+793 silly placeDep ROOT @esbuild/android-arm64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+794 silly placeDep ROOT @esbuild/android-x64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+795 silly placeDep ROOT @esbuild/darwin-arm64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+796 silly placeDep ROOT @esbuild/darwin-x64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+797 silly placeDep ROOT @esbuild/freebsd-arm64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+798 silly placeDep ROOT @esbuild/freebsd-x64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+799 silly placeDep ROOT @esbuild/linux-arm@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+800 silly placeDep ROOT @esbuild/linux-arm64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+801 silly placeDep ROOT @esbuild/linux-ia32@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+802 silly placeDep ROOT @esbuild/linux-loong64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+803 silly placeDep ROOT @esbuild/linux-mips64el@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+804 silly placeDep ROOT @esbuild/linux-ppc64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+805 silly placeDep ROOT @esbuild/linux-riscv64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+806 silly placeDep ROOT @esbuild/linux-s390x@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+807 silly placeDep ROOT @esbuild/linux-x64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+808 silly placeDep ROOT @esbuild/netbsd-arm64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+809 silly placeDep ROOT @esbuild/netbsd-x64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+810 silly placeDep ROOT @esbuild/openbsd-arm64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+811 silly placeDep ROOT @esbuild/openbsd-x64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+812 silly placeDep ROOT @esbuild/openharmony-arm64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+813 silly placeDep ROOT @esbuild/sunos-x64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+814 silly placeDep ROOT @esbuild/win32-arm64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+815 silly placeDep ROOT @esbuild/win32-ia32@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+816 silly placeDep ROOT @esbuild/win32-x64@0.25.12 OK for: esbuild@0.25.12 want: 0.25.12
+817 silly placeDep ROOT @napi-rs/lzma-linux-x64-gnu@1.5.1 OK for: rollup@4.64.2 want: 1.5.1
+818 silly placeDep ROOT @rollup/rollup-android-arm-eabi@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+819 silly placeDep ROOT @rollup/rollup-android-arm64@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+820 silly placeDep ROOT @rollup/rollup-darwin-arm64@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+821 silly placeDep ROOT @rollup/rollup-darwin-x64@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+822 silly placeDep ROOT @rollup/rollup-freebsd-arm64@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+823 silly placeDep ROOT @rollup/rollup-freebsd-x64@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+824 silly placeDep ROOT @rollup/rollup-linux-arm-gnueabihf@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+825 silly placeDep ROOT @rollup/rollup-linux-arm-musleabihf@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+826 silly placeDep ROOT @rollup/rollup-linux-arm64-gnu@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+827 silly placeDep ROOT @rollup/rollup-linux-arm64-musl@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+828 silly placeDep ROOT @rollup/rollup-linux-loong64-gnu@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+829 silly placeDep ROOT @rollup/rollup-linux-loong64-musl@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+830 silly placeDep ROOT @rollup/rollup-linux-ppc64-gnu@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+831 silly placeDep ROOT @rollup/rollup-linux-ppc64-musl@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+832 silly placeDep ROOT @rollup/rollup-linux-riscv64-gnu@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+833 silly placeDep ROOT @rollup/rollup-linux-riscv64-musl@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+834 silly placeDep ROOT @rollup/rollup-linux-s390x-gnu@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+835 silly placeDep ROOT @rollup/rollup-linux-x64-gnu@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+836 silly placeDep ROOT @rollup/rollup-linux-x64-musl@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+837 silly placeDep ROOT @rollup/rollup-openbsd-x64@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+838 silly placeDep ROOT @rollup/rollup-openharmony-arm64@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+839 silly placeDep ROOT @rollup/rollup-win32-arm64-msvc@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+840 silly placeDep ROOT @rollup/rollup-win32-ia32-msvc@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+841 silly placeDep ROOT @rollup/rollup-win32-x64-gnu@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+842 silly placeDep ROOT @rollup/rollup-win32-x64-msvc@4.64.2 OK for: rollup@4.64.2 want: 4.64.2
+843 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@adobe\\css-tools' ]
+844 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@babel\\code-frame' ]
+845 silly reify mark retired [
+845 silly reify   'D:\\expertonc website\\node_modules\\@babel\\helper-validator-identifier'
+845 silly reify ]
+846 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@babel\\runtime' ]
+847 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@esbuild\\win32-x64' ]
+848 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@hookform\\resolvers' ]
+849 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@next\\env' ]
+850 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@next\\swc-win32-x64-msvc' ]
+851 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@nodelib\\fs.scandir' ]
+852 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@nodelib\\fs.stat' ]
+853 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@nodelib\\fs.walk' ]
+854 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@swc\\helpers' ]
+855 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@testing-library\\dom' ]
+856 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@testing-library\\jest-dom' ]
+857 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@testing-library\\react' ]
+858 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@types\\aria-query' ]
+859 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@vitest\\expect' ]
+860 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@vitest\\mocker' ]
+861 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@vitest\\pretty-format' ]
+862 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@vitest\\runner' ]
+863 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@vitest\\snapshot' ]
+864 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@vitest\\spy' ]
+865 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@vitest\\utils' ]
+866 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\ansi-styles' ]
+867 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\any-promise' ]
+868 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\anymatch' ]
+869 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\arg' ]
+870 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\aria-query' ]
+871 silly reify mark retired [
+871 silly reify   'D:\\expertonc website\\node_modules\\autoprefixer',
+871 silly reify   'D:\\expertonc website\\node_modules\\.bin\\autoprefixer',
+871 silly reify   'D:\\expertonc website\\node_modules\\.bin\\autoprefixer.cmd',
+871 silly reify   'D:\\expertonc website\\node_modules\\.bin\\autoprefixer.ps1'
+871 silly reify ]
+872 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\binary-extensions' ]
+873 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\braces' ]
+874 silly reify mark retired [
+874 silly reify   'D:\\expertonc website\\node_modules\\browserslist',
+874 silly reify   'D:\\expertonc website\\node_modules\\.bin\\browserslist',
+874 silly reify   'D:\\expertonc website\\node_modules\\.bin\\browserslist.cmd',
+874 silly reify   'D:\\expertonc website\\node_modules\\.bin\\browserslist.ps1'
+874 silly reify ]
+875 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\cac' ]
+876 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\camelcase-css' ]
+877 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\chai' ]
+878 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\check-error' ]
+879 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\chokidar' ]
+880 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\commander' ]
+881 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\css.escape' ]
+882 silly reify mark retired [
+882 silly reify   'D:\\expertonc website\\node_modules\\cssesc',
+882 silly reify   'D:\\expertonc website\\node_modules\\.bin\\cssesc',
+882 silly reify   'D:\\expertonc website\\node_modules\\.bin\\cssesc.cmd',
+882 silly reify   'D:\\expertonc website\\node_modules\\.bin\\cssesc.ps1'
+882 silly reify ]
+883 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\deep-eql' ]
+884 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\dequal' ]
+885 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\didyoumean' ]
+886 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\dlv' ]
+887 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\dom-accessibility-api' ]
+888 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\electron-to-chromium' ]
+889 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\es-module-lexer' ]
+890 silly reify mark retired [
+890 silly reify   'D:\\expertonc website\\node_modules\\esbuild',
+890 silly reify   'D:\\expertonc website\\node_modules\\.bin\\esbuild',
+890 silly reify   'D:\\expertonc website\\node_modules\\.bin\\esbuild.cmd',
+890 silly reify   'D:\\expertonc website\\node_modules\\.bin\\esbuild.ps1'
+890 silly reify ]
+891 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\escalade' ]
+892 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\fast-glob' ]
+893 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\fastq' ]
+894 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\fill-range' ]
+895 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\fraction.js' ]
+896 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\glob-parent' ]
+897 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\indent-string' ]
+898 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\is-binary-path' ]
+899 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\is-core-module' ]
+900 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\is-extglob' ]
+901 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\is-glob' ]
+902 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\is-number' ]
+903 silly reify mark retired [
+903 silly reify   'D:\\expertonc website\\node_modules\\jiti',
+903 silly reify   'D:\\expertonc website\\node_modules\\.bin\\jiti',
+903 silly reify   'D:\\expertonc website\\node_modules\\.bin\\jiti.cmd',
+903 silly reify   'D:\\expertonc website\\node_modules\\.bin\\jiti.ps1'
+903 silly reify ]
+904 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\js-tokens' ]
+905 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\lilconfig' ]
+906 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\lines-and-columns' ]
+907 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\loupe' ]
+908 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\lucide-react' ]
+909 silly reify mark retired [
+909 silly reify   'D:\\expertonc website\\node_modules\\lz-string',
+909 silly reify   'D:\\expertonc website\\node_modules\\.bin\\lz-string',
+909 silly reify   'D:\\expertonc website\\node_modules\\.bin\\lz-string.cmd',
+909 silly reify   'D:\\expertonc website\\node_modules\\.bin\\lz-string.ps1'
+909 silly reify ]
+910 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\merge2' ]
+911 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\micromatch' ]
+912 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\min-indent' ]
+913 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\mz' ]
+914 silly reify mark retired [
+914 silly reify   'D:\\expertonc website\\node_modules\\next',
+914 silly reify   'D:\\expertonc website\\node_modules\\.bin\\next',
+914 silly reify   'D:\\expertonc website\\node_modules\\.bin\\next.cmd',
+914 silly reify   'D:\\expertonc website\\node_modules\\.bin\\next.ps1'
+914 silly reify ]
+915 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\node-releases' ]
+916 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\normalize-path' ]
+917 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\object-assign' ]
+918 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\object-hash' ]
+919 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\path-parse' ]
+920 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\pathe' ]
+921 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\pathval' ]
+922 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\picomatch' ]
+923 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\pirates' ]
+924 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\postcss-import' ]
+925 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\postcss-js' ]
+926 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\postcss-load-config' ]
+927 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\postcss-nested' ]
+928 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\postcss-selector-parser' ]
+929 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\postcss-value-parser' ]
+930 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\pretty-format' ]
+931 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\queue-microtask' ]
+932 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\react-hook-form' ]
+933 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\react-is' ]
+934 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\read-cache' ]
+935 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\readdirp' ]
+936 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\redent' ]
+937 silly reify mark retired [
+937 silly reify   'D:\\expertonc website\\node_modules\\resolve',
+937 silly reify   'D:\\expertonc website\\node_modules\\.bin\\resolve',
+937 silly reify   'D:\\expertonc website\\node_modules\\.bin\\resolve.cmd',
+937 silly reify   'D:\\expertonc website\\node_modules\\.bin\\resolve.ps1'
+937 silly reify ]
+938 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\reusify' ]
+939 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\run-parallel' ]
+940 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\std-env' ]
+941 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\strip-indent' ]
+942 silly reify mark retired [
+942 silly reify   'D:\\expertonc website\\node_modules\\sucrase',
+942 silly reify   'D:\\expertonc website\\node_modules\\.bin\\sucrase',
+942 silly reify   'D:\\expertonc website\\node_modules\\.bin\\sucrase.cmd',
+942 silly reify   'D:\\expertonc website\\node_modules\\.bin\\sucrase.ps1',
+942 silly reify   'D:\\expertonc website\\node_modules\\.bin\\sucrase-node',
+942 silly reify   'D:\\expertonc website\\node_modules\\.bin\\sucrase-node.cmd',
+942 silly reify   'D:\\expertonc website\\node_modules\\.bin\\sucrase-node.ps1'
+942 silly reify ]
+943 silly reify mark retired [
+943 silly reify   'D:\\expertonc website\\node_modules\\supports-preserve-symlinks-flag'
+943 silly reify ]
+944 silly reify mark retired [
+944 silly reify   'D:\\expertonc website\\node_modules\\tailwindcss',
+944 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwind',
+944 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwind.cmd',
+944 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwind.ps1',
+944 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwindcss',
+944 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwindcss.cmd',
+944 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwindcss.ps1'
+944 silly reify ]
+945 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\thenify' ]
+946 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\thenify-all' ]
+947 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\tinyexec' ]
+948 silly reify mark retired [
+948 silly reify   'D:\\expertonc website\\node_modules\\tinyglobby\\node_modules\\fdir'
+948 silly reify ]
+949 silly reify mark retired [
+949 silly reify   'D:\\expertonc website\\node_modules\\tinyglobby\\node_modules\\picomatch'
+949 silly reify ]
+950 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\tinypool' ]
+951 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\tinyrainbow' ]
+952 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\tinyspy' ]
+953 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\to-regex-range' ]
+954 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\ts-interface-checker' ]
+955 silly reify mark retired [
+955 silly reify   'D:\\expertonc website\\node_modules\\update-browserslist-db',
+955 silly reify   'D:\\expertonc website\\node_modules\\.bin\\update-browserslist-db',
+955 silly reify   'D:\\expertonc website\\node_modules\\.bin\\update-browserslist-db.cmd',
+955 silly reify   'D:\\expertonc website\\node_modules\\.bin\\update-browserslist-db.ps1'
+955 silly reify ]
+956 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\util-deprecate' ]
+957 silly reify mark retired [
+957 silly reify   'D:\\expertonc website\\node_modules\\vite',
+957 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vite',
+957 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vite.cmd',
+957 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vite.ps1'
+957 silly reify ]
+958 silly reify mark retired [
+958 silly reify   'D:\\expertonc website\\node_modules\\vite-node',
+958 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vite-node',
+958 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vite-node.cmd',
+958 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vite-node.ps1'
+958 silly reify ]
+959 silly reify mark retired [
+959 silly reify   'D:\\expertonc website\\node_modules\\vitest',
+959 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vitest',
+959 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vitest.cmd',
+959 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vitest.ps1'
+959 silly reify ]
+960 silly reify moves {
+960 silly reify   'D:\\expertonc website\\node_modules\\@adobe\\css-tools': 'D:\\expertonc website\\node_modules\\@adobe\\.css-tools-gyuXlNz4',
+960 silly reify   'D:\\expertonc website\\node_modules\\@babel\\code-frame': 'D:\\expertonc website\\node_modules\\@babel\\.code-frame-3kQRHZuZ',
+960 silly reify   'D:\\expertonc website\\node_modules\\@babel\\helper-validator-identifier': 'D:\\expertonc website\\node_modules\\@babel\\.helper-validator-identifier-GdKQ8kI0',
+960 silly reify   'D:\\expertonc website\\node_modules\\@babel\\runtime': 'D:\\expertonc website\\node_modules\\@babel\\.runtime-D9crGXBK',
+960 silly reify   'D:\\expertonc website\\node_modules\\@esbuild\\win32-x64': 'D:\\expertonc website\\node_modules\\@esbuild\\.win32-x64-8h5sOJcf',
+960 silly reify   'D:\\expertonc website\\node_modules\\@hookform\\resolvers': 'D:\\expertonc website\\node_modules\\@hookform\\.resolvers-mqHxZySi',
+960 silly reify   'D:\\expertonc website\\node_modules\\@next\\env': 'D:\\expertonc website\\node_modules\\@next\\.env-C0KvVqx6',
+960 silly reify   'D:\\expertonc website\\node_modules\\@next\\swc-win32-x64-msvc': 'D:\\expertonc website\\node_modules\\@next\\.swc-win32-x64-msvc-fugqi1Jt',
+960 silly reify   'D:\\expertonc website\\node_modules\\@nodelib\\fs.scandir': 'D:\\expertonc website\\node_modules\\@nodelib\\.fs.scandir-fHtxcvWv',
+960 silly reify   'D:\\expertonc website\\node_modules\\@nodelib\\fs.stat': 'D:\\expertonc website\\node_modules\\@nodelib\\.fs.stat-FvB8G3s4',
+960 silly reify   'D:\\expertonc website\\node_modules\\@nodelib\\fs.walk': 'D:\\expertonc website\\node_modules\\@nodelib\\.fs.walk-yTl2Ut0y',
+960 silly reify   'D:\\expertonc website\\node_modules\\@swc\\helpers': 'D:\\expertonc website\\node_modules\\@swc\\.helpers-FEEjOAsW',
+960 silly reify   'D:\\expertonc website\\node_modules\\@testing-library\\dom': 'D:\\expertonc website\\node_modules\\@testing-library\\.dom-pYiuUQO6',
+960 silly reify   'D:\\expertonc website\\node_modules\\@testing-library\\jest-dom': 'D:\\expertonc website\\node_modules\\@testing-library\\.jest-dom-l84EpNGC',
+960 silly reify   'D:\\expertonc website\\node_modules\\@testing-library\\react': 'D:\\expertonc website\\node_modules\\@testing-library\\.react-GOzQ5njF',
+960 silly reify   'D:\\expertonc website\\node_modules\\@types\\aria-query': 'D:\\expertonc website\\node_modules\\@types\\.aria-query-TDmNAKGL',
+960 silly reify   'D:\\expertonc website\\node_modules\\@vitest\\expect': 'D:\\expertonc website\\node_modules\\@vitest\\.expect-jLS2wX0E',
+960 silly reify   'D:\\expertonc website\\node_modules\\@vitest\\mocker': 'D:\\expertonc website\\node_modules\\@vitest\\.mocker-0Gbdb2MX',
+960 silly reify   'D:\\expertonc website\\node_modules\\@vitest\\pretty-format': 'D:\\expertonc website\\node_modules\\@vitest\\.pretty-format-1s117AvQ',
+960 silly reify   'D:\\expertonc website\\node_modules\\@vitest\\runner': 'D:\\expertonc website\\node_modules\\@vitest\\.runner-fV8E2VyI',
+960 silly reify   'D:\\expertonc website\\node_modules\\@vitest\\snapshot': 'D:\\expertonc website\\node_modules\\@vitest\\.snapshot-IItJlIJI',
+960 silly reify   'D:\\expertonc website\\node_modules\\@vitest\\spy': 'D:\\expertonc website\\node_modules\\@vitest\\.spy-oTWb3kt9',
+960 silly reify   'D:\\expertonc website\\node_modules\\@vitest\\utils': 'D:\\expertonc website\\node_modules\\@vitest\\.utils-Bb8lzYTP',
+960 silly reify   'D:\\expertonc website\\node_modules\\ansi-styles': 'D:\\expertonc website\\node_modules\\.ansi-styles-h6REgnG2',
+960 silly reify   'D:\\expertonc website\\node_modules\\any-promise': 'D:\\expertonc website\\node_modules\\.any-promise-yy9M1R3z',
+960 silly reify   'D:\\expertonc website\\node_modules\\anymatch': 'D:\\expertonc website\\node_modules\\.anymatch-Kh41aHzc',
+960 silly reify   'D:\\expertonc website\\node_modules\\arg': 'D:\\expertonc website\\node_modules\\.arg-Fl1Vzlsh',
+960 silly reify   'D:\\expertonc website\\node_modules\\aria-query': 'D:\\expertonc website\\node_modules\\.aria-query-uRe1CFln',
+960 silly reify   'D:\\expertonc website\\node_modules\\autoprefixer': 'D:\\expertonc website\\node_modules\\.autoprefixer-lJH1LDyB',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\autoprefixer': 'D:\\expertonc website\\node_modules\\.bin\\.autoprefixer-ox6H6KeG',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\autoprefixer.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.autoprefixer.cmd-NZCeklXG',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\autoprefixer.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.autoprefixer.ps1-5W3imBhH',
+960 silly reify   'D:\\expertonc website\\node_modules\\binary-extensions': 'D:\\expertonc website\\node_modules\\.binary-extensions-2k6Fc5Vy',
+960 silly reify   'D:\\expertonc website\\node_modules\\braces': 'D:\\expertonc website\\node_modules\\.braces-UPycSKt3',
+960 silly reify   'D:\\expertonc website\\node_modules\\browserslist': 'D:\\expertonc website\\node_modules\\.browserslist-xprBwgSB',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\browserslist': 'D:\\expertonc website\\node_modules\\.bin\\.browserslist-bVwOEywd',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\browserslist.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.browserslist.cmd-jCGJcgL6',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\browserslist.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.browserslist.ps1-YGW8aKBk',
+960 silly reify   'D:\\expertonc website\\node_modules\\cac': 'D:\\expertonc website\\node_modules\\.cac-ZGAdJnGR',
+960 silly reify   'D:\\expertonc website\\node_modules\\camelcase-css': 'D:\\expertonc website\\node_modules\\.camelcase-css-YflTjthD',
+960 silly reify   'D:\\expertonc website\\node_modules\\chai': 'D:\\expertonc website\\node_modules\\.chai-AJUQjbwk',
+960 silly reify   'D:\\expertonc website\\node_modules\\check-error': 'D:\\expertonc website\\node_modules\\.check-error-vMzVy79A',
+960 silly reify   'D:\\expertonc website\\node_modules\\chokidar': 'D:\\expertonc website\\node_modules\\.chokidar-7SWHwyqw',
+960 silly reify   'D:\\expertonc website\\node_modules\\commander': 'D:\\expertonc website\\node_modules\\.commander-UtkWIuRi',
+960 silly reify   'D:\\expertonc website\\node_modules\\css.escape': 'D:\\expertonc website\\node_modules\\.css.escape-43Us3Tam',
+960 silly reify   'D:\\expertonc website\\node_modules\\cssesc': 'D:\\expertonc website\\node_modules\\.cssesc-Q2ay1XpH',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\cssesc': 'D:\\expertonc website\\node_modules\\.bin\\.cssesc-xzCFLe7v',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\cssesc.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.cssesc.cmd-FxEy6LQw',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\cssesc.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.cssesc.ps1-oVb2z2u1',
+960 silly reify   'D:\\expertonc website\\node_modules\\deep-eql': 'D:\\expertonc website\\node_modules\\.deep-eql-nXBhfXNd',
+960 silly reify   'D:\\expertonc website\\node_modules\\dequal': 'D:\\expertonc website\\node_modules\\.dequal-RmvfKjTc',
+960 silly reify   'D:\\expertonc website\\node_modules\\didyoumean': 'D:\\expertonc website\\node_modules\\.didyoumean-4TT72YyP',
+960 silly reify   'D:\\expertonc website\\node_modules\\dlv': 'D:\\expertonc website\\node_modules\\.dlv-mp95YRpC',
+960 silly reify   'D:\\expertonc website\\node_modules\\dom-accessibility-api': 'D:\\expertonc website\\node_modules\\.dom-accessibility-api-WolOLGy4',
+960 silly reify   'D:\\expertonc website\\node_modules\\electron-to-chromium': 'D:\\expertonc website\\node_modules\\.electron-to-chromium-1JfgJ0Jh',
+960 silly reify   'D:\\expertonc website\\node_modules\\es-module-lexer': 'D:\\expertonc website\\node_modules\\.es-module-lexer-69SFvQbv',
+960 silly reify   'D:\\expertonc website\\node_modules\\esbuild': 'D:\\expertonc website\\node_modules\\.esbuild-75GPltOP',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\esbuild': 'D:\\expertonc website\\node_modules\\.bin\\.esbuild-Iu3gEqJn',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\esbuild.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.esbuild.cmd-bv7w67so',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\esbuild.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.esbuild.ps1-pLVgJvHt',
+960 silly reify   'D:\\expertonc website\\node_modules\\escalade': 'D:\\expertonc website\\node_modules\\.escalade-QCsXSYRe',
+960 silly reify   'D:\\expertonc website\\node_modules\\fast-glob': 'D:\\expertonc website\\node_modules\\.fast-glob-7yTKT1cW',
+960 silly reify   'D:\\expertonc website\\node_modules\\fastq': 'D:\\expertonc website\\node_modules\\.fastq-jknhB6sp',
+960 silly reify   'D:\\expertonc website\\node_modules\\fill-range': 'D:\\expertonc website\\node_modules\\.fill-range-ndxwHlwU',
+960 silly reify   'D:\\expertonc website\\node_modules\\fraction.js': 'D:\\expertonc website\\node_modules\\.fraction.js-MVZ2E6sn',
+960 silly reify   'D:\\expertonc website\\node_modules\\glob-parent': 'D:\\expertonc website\\node_modules\\.glob-parent-mveVRpFZ',
+960 silly reify   'D:\\expertonc website\\node_modules\\indent-string': 'D:\\expertonc website\\node_modules\\.indent-string-j8kIcLI1',
+960 silly reify   'D:\\expertonc website\\node_modules\\is-binary-path': 'D:\\expertonc website\\node_modules\\.is-binary-path-JJHXZDPk',
+960 silly reify   'D:\\expertonc website\\node_modules\\is-core-module': 'D:\\expertonc website\\node_modules\\.is-core-module-30XfwxIY',
+960 silly reify   'D:\\expertonc website\\node_modules\\is-extglob': 'D:\\expertonc website\\node_modules\\.is-extglob-DQPvX3HD',
+960 silly reify   'D:\\expertonc website\\node_modules\\is-glob': 'D:\\expertonc website\\node_modules\\.is-glob-OKKzobl3',
+960 silly reify   'D:\\expertonc website\\node_modules\\is-number': 'D:\\expertonc website\\node_modules\\.is-number-2K9P8IIX',
+960 silly reify   'D:\\expertonc website\\node_modules\\jiti': 'D:\\expertonc website\\node_modules\\.jiti-sU1mfbry',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\jiti': 'D:\\expertonc website\\node_modules\\.bin\\.jiti-QKi9wU6j',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\jiti.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.jiti.cmd-qkQxmBbN',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\jiti.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.jiti.ps1-yziTvXQZ',
+960 silly reify   'D:\\expertonc website\\node_modules\\js-tokens': 'D:\\expertonc website\\node_modules\\.js-tokens-AxmCQgLR',
+960 silly reify   'D:\\expertonc website\\node_modules\\lilconfig': 'D:\\expertonc website\\node_modules\\.lilconfig-3PfPWrrR',
+960 silly reify   'D:\\expertonc website\\node_modules\\lines-and-columns': 'D:\\expertonc website\\node_modules\\.lines-and-columns-10y5l6Po',
+960 silly reify   'D:\\expertonc website\\node_modules\\loupe': 'D:\\expertonc website\\node_modules\\.loupe-qXzM1wBi',
+960 silly reify   'D:\\expertonc website\\node_modules\\lucide-react': 'D:\\expertonc website\\node_modules\\.lucide-react-JPu8f6qT',
+960 silly reify   'D:\\expertonc website\\node_modules\\lz-string': 'D:\\expertonc website\\node_modules\\.lz-string-F897pjld',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\lz-string': 'D:\\expertonc website\\node_modules\\.bin\\.lz-string-8AkdRRPY',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\lz-string.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.lz-string.cmd-J2wfByl2',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\lz-string.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.lz-string.ps1-U5dU5gVh',
+960 silly reify   'D:\\expertonc website\\node_modules\\merge2': 'D:\\expertonc website\\node_modules\\.merge2-10jqN7k0',
+960 silly reify   'D:\\expertonc website\\node_modules\\micromatch': 'D:\\expertonc website\\node_modules\\.micromatch-IvZF3mCO',
+960 silly reify   'D:\\expertonc website\\node_modules\\min-indent': 'D:\\expertonc website\\node_modules\\.min-indent-ZmBhRM8c',
+960 silly reify   'D:\\expertonc website\\node_modules\\mz': 'D:\\expertonc website\\node_modules\\.mz-m1VCwGxV',
+960 silly reify   'D:\\expertonc website\\node_modules\\next': 'D:\\expertonc website\\node_modules\\.next-AWc1aeFk',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\next': 'D:\\expertonc website\\node_modules\\.bin\\.next-UeThS4ow',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\next.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.next.cmd-RofTMc6A',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\next.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.next.ps1-cvI12lI9',
+960 silly reify   'D:\\expertonc website\\node_modules\\node-releases': 'D:\\expertonc website\\node_modules\\.node-releases-gYoIfDH9',
+960 silly reify   'D:\\expertonc website\\node_modules\\normalize-path': 'D:\\expertonc website\\node_modules\\.normalize-path-GHP0cjtH',
+960 silly reify   'D:\\expertonc website\\node_modules\\object-assign': 'D:\\expertonc website\\node_modules\\.object-assign-7aRSZftG',
+960 silly reify   'D:\\expertonc website\\node_modules\\object-hash': 'D:\\expertonc website\\node_modules\\.object-hash-GfdUvuIi',
+960 silly reify   'D:\\expertonc website\\node_modules\\path-parse': 'D:\\expertonc website\\node_modules\\.path-parse-cmkjVeeF',
+960 silly reify   'D:\\expertonc website\\node_modules\\pathe': 'D:\\expertonc website\\node_modules\\.pathe-r9ADgosG',
+960 silly reify   'D:\\expertonc website\\node_modules\\pathval': 'D:\\expertonc website\\node_modules\\.pathval-V8nkNCYI',
+960 silly reify   'D:\\expertonc website\\node_modules\\picomatch': 'D:\\expertonc website\\node_modules\\.picomatch-yQblxaYs',
+960 silly reify   'D:\\expertonc website\\node_modules\\pirates': 'D:\\expertonc website\\node_modules\\.pirates-jc6nDXud',
+960 silly reify   'D:\\expertonc website\\node_modules\\postcss-import': 'D:\\expertonc website\\node_modules\\.postcss-import-wqDuEoeM',
+960 silly reify   'D:\\expertonc website\\node_modules\\postcss-js': 'D:\\expertonc website\\node_modules\\.postcss-js-gr3CBIae',
+960 silly reify   'D:\\expertonc website\\node_modules\\postcss-load-config': 'D:\\expertonc website\\node_modules\\.postcss-load-config-LxJNVNuz',
+960 silly reify   'D:\\expertonc website\\node_modules\\postcss-nested': 'D:\\expertonc website\\node_modules\\.postcss-nested-u21nslTs',
+960 silly reify   'D:\\expertonc website\\node_modules\\postcss-selector-parser': 'D:\\expertonc website\\node_modules\\.postcss-selector-parser-TkIXzNLO',
+960 silly reify   'D:\\expertonc website\\node_modules\\postcss-value-parser': 'D:\\expertonc website\\node_modules\\.postcss-value-parser-QLuc4Wud',
+960 silly reify   'D:\\expertonc website\\node_modules\\pretty-format': 'D:\\expertonc website\\node_modules\\.pretty-format-hD1oVSHx',
+960 silly reify   'D:\\expertonc website\\node_modules\\queue-microtask': 'D:\\expertonc website\\node_modules\\.queue-microtask-iPgJ4UQI',
+960 silly reify   'D:\\expertonc website\\node_modules\\react-hook-form': 'D:\\expertonc website\\node_modules\\.react-hook-form-FcpfQyGf',
+960 silly reify   'D:\\expertonc website\\node_modules\\react-is': 'D:\\expertonc website\\node_modules\\.react-is-HCSxOLwU',
+960 silly reify   'D:\\expertonc website\\node_modules\\read-cache': 'D:\\expertonc website\\node_modules\\.read-cache-csIFyDDZ',
+960 silly reify   'D:\\expertonc website\\node_modules\\readdirp': 'D:\\expertonc website\\node_modules\\.readdirp-ZO6VEXMX',
+960 silly reify   'D:\\expertonc website\\node_modules\\redent': 'D:\\expertonc website\\node_modules\\.redent-7XiEnPjb',
+960 silly reify   'D:\\expertonc website\\node_modules\\resolve': 'D:\\expertonc website\\node_modules\\.resolve-CaoHDcaH',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\resolve': 'D:\\expertonc website\\node_modules\\.bin\\.resolve-T0WOd3f3',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\resolve.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.resolve.cmd-WwtiVTG1',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\resolve.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.resolve.ps1-78tzy7C2',
+960 silly reify   'D:\\expertonc website\\node_modules\\reusify': 'D:\\expertonc website\\node_modules\\.reusify-VGk1Ix9Z',
+960 silly reify   'D:\\expertonc website\\node_modules\\run-parallel': 'D:\\expertonc website\\node_modules\\.run-parallel-yUU6ZvLK',
+960 silly reify   'D:\\expertonc website\\node_modules\\std-env': 'D:\\expertonc website\\node_modules\\.std-env-S8D6mfjv',
+960 silly reify   'D:\\expertonc website\\node_modules\\strip-indent': 'D:\\expertonc website\\node_modules\\.strip-indent-uocwUWfH',
+960 silly reify   'D:\\expertonc website\\node_modules\\sucrase': 'D:\\expertonc website\\node_modules\\.sucrase-K27VMCn5',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\sucrase': 'D:\\expertonc website\\node_modules\\.bin\\.sucrase-VeGqxEyk',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\sucrase.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.sucrase.cmd-uj4gVIPI',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\sucrase.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.sucrase.ps1-fODPK5ez',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\sucrase-node': 'D:\\expertonc website\\node_modules\\.bin\\.sucrase-node-WRd2VqLS',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\sucrase-node.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.sucrase-node.cmd-G1gc4vjv',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\sucrase-node.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.sucrase-node.ps1-uODnnhof',
+960 silly reify   'D:\\expertonc website\\node_modules\\supports-preserve-symlinks-flag': 'D:\\expertonc website\\node_modules\\.supports-preserve-symlinks-flag-Eujt9Nxm',
+960 silly reify   'D:\\expertonc website\\node_modules\\tailwindcss': 'D:\\expertonc website\\node_modules\\.tailwindcss-32VEolpe',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwind': 'D:\\expertonc website\\node_modules\\.bin\\.tailwind-DAQ1GDaT',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwind.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.tailwind.cmd-bTPZSYtM',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwind.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.tailwind.ps1-AYkGV326',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwindcss': 'D:\\expertonc website\\node_modules\\.bin\\.tailwindcss-RczgxbJy',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwindcss.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.tailwindcss.cmd-CK9GiAmy',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwindcss.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.tailwindcss.ps1-9GVp5wdn',
+960 silly reify   'D:\\expertonc website\\node_modules\\thenify': 'D:\\expertonc website\\node_modules\\.thenify-pvik9oTO',
+960 silly reify   'D:\\expertonc website\\node_modules\\thenify-all': 'D:\\expertonc website\\node_modules\\.thenify-all-iuHkNwCZ',
+960 silly reify   'D:\\expertonc website\\node_modules\\tinyexec': 'D:\\expertonc website\\node_modules\\.tinyexec-PwIBG8vR',
+960 silly reify   'D:\\expertonc website\\node_modules\\tinyglobby\\node_modules\\fdir': 'D:\\expertonc website\\node_modules\\tinyglobby\\node_modules\\.fdir-FlqsSwbH',
+960 silly reify   'D:\\expertonc website\\node_modules\\tinyglobby\\node_modules\\picomatch': 'D:\\expertonc website\\node_modules\\tinyglobby\\node_modules\\.picomatch-OiyrNv0Z',
+960 silly reify   'D:\\expertonc website\\node_modules\\tinypool': 'D:\\expertonc website\\node_modules\\.tinypool-ZeEotlpt',
+960 silly reify   'D:\\expertonc website\\node_modules\\tinyrainbow': 'D:\\expertonc website\\node_modules\\.tinyrainbow-YTuvIAY3',
+960 silly reify   'D:\\expertonc website\\node_modules\\tinyspy': 'D:\\expertonc website\\node_modules\\.tinyspy-RvJcP4Qt',
+960 silly reify   'D:\\expertonc website\\node_modules\\to-regex-range': 'D:\\expertonc website\\node_modules\\.to-regex-range-yY5YUaNW',
+960 silly reify   'D:\\expertonc website\\node_modules\\ts-interface-checker': 'D:\\expertonc website\\node_modules\\.ts-interface-checker-nAs3o8mt',
+960 silly reify   'D:\\expertonc website\\node_modules\\update-browserslist-db': 'D:\\expertonc website\\node_modules\\.update-browserslist-db-tjNg3POH',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\update-browserslist-db': 'D:\\expertonc website\\node_modules\\.bin\\.update-browserslist-db-TtFY7FlE',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\update-browserslist-db.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.update-browserslist-db.cmd-ayc8vu4r',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\update-browserslist-db.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.update-browserslist-db.ps1-3aAkzbWr',
+960 silly reify   'D:\\expertonc website\\node_modules\\util-deprecate': 'D:\\expertonc website\\node_modules\\.util-deprecate-HHhQoHR9',
+960 silly reify   'D:\\expertonc website\\node_modules\\vite': 'D:\\expertonc website\\node_modules\\.vite-xjtKG7ao',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vite': 'D:\\expertonc website\\node_modules\\.bin\\.vite-Dg2enZar',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vite.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.vite.cmd-3iVllCKy',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vite.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.vite.ps1-gt8AwNjW',
+960 silly reify   'D:\\expertonc website\\node_modules\\vite-node': 'D:\\expertonc website\\node_modules\\.vite-node-e8Hsu7KU',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vite-node': 'D:\\expertonc website\\node_modules\\.bin\\.vite-node-izVbXxFJ',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vite-node.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.vite-node.cmd-chunJqY7',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vite-node.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.vite-node.ps1-szuhCwgi',
+960 silly reify   'D:\\expertonc website\\node_modules\\vitest': 'D:\\expertonc website\\node_modules\\.vitest-5qcvcxUl',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vitest': 'D:\\expertonc website\\node_modules\\.bin\\.vitest-MRSxGy0P',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vitest.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.vitest.cmd-QM3DiMoh',
+960 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vitest.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.vitest.ps1-4CCChtOY'
+960 silly reify }
+961 verbose reify failed optional dependency D:\expertonc website\node_modules\@tailwindcss\oxide-wasm32-wasi
+962 silly reify mark deleted [
+962 silly reify   'D:\\expertonc website\\node_modules\\@tailwindcss\\oxide-wasm32-wasi'
+962 silly reify ]
+963 silly audit bulk request {
+963 silly audit   '@alloc/quick-lru': [ '5.3.0' ],
+963 silly audit   '@asamuzakjp/css-color': [ '3.2.0' ],
+963 silly audit   '@csstools/color-helpers': [ '5.1.0' ],
+963 silly audit   '@csstools/css-calc': [ '2.1.4' ],
+963 silly audit   '@csstools/css-color-parser': [ '3.1.0' ],
+963 silly audit   '@csstools/css-parser-algorithms': [ '3.0.5' ],
+963 silly audit   '@csstools/css-tokenizer': [ '3.0.4' ],
+963 silly audit   '@emnapi/runtime': [ '1.11.3' ],
+963 silly audit   '@img/colour': [ '1.1.0' ],
+963 silly audit   '@img/sharp-darwin-arm64': [ '0.35.5' ],
+963 silly audit   '@img/sharp-darwin-x64': [ '0.35.5' ],
+963 silly audit   '@img/sharp-freebsd-wasm32': [ '0.35.5' ],
+963 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.3.4' ],
+963 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.3.4' ],
+963 silly audit   '@img/sharp-libvips-linux-arm': [ '1.3.4' ],
+963 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.3.4' ],
+963 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.3.4' ],
+963 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.3.4' ],
+963 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.3.4' ],
+963 silly audit   '@img/sharp-libvips-linux-x64': [ '1.3.4' ],
+963 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.3.4' ],
+963 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.3.4' ],
+963 silly audit   '@img/sharp-linux-arm': [ '0.35.5' ],
+963 silly audit   '@img/sharp-linux-arm64': [ '0.35.5' ],
+963 silly audit   '@img/sharp-linux-ppc64': [ '0.35.5' ],
+963 silly audit   '@img/sharp-linux-riscv64': [ '0.35.5' ],
+963 silly audit   '@img/sharp-linux-s390x': [ '0.35.5' ],
+963 silly audit   '@img/sharp-linux-x64': [ '0.35.5' ],
+963 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.35.5' ],
+963 silly audit   '@img/sharp-linuxmusl-x64': [ '0.35.5' ],
+963 silly audit   '@img/sharp-wasm32': [ '0.35.5' ],
+963 silly audit   '@img/sharp-webcontainers-wasm32': [ '0.35.5' ],
+963 silly audit   '@img/sharp-win32-arm64': [ '0.35.5' ],
+963 silly audit   '@img/sharp-win32-ia32': [ '0.35.5' ],
+963 silly audit   '@img/sharp-win32-x64': [ '0.35.5' ],
+963 silly audit   '@playwright/test': [ '1.64.0' ],
+963 silly audit   '@types/node': [ '22.20.5' ],
+963 silly audit   '@types/qrcode': [ '1.5.6' ],
+963 silly audit   '@types/react': [ '19.3.0' ],
+963 silly audit   '@types/react-dom': [ '19.3.0' ],
+963 silly audit   'agent-base': [ '7.1.4' ],
+963 silly audit   'ansi-regex': [ '5.0.1' ],
+963 silly audit   'ansi-styles': [ '4.3.0' ],
+963 silly audit   asynckit: [ '0.4.0' ],
+963 silly audit   'baseline-browser-mapping': [ '2.11.27' ],
+963 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+963 silly audit   camelcase: [ '5.3.1' ],
+963 silly audit   'caniuse-lite': [ '1.0.30001815' ],
+963 silly audit   'client-only': [ '0.0.1' ],
+963 silly audit   cliui: [ '6.0.0' ],
+963 silly audit   'color-convert': [ '2.0.1' ],
+963 silly audit   'color-name': [ '1.1.4' ],
+963 silly audit   'combined-stream': [ '1.0.8' ],
+963 silly audit   cssstyle: [ '4.6.0' ],
+963 silly audit   'rrweb-cssom': [ '0.8.0', '0.7.1' ],
+963 silly audit   csstype: [ '3.2.3' ],
+963 silly audit   'data-urls': [ '5.0.0' ],
+963 silly audit   debug: [ '4.4.3' ],
+963 silly audit   decamelize: [ '1.2.0' ],
+963 silly audit   'decimal.js': [ '10.6.0' ],
+963 silly audit   'delayed-stream': [ '1.0.0' ],
+963 silly audit   'detect-libc': [ '2.1.2' ],
+963 silly audit   dijkstrajs: [ '1.0.3' ],
+963 silly audit   'dunder-proto': [ '1.0.1' ],
+963 silly audit   'emoji-regex': [ '8.0.0' ],
+963 silly audit   entities: [ '6.0.1' ],
+963 silly audit   'es-define-property': [ '1.0.1' ],
+963 silly audit   'es-errors': [ '1.3.0' ],
+963 silly audit   'es-object-atoms': [ '1.1.2' ],
+963 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+963 silly audit   'expect-type': [ '1.4.0' ],
+963 silly audit   'find-up': [ '4.1.0' ],
+963 silly audit   'form-data': [ '4.0.6' ],
+963 silly audit   'function-bind': [ '1.1.2' ],
+963 silly audit   'get-caller-file': [ '2.0.5' ],
+963 silly audit   'get-intrinsic': [ '1.3.0' ],
+963 silly audit   'get-proto': [ '1.0.1' ],
+963 silly audit   gopd: [ '1.2.0' ],
+963 silly audit   'has-symbols': [ '1.1.0' ],
+963 silly audit   'has-tostringtag': [ '1.0.2' ],
+963 silly audit   hasown: [ '2.0.4' ],
+963 silly audit   'html-encoding-sniffer': [ '4.0.0' ],
+963 silly audit   'http-proxy-agent': [ '7.0.2' ],
+963 silly audit   'https-proxy-agent': [ '7.0.6' ],
+963 silly audit   'iconv-lite': [ '0.6.3' ],
+963 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+963 silly audit   'is-potential-custom-element-name': [ '1.0.1' ],
+963 silly audit   jsdom: [ '25.0.1' ],
+963 silly audit   'locate-path': [ '5.0.0' ],
+963 silly audit   'lru-cache': [ '10.4.3' ],
+963 silly audit   'math-intrinsics': [ '1.1.0' ],
+963 silly audit   'mime-db': [ '1.52.0' ],
+963 silly audit   'mime-types': [ '2.1.35' ],
+963 silly audit   ms: [ '2.1.3' ],
+963 silly audit   nanoid: [ '3.3.20' ],
+963 silly audit   postcss: [ '8.5.29', '8.5.23' ],
+963 silly audit   nwsapi: [ '2.2.28' ],
+963 silly audit   'p-limit': [ '2.3.0' ],
+963 silly audit   'p-locate': [ '4.1.0' ],
+963 silly audit   'p-try': [ '2.2.0' ],
+963 silly audit   parse5: [ '7.3.0' ],
+963 silly audit   'path-exists': [ '4.0.0' ],
+963 silly audit   picocolors: [ '1.1.1' ],
+963 silly audit   playwright: [ '1.64.0' ],
+963 silly audit   'playwright-core': [ '1.64.0' ],
+963 silly audit   pngjs: [ '5.0.0' ],
+963 silly audit   punycode: [ '2.3.1' ],
+963 silly audit   qrcode: [ '1.5.4' ],
+963 silly audit   react: [ '19.3.0' ],
+963 silly audit   'react-dom': [ '19.3.0' ],
+963 silly audit   'require-directory': [ '2.1.1' ],
+963 silly audit   'require-main-filename': [ '2.0.0' ],
+963 silly audit   'safer-buffer': [ '2.1.2' ],
+963 silly audit   saxes: [ '6.0.0' ],
+963 silly audit   scheduler: [ '0.28.0' ],
+963 silly audit   semver: [ '7.8.5' ],
+963 silly audit   'set-blocking': [ '2.0.0' ],
+963 silly audit   sharp: [ '0.35.5' ],
+963 silly audit   siginfo: [ '2.0.0' ],
+963 silly audit   'source-map-js': [ '1.2.2' ],
+963 silly audit   stackback: [ '0.0.2' ],
+963 silly audit   'string-width': [ '4.2.3' ],
+963 silly audit   'strip-ansi': [ '6.0.1' ],
+963 silly audit   'styled-jsx': [ '5.1.6' ],
+963 silly audit   'symbol-tree': [ '3.2.4' ],
+963 silly audit   tinybench: [ '2.9.0' ],
+963 silly audit   tldts: [ '6.1.86' ],
+963 silly audit   'tldts-core': [ '6.1.86' ],
+963 silly audit   'tough-cookie': [ '5.1.2' ],
+963 silly audit   tr46: [ '5.1.1' ],
+963 silly audit   tslib: [ '2.8.1' ],
+963 silly audit   typescript: [ '5.9.3' ],
+963 silly audit   'undici-types': [ '6.21.0' ],
+963 silly audit   'w3c-xmlserializer': [ '5.0.0' ],
+963 silly audit   'webidl-conversions': [ '7.0.0' ],
+963 silly audit   'whatwg-encoding': [ '3.1.1' ],
+963 silly audit   'whatwg-mimetype': [ '4.0.0' ],
+963 silly audit   'whatwg-url': [ '14.2.0' ],
+963 silly audit   'which-module': [ '2.0.1' ],
+963 silly audit   'why-is-node-running': [ '2.3.0' ],
+963 silly audit   'wrap-ansi': [ '6.2.0' ],
+963 silly audit   ws: [ '8.22.0' ],
+963 silly audit   'xml-name-validator': [ '5.0.0' ],
+963 silly audit   xmlchars: [ '2.2.0' ],
+963 silly audit   y18n: [ '4.0.3' ],
+963 silly audit   yargs: [ '15.4.1' ],
+963 silly audit   'yargs-parser': [ '18.1.3' ],
+963 silly audit   zod: [ '3.25.76' ],
+963 silly audit   '@tailwindcss/postcss': [ '4.3.3' ],
+963 silly audit   'lucide-react': [ '1.53.0' ],
+963 silly audit   next: [ '16.4.0' ],
+963 silly audit   tailwindcss: [ '4.3.3' ],
+963 silly audit   vitest: [ '4.1.11' ],
+963 silly audit   '@tailwindcss/node': [ '4.3.3' ],
+963 silly audit   '@tailwindcss/oxide': [ '4.3.3' ],
+963 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+963 silly audit   'enhanced-resolve': [ '5.26.0' ],
+963 silly audit   jiti: [ '2.7.0' ],
+963 silly audit   lightningcss: [ '1.32.0' ],
+963 silly audit   'magic-string': [ '0.30.21' ],
+963 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+963 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+963 silly audit   '@jridgewell/sourcemap-codec': [ '1.6.0' ],
+963 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+963 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.3.3' ],
+963 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.3.3' ],
+963 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.3.3' ],
+963 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.3.3' ],
+963 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.3.3' ],
+963 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.3.3' ],
+963 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.3.3' ],
+963 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.3.3' ],
+963 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.3.3' ],
+963 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.3.3' ],
+963 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.3.3' ],
+963 silly audit   'graceful-fs': [ '4.2.11' ],
+963 silly audit   tapable: [ '2.3.3' ],
+963 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+963 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+963 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+963 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+963 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+963 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+963 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+963 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+963 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+963 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+963 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+963 silly audit   '@next/env': [ '16.4.0' ],
+963 silly audit   '@next/swc-darwin-arm64': [ '16.4.0' ],
+963 silly audit   '@next/swc-darwin-x64': [ '16.4.0' ],
+963 silly audit   '@next/swc-linux-arm64-gnu': [ '16.4.0' ],
+963 silly audit   '@next/swc-linux-arm64-musl': [ '16.4.0' ],
+963 silly audit   '@next/swc-linux-x64-gnu': [ '16.4.0' ],
+963 silly audit   '@next/swc-linux-x64-musl': [ '16.4.0' ],
+963 silly audit   '@next/swc-win32-arm64-msvc': [ '16.4.0' ],
+963 silly audit   '@next/swc-win32-x64-msvc': [ '16.4.0' ],
+963 silly audit   '@swc/helpers': [ '0.5.23' ],
+963 silly audit   '@vitest/expect': [ '4.1.11' ],
+963 silly audit   '@vitest/mocker': [ '4.1.11' ],
+963 silly audit   '@vitest/pretty-format': [ '4.1.11' ],
+963 silly audit   '@vitest/runner': [ '4.1.11' ],
+963 silly audit   '@vitest/snapshot': [ '4.1.11' ],
+963 silly audit   '@vitest/spy': [ '4.1.11' ],
+963 silly audit   '@vitest/utils': [ '4.1.11' ],
+963 silly audit   'es-module-lexer': [ '2.3.2' ],
+963 silly audit   obug: [ '2.2.1' ],
+963 silly audit   pathe: [ '2.0.3' ],
+963 silly audit   picomatch: [ '4.0.7' ],
+963 silly audit   'std-env': [ '4.3.0' ],
+963 silly audit   tinyexec: [ '1.3.1' ],
+963 silly audit   tinyglobby: [ '0.2.17' ],
+963 silly audit   tinyrainbow: [ '3.2.0' ],
+963 silly audit   vite: [ '6.4.4' ],
+963 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+963 silly audit   '@types/chai': [ '5.2.3' ],
+963 silly audit   chai: [ '6.3.0' ],
+963 silly audit   '@types/deep-eql': [ '4.0.2' ],
+963 silly audit   'assertion-error': [ '2.0.1' ],
+963 silly audit   'estree-walker': [ '3.0.3' ],
+963 silly audit   'convert-source-map': [ '2.0.0' ],
+963 silly audit   '@types/estree': [ '1.0.9' ],
+963 silly audit   fdir: [ '6.5.0' ],
+963 silly audit   esbuild: [ '0.25.12' ],
+963 silly audit   fsevents: [ '2.3.3' ],
+963 silly audit   rollup: [ '4.64.2' ],
+963 silly audit   '@esbuild/aix-ppc64': [ '0.25.12' ],
+963 silly audit   '@esbuild/android-arm': [ '0.25.12' ],
+963 silly audit   '@esbuild/android-arm64': [ '0.25.12' ],
+963 silly audit   '@esbuild/android-x64': [ '0.25.12' ],
+963 silly audit   '@esbuild/darwin-arm64': [ '0.25.12' ],
+963 silly audit   '@esbuild/darwin-x64': [ '0.25.12' ],
+963 silly audit   '@esbuild/freebsd-arm64': [ '0.25.12' ],
+963 silly audit   '@esbuild/freebsd-x64': [ '0.25.12' ],
+963 silly audit   '@esbuild/linux-arm': [ '0.25.12' ],
+963 silly audit   '@esbuild/linux-arm64': [ '0.25.12' ],
+963 silly audit   '@esbuild/linux-ia32': [ '0.25.12' ],
+963 silly audit   '@esbuild/linux-loong64': [ '0.25.12' ],
+963 silly audit   '@esbuild/linux-mips64el': [ '0.25.12' ],
+963 silly audit   '@esbuild/linux-ppc64': [ '0.25.12' ],
+963 silly audit   '@esbuild/linux-riscv64': [ '0.25.12' ],
+963 silly audit   '@esbuild/linux-s390x': [ '0.25.12' ],
+963 silly audit   '@esbuild/linux-x64': [ '0.25.12' ],
+963 silly audit   '@esbuild/netbsd-arm64': [ '0.25.12' ],
+963 silly audit   '@esbuild/netbsd-x64': [ '0.25.12' ],
+963 silly audit   '@esbuild/openbsd-arm64': [ '0.25.12' ],
+963 silly audit   '@esbuild/openbsd-x64': [ '0.25.12' ],
+963 silly audit   '@esbuild/openharmony-arm64': [ '0.25.12' ],
+963 silly audit   '@esbuild/sunos-x64': [ '0.25.12' ],
+963 silly audit   '@esbuild/win32-arm64': [ '0.25.12' ],
+963 silly audit   '@esbuild/win32-ia32': [ '0.25.12' ],
+963 silly audit   '@esbuild/win32-x64': [ '0.25.12' ],
+963 silly audit   '@napi-rs/lzma-linux-x64-gnu': [ '1.5.1' ],
+963 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-android-arm64': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-darwin-arm64': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-darwin-x64': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-freebsd-x64': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-openbsd-x64': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.64.2' ],
+963 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.64.2' ],
+963 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.3.3' ]
+963 silly audit }
+964 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-win32-ia32-msvc
+965 silly reify mark deleted [
+965 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+965 silly reify ]
+966 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-win32-arm64-msvc
+967 silly reify mark deleted [
+967 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+967 silly reify ]
+968 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-openharmony-arm64
+969 silly reify mark deleted [
+969 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-openharmony-arm64'
+969 silly reify ]
+970 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-openbsd-x64
+971 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@rollup\\rollup-openbsd-x64' ]
+972 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-x64-musl
+973 silly reify mark deleted [
+973 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-x64-musl'
+973 silly reify ]
+974 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-x64-gnu
+975 silly reify mark deleted [
+975 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+975 silly reify ]
+976 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-s390x-gnu
+977 silly reify mark deleted [
+977 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+977 silly reify ]
+978 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-riscv64-musl
+979 silly reify mark deleted [
+979 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+979 silly reify ]
+980 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-riscv64-gnu
+981 silly reify mark deleted [
+981 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+981 silly reify ]
+982 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-ppc64-musl
+983 silly reify mark deleted [
+983 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+983 silly reify ]
+984 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-ppc64-gnu
+985 silly reify mark deleted [
+985 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+985 silly reify ]
+986 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-loong64-musl
+987 silly reify mark deleted [
+987 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+987 silly reify ]
+988 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-loong64-gnu
+989 silly reify mark deleted [
+989 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+989 silly reify ]
+990 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-arm64-musl
+991 silly reify mark deleted [
+991 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+991 silly reify ]
+992 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-arm64-gnu
+993 silly reify mark deleted [
+993 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+993 silly reify ]
+994 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-arm-musleabihf
+995 silly reify mark deleted [
+995 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+995 silly reify ]
+996 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-arm-gnueabihf
+997 silly reify mark deleted [
+997 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+997 silly reify ]
+998 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-freebsd-x64
+999 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@rollup\\rollup-freebsd-x64' ]
+1000 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-freebsd-arm64
+1001 silly reify mark deleted [
+1001 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-freebsd-arm64'
+1001 silly reify ]
+1002 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-darwin-x64
+1003 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@rollup\\rollup-darwin-x64' ]
+1004 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-darwin-arm64
+1005 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@rollup\\rollup-darwin-arm64' ]
+1006 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-android-arm64
+1007 silly reify mark deleted [
+1007 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-android-arm64'
+1007 silly reify ]
+1008 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-android-arm-eabi
+1009 silly reify mark deleted [
+1009 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-android-arm-eabi'
+1009 silly reify ]
+1010 verbose reify failed optional dependency D:\expertonc website\node_modules\@napi-rs\lzma-linux-x64-gnu
+1011 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@napi-rs\\lzma-linux-x64-gnu' ]
+1012 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\win32-ia32
+1013 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\win32-ia32' ]
+1014 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\win32-arm64
+1015 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\win32-arm64' ]
+1016 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\sunos-x64
+1017 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\sunos-x64' ]
+1018 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\openharmony-arm64
+1019 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\openharmony-arm64' ]
+1020 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\openbsd-x64
+1021 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\openbsd-x64' ]
+1022 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\openbsd-arm64
+1023 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\openbsd-arm64' ]
+1024 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\netbsd-x64
+1025 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\netbsd-x64' ]
+1026 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\netbsd-arm64
+1027 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\netbsd-arm64' ]
+1028 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-x64
+1029 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-x64' ]
+1030 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-s390x
+1031 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-s390x' ]
+1032 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-riscv64
+1033 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-riscv64' ]
+1034 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-ppc64
+1035 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-ppc64' ]
+1036 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-mips64el
+1037 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-mips64el' ]
+1038 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-loong64
+1039 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-loong64' ]
+1040 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-ia32
+1041 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-ia32' ]
+1042 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-arm64
+1043 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-arm64' ]
+1044 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-arm
+1045 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-arm' ]
+1046 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\freebsd-x64
+1047 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\freebsd-x64' ]
+1048 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\freebsd-arm64
+1049 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\freebsd-arm64' ]
+1050 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\darwin-x64
+1051 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\darwin-x64' ]
+1052 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\darwin-arm64
+1053 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\darwin-arm64' ]
+1054 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\android-x64
+1055 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\android-x64' ]
+1056 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\android-arm64
+1057 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\android-arm64' ]
+1058 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\android-arm
+1059 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\android-arm' ]
+1060 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\aix-ppc64
+1061 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\aix-ppc64' ]
+1062 verbose reify failed optional dependency D:\expertonc website\node_modules\fsevents
+1063 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\fsevents' ]
+1064 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-win32-arm64-msvc
+1065 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-win32-arm64-msvc' ]
+1066 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-linux-x64-musl
+1067 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-linux-x64-musl' ]
+1068 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-linux-x64-gnu
+1069 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-linux-x64-gnu' ]
+1070 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-linux-arm64-musl
+1071 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-linux-arm64-musl' ]
+1072 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-linux-arm64-gnu
+1073 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-linux-arm64-gnu' ]
+1074 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-darwin-x64
+1075 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-darwin-x64' ]
+1076 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-darwin-arm64
+1077 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-darwin-arm64' ]
+1078 verbose reify failed optional dependency D:\expertonc website\node_modules\lightningcss-win32-arm64-msvc
+1079 silly reify mark deleted [
+1079 silly reify   'D:\\expertonc website\\node_modules\\lightningcss-win32-arm64-msvc'
+1079 silly reify ]
+1080 verbose reify failed optional dependency D:\expertonc website\node_modules\lightningcss-linux-x64-musl
+1081 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\lightningcss-linux-x64-musl' ]
+1082 verbose reify failed optional dependency D:\expertonc website\node_modules\lightningcss-linux-x64-gnu
+1083 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\lightningcss-linux-x64-gnu' ]
+1084 verbose reify failed optional dependency D:\expertonc website\node_modules\lightningcss-linux-arm64-musl
+1085 silly reify mark deleted [
+1085 silly reify   'D:\\expertonc website\\node_modules\\lightningcss-linux-arm64-musl'
+1085 silly reify ]
+1086 verbose reify failed optional dependency D:\expertonc website\node_modules\lightningcss-linux-arm64-gnu
+1087 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\lightningcss-linux-arm64-gnu' ]
+1088 verbose reify failed optional dependency D:\expertonc website\node_modules\lightningcss-linux-arm-gnueabihf
+1089 silly reify mark deleted [
+1089 silly reify   'D:\\expertonc website\\node_modules\\lightningcss-linux-arm-gnueabihf'
+1089 silly reify ]
+1090 verbose reify failed optional dependency D:\expertonc website\node_modules\lightningcss-freebsd-x64
+1091 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\lightningcss-freebsd-x64' ]
+1092 verbose reify failed optional dependency D:\expertonc website\node_modules\lightningcss-darwin-x64
+1093 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\lightningcss-darwin-x64' ]
+1094 verbose reify failed optional dependency D:\expertonc website\node_modules\lightningcss-darwin-arm64
+1095 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\lightningcss-darwin-arm64' ]
+1096 verbose reify failed optional dependency D:\expertonc website\node_modules\lightningcss-android-arm64
+1097 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\lightningcss-android-arm64' ]
+1098 verbose reify failed optional dependency D:\expertonc website\node_modules\@tailwindcss\oxide-win32-arm64-msvc
+1099 silly reify mark deleted [
+1099 silly reify   'D:\\expertonc website\\node_modules\\@tailwindcss\\oxide-win32-arm64-msvc'
+1099 silly reify ]
+1100 verbose reify failed optional dependency D:\expertonc website\node_modules\@tailwindcss\oxide-linux-x64-musl
+1101 silly reify mark deleted [
+1101 silly reify   'D:\\expertonc website\\node_modules\\@tailwindcss\\oxide-linux-x64-musl'
+1101 silly reify ]
+1102 verbose reify failed optional dependency D:\expertonc website\node_modules\@tailwindcss\oxide-linux-x64-gnu
+1103 silly reify mark deleted [
+1103 silly reify   'D:\\expertonc website\\node_modules\\@tailwindcss\\oxide-linux-x64-gnu'
+1103 silly reify ]
+1104 verbose reify failed optional dependency D:\expertonc website\node_modules\@tailwindcss\oxide-linux-arm64-musl
+1105 silly reify mark deleted [
+1105 silly reify   'D:\\expertonc website\\node_modules\\@tailwindcss\\oxide-linux-arm64-musl'
+1105 silly reify ]
+1106 verbose reify failed optional dependency D:\expertonc website\node_modules\@tailwindcss\oxide-linux-arm64-gnu
+1107 silly reify mark deleted [
+1107 silly reify   'D:\\expertonc website\\node_modules\\@tailwindcss\\oxide-linux-arm64-gnu'
+1107 silly reify ]
+1108 verbose reify failed optional dependency D:\expertonc website\node_modules\@tailwindcss\oxide-linux-arm-gnueabihf
+1109 silly reify mark deleted [
+1109 silly reify   'D:\\expertonc website\\node_modules\\@tailwindcss\\oxide-linux-arm-gnueabihf'
+1109 silly reify ]
+1110 verbose reify failed optional dependency D:\expertonc website\node_modules\@tailwindcss\oxide-freebsd-x64
+1111 silly reify mark deleted [
+1111 silly reify   'D:\\expertonc website\\node_modules\\@tailwindcss\\oxide-freebsd-x64'
+1111 silly reify ]
+1112 verbose reify failed optional dependency D:\expertonc website\node_modules\@tailwindcss\oxide-darwin-x64
+1113 silly reify mark deleted [
+1113 silly reify   'D:\\expertonc website\\node_modules\\@tailwindcss\\oxide-darwin-x64'
+1113 silly reify ]
+1114 verbose reify failed optional dependency D:\expertonc website\node_modules\@tailwindcss\oxide-darwin-arm64
+1115 silly reify mark deleted [
+1115 silly reify   'D:\\expertonc website\\node_modules\\@tailwindcss\\oxide-darwin-arm64'
+1115 silly reify ]
+1116 verbose reify failed optional dependency D:\expertonc website\node_modules\@tailwindcss\oxide-android-arm64
+1117 silly reify mark deleted [
+1117 silly reify   'D:\\expertonc website\\node_modules\\@tailwindcss\\oxide-android-arm64'
+1117 silly reify ]
+1118 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-win32-ia32
+1119 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-win32-ia32' ]
+1120 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-win32-arm64
+1121 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-win32-arm64' ]
+1122 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-webcontainers-wasm32
+1123 silly reify mark deleted [
+1123 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-webcontainers-wasm32'
+1123 silly reify ]
+1124 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linuxmusl-x64
+1125 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linuxmusl-x64' ]
+1126 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linuxmusl-arm64
+1127 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linuxmusl-arm64' ]
+1128 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linux-x64
+1129 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linux-x64' ]
+1130 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linux-s390x
+1131 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linux-s390x' ]
+1132 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linux-riscv64
+1133 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linux-riscv64' ]
+1134 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linux-ppc64
+1135 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linux-ppc64' ]
+1136 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linux-arm64
+1137 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linux-arm64' ]
+1138 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linux-arm
+1139 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linux-arm' ]
+1140 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linuxmusl-x64
+1141 silly reify mark deleted [
+1141 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+1141 silly reify ]
+1142 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linuxmusl-arm64
+1143 silly reify mark deleted [
+1143 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+1143 silly reify ]
+1144 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linux-x64
+1145 silly reify mark deleted [
+1145 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linux-x64'
+1145 silly reify ]
+1146 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linux-s390x
+1147 silly reify mark deleted [
+1147 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linux-s390x'
+1147 silly reify ]
+1148 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linux-riscv64
+1149 silly reify mark deleted [
+1149 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+1149 silly reify ]
+1150 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linux-ppc64
+1151 silly reify mark deleted [
+1151 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+1151 silly reify ]
+1152 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linux-arm64
+1153 silly reify mark deleted [
+1153 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linux-arm64'
+1153 silly reify ]
+1154 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linux-arm
+1155 silly reify mark deleted [
+1155 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linux-arm'
+1155 silly reify ]
+1156 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-darwin-x64
+1157 silly reify mark deleted [
+1157 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-darwin-x64'
+1157 silly reify ]
+1158 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-darwin-arm64
+1159 silly reify mark deleted [
+1159 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+1159 silly reify ]
+1160 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-freebsd-wasm32
+1161 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-freebsd-wasm32' ]
+1162 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-darwin-x64
+1163 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-darwin-x64' ]
+1164 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-darwin-arm64
+1165 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-darwin-arm64' ]
+1166 http cache @types/chai@https://registry.npmjs.org/@types/chai/-/chai-5.2.3.tgz 0ms (cache hit)
+1167 http cache convert-source-map@https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz 0ms (cache hit)
+1168 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+1169 http cache @types/deep-eql@https://registry.npmjs.org/@types/deep-eql/-/deep-eql-4.0.2.tgz 0ms (cache hit)
+1170 http cache @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz 0ms (cache hit)
+1171 http cache obug@https://registry.npmjs.org/obug/-/obug-2.2.1.tgz 0ms (cache hit)
+1172 http cache graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 0ms (cache hit)
+1173 http cache @tailwindcss/oxide-win32-x64-msvc@https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.3.3.tgz 0ms (cache hit)
+1174 http cache tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz 0ms (cache hit)
+1175 http cache lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz 0ms (cache hit)
+1176 http cache @jridgewell/remapping@https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz 0ms (cache hit)
+1177 http cache enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.26.0.tgz 0ms (cache hit)
+1178 http cache lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz 0ms (cache hit)
+1179 http cache @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.3.tgz 0ms (cache hit)
+1180 http cache @tailwindcss/postcss@https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.3.3.tgz 0ms (cache hit)
+1181 http cache @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.3.tgz 0ms (cache hit)
+1182 http cache vite@https://registry.npmjs.org/vite/-/vite-6.4.4.tgz 0ms (cache hit)
+1183 http cache vitest@https://registry.npmjs.org/vitest/-/vitest-4.1.11.tgz 0ms (cache hit)
+1184 http cache tinyrainbow@https://registry.npmjs.org/tinyrainbow/-/tinyrainbow-3.2.0.tgz 0ms (cache hit)
+1185 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz 0ms (cache hit)
+1186 http cache tinyexec@https://registry.npmjs.org/tinyexec/-/tinyexec-1.3.1.tgz 0ms (cache hit)
+1187 http cache pathe@https://registry.npmjs.org/pathe/-/pathe-2.0.3.tgz 0ms (cache hit)
+1188 http cache std-env@https://registry.npmjs.org/std-env/-/std-env-4.3.0.tgz 0ms (cache hit)
+1189 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz 0ms (cache hit)
+1190 http cache lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-1.53.0.tgz 0ms (cache hit)
+1191 http cache next@https://registry.npmjs.org/next/-/next-16.4.0.tgz 0ms (cache hit)
+1192 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz 0ms (cache hit)
+1193 http cache @vitest/utils@https://registry.npmjs.org/@vitest/utils/-/utils-4.1.11.tgz 0ms (cache hit)
+1194 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz 0ms (cache hit)
+1195 http cache @vitest/snapshot@https://registry.npmjs.org/@vitest/snapshot/-/snapshot-4.1.11.tgz 0ms (cache hit)
+1196 http cache es-module-lexer@https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-2.3.2.tgz 0ms (cache hit)
+1197 http cache @vitest/spy@https://registry.npmjs.org/@vitest/spy/-/spy-4.1.11.tgz 0ms (cache hit)
+1198 http cache chai@https://registry.npmjs.org/chai/-/chai-6.3.0.tgz 0ms (cache hit)
+1199 http cache @vitest/runner@https://registry.npmjs.org/@vitest/runner/-/runner-4.1.11.tgz 0ms (cache hit)
+1200 http cache @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.23.tgz 0ms (cache hit)
+1201 http cache @next/env@https://registry.npmjs.org/@next/env/-/env-16.4.0.tgz 0ms (cache hit)
+1202 http cache @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.12.tgz 0ms (cache hit)
+1203 http cache @vitest/mocker@https://registry.npmjs.org/@vitest/mocker/-/mocker-4.1.11.tgz 0ms (cache hit)
+1204 http cache @vitest/pretty-format@https://registry.npmjs.org/@vitest/pretty-format/-/pretty-format-4.1.11.tgz 0ms (cache hit)
+1205 http cache @vitest/expect@https://registry.npmjs.org/@vitest/expect/-/expect-4.1.11.tgz 0ms (cache hit)
+1206 http cache @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.4.0.tgz 0ms (cache hit)
+1207 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.23.tgz 0ms (cache hit)
+1208 silly tarball no local data for @types/chai@https://registry.npmjs.org/@types/chai/-/chai-5.2.3.tgz. Extracting by manifest.
+1209 silly tarball no local data for convert-source-map@https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz. Extracting by manifest.
+1210 silly tarball no local data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+1211 silly tarball no local data for @types/deep-eql@https://registry.npmjs.org/@types/deep-eql/-/deep-eql-4.0.2.tgz. Extracting by manifest.
+1212 silly tarball no local data for @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz. Extracting by manifest.
+1213 silly tarball no local data for obug@https://registry.npmjs.org/obug/-/obug-2.2.1.tgz. Extracting by manifest.
+1214 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+1215 silly tarball no local data for @tailwindcss/oxide-win32-x64-msvc@https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.3.3.tgz. Extracting by manifest.
+1216 silly tarball no local data for tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz. Extracting by manifest.
+1217 silly tarball no local data for lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz. Extracting by manifest.
+1218 silly tarball no local data for @jridgewell/remapping@https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz. Extracting by manifest.
+1219 silly tarball no local data for enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.26.0.tgz. Extracting by manifest.
+1220 silly tarball no local data for lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz. Extracting by manifest.
+1221 silly tarball no local data for @tailwindcss/node@https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.3.tgz. Extracting by manifest.
+1222 silly tarball no local data for @tailwindcss/postcss@https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.3.3.tgz. Extracting by manifest.
+1223 silly tarball no local data for @tailwindcss/oxide@https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.3.tgz. Extracting by manifest.
+1224 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-6.4.4.tgz. Extracting by manifest.
+1225 silly tarball no local data for vitest@https://registry.npmjs.org/vitest/-/vitest-4.1.11.tgz. Extracting by manifest.
+1226 silly tarball no local data for tinyrainbow@https://registry.npmjs.org/tinyrainbow/-/tinyrainbow-3.2.0.tgz. Extracting by manifest.
+1227 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz. Extracting by manifest.
+1228 silly tarball no local data for tinyexec@https://registry.npmjs.org/tinyexec/-/tinyexec-1.3.1.tgz. Extracting by manifest.
+1229 silly tarball no local data for pathe@https://registry.npmjs.org/pathe/-/pathe-2.0.3.tgz. Extracting by manifest.
+1230 silly tarball no local data for std-env@https://registry.npmjs.org/std-env/-/std-env-4.3.0.tgz. Extracting by manifest.
+1231 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz. Extracting by manifest.
+1232 silly tarball no local data for lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-1.53.0.tgz. Extracting by manifest.
+1233 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-16.4.0.tgz. Extracting by manifest.
+1234 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz. Extracting by manifest.
+1235 silly tarball no local data for @vitest/utils@https://registry.npmjs.org/@vitest/utils/-/utils-4.1.11.tgz. Extracting by manifest.
+1236 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz. Extracting by manifest.
+1237 silly tarball no local data for @vitest/snapshot@https://registry.npmjs.org/@vitest/snapshot/-/snapshot-4.1.11.tgz. Extracting by manifest.
+1238 silly tarball no local data for es-module-lexer@https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-2.3.2.tgz. Extracting by manifest.
+1239 silly tarball no local data for @vitest/spy@https://registry.npmjs.org/@vitest/spy/-/spy-4.1.11.tgz. Extracting by manifest.
+1240 silly tarball no local data for chai@https://registry.npmjs.org/chai/-/chai-6.3.0.tgz. Extracting by manifest.
+1241 silly tarball no local data for @vitest/runner@https://registry.npmjs.org/@vitest/runner/-/runner-4.1.11.tgz. Extracting by manifest.
+1242 silly tarball no local data for @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.23.tgz. Extracting by manifest.
+1243 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-16.4.0.tgz. Extracting by manifest.
+1244 silly tarball no local data for @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.12.tgz. Extracting by manifest.
+1245 silly tarball no local data for @vitest/mocker@https://registry.npmjs.org/@vitest/mocker/-/mocker-4.1.11.tgz. Extracting by manifest.
+1246 silly tarball no local data for @vitest/pretty-format@https://registry.npmjs.org/@vitest/pretty-format/-/pretty-format-4.1.11.tgz. Extracting by manifest.
+1247 silly tarball no local data for @vitest/expect@https://registry.npmjs.org/@vitest/expect/-/expect-4.1.11.tgz. Extracting by manifest.
+1248 silly tarball no local data for @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.4.0.tgz. Extracting by manifest.
+1249 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.23.tgz. Extracting by manifest.
+1250 http fetch GET 200 https://registry.npmjs.org/@types/chai/-/chai-5.2.3.tgz 148ms (cache miss)
+1251 http fetch GET 200 https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz 152ms (cache miss)
+1252 http fetch GET 200 https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz 150ms (cache miss)
+1253 http fetch GET 200 https://registry.npmjs.org/@types/deep-eql/-/deep-eql-4.0.2.tgz 154ms (cache miss)
+1254 http fetch GET 200 https://registry.npmjs.org/obug/-/obug-2.2.1.tgz 162ms (cache miss)
+1255 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.3.tgz 189ms (cache miss)
+1256 http fetch GET 200 https://registry.npmjs.org/tinyrainbow/-/tinyrainbow-3.2.0.tgz 195ms (cache miss)
+1257 http fetch GET 200 https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 247ms (cache miss)
+1258 http fetch GET 200 https://registry.npmjs.org/tinyexec/-/tinyexec-1.3.1.tgz 241ms (cache miss)
+1259 http fetch GET 200 https://registry.npmjs.org/std-env/-/std-env-4.3.0.tgz 248ms (cache miss)
+1260 http fetch GET 200 https://registry.npmjs.org/pathe/-/pathe-2.0.3.tgz 275ms (cache miss)
+1261 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 318ms
+1262 silly audit report {}
+1263 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/postcss/-/postcss-4.3.3.tgz 298ms (cache miss)
+1264 http fetch GET 200 https://registry.npmjs.org/@vitest/spy/-/spy-4.1.11.tgz 301ms (cache miss)
+1265 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-16.4.0.tgz 324ms (cache miss)
+1266 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 349ms (cache miss)
+1267 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz 368ms (cache miss)
+1268 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.7.tgz 384ms (cache miss)
+1269 http fetch GET 200 https://registry.npmjs.org/chai/-/chai-6.3.0.tgz 384ms (cache miss)
+1270 http fetch GET 200 https://registry.npmjs.org/@vitest/expect/-/expect-4.1.11.tgz 402ms (cache miss)
+1271 http fetch GET 200 https://registry.npmjs.org/@vitest/snapshot/-/snapshot-4.1.11.tgz 438ms (cache miss)
+1272 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.3.tgz 479ms (cache miss)
+1273 http fetch GET 200 https://registry.npmjs.org/@vitest/runner/-/runner-4.1.11.tgz 509ms (cache miss)
+1274 http fetch GET 200 https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-2.3.2.tgz 512ms (cache miss)
+1275 http fetch GET 200 https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz 545ms (cache miss)
+1276 http fetch GET 200 https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz 589ms (cache miss)
+1277 http fetch GET 200 https://registry.npmjs.org/@vitest/pretty-format/-/pretty-format-4.1.11.tgz 636ms (cache miss)
+1278 http fetch GET 200 https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz 675ms (cache miss)
+1279 http fetch GET 200 https://registry.npmjs.org/@vitest/utils/-/utils-4.1.11.tgz 735ms (cache miss)
+1280 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.3.tgz 739ms (cache miss)
+1281 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz 739ms (cache miss)
+1282 http fetch GET 200 https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.3.3.tgz 908ms (cache miss)
+1283 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.23.tgz 893ms (cache miss)
+1284 http fetch GET 200 https://registry.npmjs.org/@vitest/mocker/-/mocker-4.1.11.tgz 947ms (cache miss)
+1285 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-6.4.4.tgz 961ms (cache miss)
+1286 http fetch GET 200 https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.26.0.tgz 1194ms (cache miss)
+1287 http fetch GET 200 https://registry.npmjs.org/vitest/-/vitest-4.1.11.tgz 1221ms (cache miss)
+1288 http fetch GET 200 https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.25.12.tgz 1258ms (cache miss)
+1289 http fetch GET 200 https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz 1315ms (cache miss)
+1290 http fetch GET 200 https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.23.tgz 1962ms (cache miss)
+1291 http fetch GET 200 https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-16.4.0.tgz 3157ms (cache miss)
+1292 http fetch GET 200 https://registry.npmjs.org/lucide-react/-/lucide-react-1.53.0.tgz 8092ms (cache miss)
+1293 http fetch GET 200 https://registry.npmjs.org/next/-/next-16.4.0.tgz 17782ms (cache miss)
+1294 info run esbuild@0.25.12 postinstall node_modules/esbuild node install.js
+1295 info run esbuild@0.25.12 postinstall { code: 0, signal: null }
+1296 silly ADD
+1297 silly ADD
+1298 silly ADD
+1299 silly ADD
+1300 silly ADD
+1301 silly ADD
+1302 silly ADD
+1303 silly ADD
+1304 silly ADD
+1305 silly ADD
+1306 silly ADD
+1307 silly ADD
+1308 silly ADD
+1309 silly ADD
+1310 silly ADD
+1311 silly ADD
+1312 silly ADD
+1313 silly ADD
+1314 silly ADD
+1315 silly ADD
+1316 silly ADD
+1317 silly ADD
+1318 silly ADD
+1319 silly ADD
+1320 silly ADD
+1321 silly ADD
+1322 silly ADD
+1323 silly ADD
+1324 silly ADD
+1325 silly ADD
+1326 silly ADD
+1327 silly ADD
+1328 silly ADD
+1329 silly ADD
+1330 silly ADD
+1331 silly ADD
+1332 silly ADD
+1333 silly ADD
+1334 silly ADD
+1335 silly ADD
+1336 silly ADD
+1337 silly ADD
+1338 silly ADD
+1339 silly ADD
+1340 silly ADD
+1341 silly ADD
+1342 silly ADD
+1343 silly ADD
+1344 silly ADD
+1345 silly ADD
+1346 silly ADD node_modules/fdir
+1347 silly ADD node_modules/convert-source-map
+1348 silly ADD node_modules/@types/deep-eql
+1349 silly ADD node_modules/@types/chai
+1350 silly ADD node_modules/@standard-schema/spec
+1351 silly ADD node_modules/obug
+1352 silly ADD
+1353 silly ADD
+1354 silly ADD
+1355 silly ADD
+1356 silly ADD
+1357 silly ADD
+1358 silly ADD
+1359 silly ADD node_modules/lightningcss-win32-x64-msvc
+1360 silly ADD
+1361 silly ADD
+1362 silly ADD
+1363 silly ADD
+1364 silly ADD
+1365 silly ADD
+1366 silly ADD
+1367 silly ADD
+1368 silly ADD
+1369 silly ADD
+1370 silly ADD node_modules/tapable
+1371 silly ADD node_modules/graceful-fs
+1372 silly ADD node_modules/@tailwindcss/oxide-win32-x64-msvc
+1373 silly ADD
+1374 silly ADD
+1375 silly ADD
+1376 silly ADD
+1377 silly ADD
+1378 silly ADD
+1379 silly ADD
+1380 silly ADD
+1381 silly ADD
+1382 silly ADD
+1383 silly ADD
+1384 silly ADD node_modules/lightningcss
+1385 silly ADD node_modules/enhanced-resolve
+1386 silly ADD node_modules/@jridgewell/remapping
+1387 silly ADD node_modules/@tailwindcss/oxide
+1388 silly ADD node_modules/@tailwindcss/node
+1389 silly ADD node_modules/@tailwindcss/postcss
+1390 silly ADD
+1391 silly ADD
+1392 silly ADD
+1393 silly ADD
+1394 silly ADD
+1395 silly ADD
+1396 silly ADD
+1397 silly ADD
+1398 silly ADD
+1399 silly ADD
+1400 silly ADD
+1401 silly ADD
+1402 silly ADD
+1403 silly ADD
+1404 silly ADD
+1405 silly ADD
+1406 silly ADD
+1407 silly ADD
+1408 silly ADD
+1409 silly ADD
+1410 silly ADD
+1411 silly ADD
+1412 silly ADD
+1413 silly ADD
+1414 silly CHANGE node_modules/vitest
+1415 silly REMOVE node_modules/vite-node
+1416 silly CHANGE node_modules/vite
+1417 silly REMOVE node_modules/util-deprecate
+1418 silly REMOVE node_modules/update-browserslist-db
+1419 silly REMOVE node_modules/ts-interface-checker
+1420 silly REMOVE node_modules/to-regex-range
+1421 silly REMOVE node_modules/tinyspy
+1422 silly CHANGE node_modules/tinyrainbow
+1423 silly REMOVE node_modules/tinypool
+1424 silly REMOVE node_modules/tinyglobby/node_modules/picomatch
+1425 silly REMOVE node_modules/tinyglobby/node_modules/fdir
+1426 silly CHANGE node_modules/tinyexec
+1427 silly REMOVE node_modules/thenify-all
+1428 silly REMOVE node_modules/thenify
+1429 silly CHANGE node_modules/tailwindcss
+1430 silly REMOVE node_modules/supports-preserve-symlinks-flag
+1431 silly REMOVE node_modules/sucrase
+1432 silly REMOVE node_modules/strip-indent
+1433 silly CHANGE node_modules/std-env
+1434 silly REMOVE node_modules/run-parallel
+1435 silly REMOVE node_modules/reusify
+1436 silly REMOVE node_modules/resolve
+1437 silly REMOVE node_modules/redent
+1438 silly REMOVE node_modules/readdirp
+1439 silly REMOVE node_modules/read-cache
+1440 silly REMOVE node_modules/react-is
+1441 silly REMOVE node_modules/react-hook-form
+1442 silly REMOVE node_modules/queue-microtask
+1443 silly REMOVE node_modules/pretty-format
+1444 silly REMOVE node_modules/postcss-value-parser
+1445 silly REMOVE node_modules/postcss-selector-parser
+1446 silly REMOVE node_modules/postcss-nested
+1447 silly REMOVE node_modules/postcss-load-config
+1448 silly REMOVE node_modules/postcss-js
+1449 silly REMOVE node_modules/postcss-import
+1450 silly REMOVE node_modules/pirates
+1451 silly CHANGE node_modules/picomatch
+1452 silly REMOVE node_modules/pathval
+1453 silly CHANGE node_modules/pathe
+1454 silly REMOVE node_modules/path-parse
+1455 silly REMOVE node_modules/object-hash
+1456 silly REMOVE node_modules/object-assign
+1457 silly REMOVE node_modules/normalize-path
+1458 silly REMOVE node_modules/node-releases
+1459 silly CHANGE node_modules/next
+1460 silly CHANGE node_modules/next/node_modules/postcss
+1461 silly REMOVE node_modules/mz
+1462 silly REMOVE node_modules/min-indent
+1463 silly REMOVE node_modules/micromatch
+1464 silly REMOVE node_modules/merge2
+1465 silly REMOVE node_modules/lz-string
+1466 silly CHANGE node_modules/lucide-react
+1467 silly REMOVE node_modules/loupe
+1468 silly REMOVE node_modules/lines-and-columns
+1469 silly REMOVE node_modules/lilconfig
+1470 silly REMOVE node_modules/js-tokens
+1471 silly CHANGE node_modules/jiti
+1472 silly REMOVE node_modules/is-number
+1473 silly REMOVE node_modules/is-glob
+1474 silly REMOVE node_modules/is-extglob
+1475 silly REMOVE node_modules/is-core-module
+1476 silly REMOVE node_modules/is-binary-path
+1477 silly REMOVE node_modules/indent-string
+1478 silly REMOVE node_modules/glob-parent
+1479 silly REMOVE node_modules/fraction.js
+1480 silly REMOVE node_modules/fill-range
+1481 silly REMOVE node_modules/fastq
+1482 silly REMOVE node_modules/fast-glob
+1483 silly REMOVE node_modules/fast-glob/node_modules/glob-parent
+1484 silly REMOVE node_modules/escalade
+1485 silly CHANGE node_modules/esbuild
+1486 silly CHANGE node_modules/es-module-lexer
+1487 silly REMOVE node_modules/electron-to-chromium
+1488 silly REMOVE node_modules/dom-accessibility-api
+1489 silly REMOVE node_modules/dlv
+1490 silly REMOVE node_modules/didyoumean
+1491 silly REMOVE node_modules/dequal
+1492 silly REMOVE node_modules/deep-eql
+1493 silly REMOVE node_modules/cssesc
+1494 silly REMOVE node_modules/css.escape
+1495 silly REMOVE node_modules/commander
+1496 silly REMOVE node_modules/chokidar
+1497 silly REMOVE node_modules/chokidar/node_modules/glob-parent
+1498 silly REMOVE node_modules/check-error
+1499 silly CHANGE node_modules/chai
+1500 silly REMOVE node_modules/camelcase-css
+1501 silly REMOVE node_modules/cac
+1502 silly REMOVE node_modules/browserslist
+1503 silly REMOVE node_modules/braces
+1504 silly REMOVE node_modules/binary-extensions
+1505 silly REMOVE node_modules/autoprefixer
+1506 silly REMOVE node_modules/aria-query
+1507 silly REMOVE node_modules/arg
+1508 silly REMOVE node_modules/anymatch
+1509 silly REMOVE node_modules/any-promise
+1510 silly REMOVE node_modules/ansi-styles
+1511 silly CHANGE node_modules/@vitest/utils
+1512 silly CHANGE node_modules/@vitest/spy
+1513 silly CHANGE node_modules/@vitest/snapshot
+1514 silly CHANGE node_modules/@vitest/runner
+1515 silly CHANGE node_modules/@vitest/pretty-format
+1516 silly CHANGE node_modules/@vitest/mocker
+1517 silly CHANGE node_modules/@vitest/expect
+1518 silly REMOVE node_modules/@types/aria-query
+1519 silly REMOVE node_modules/@testing-library/react
+1520 silly REMOVE node_modules/@testing-library/jest-dom
+1521 silly REMOVE node_modules/@testing-library/jest-dom/node_modules/dom-accessibility-api
+1522 silly REMOVE node_modules/@testing-library/dom
+1523 silly CHANGE node_modules/@swc/helpers
+1524 silly REMOVE node_modules/@nodelib/fs.walk
+1525 silly REMOVE node_modules/@nodelib/fs.stat
+1526 silly REMOVE node_modules/@nodelib/fs.scandir
+1527 silly CHANGE node_modules/@next/swc-win32-x64-msvc
+1528 silly CHANGE node_modules/@next/env
+1529 silly REMOVE node_modules/@hookform/resolvers
+1530 silly CHANGE node_modules/@esbuild/win32-x64
+1531 silly REMOVE node_modules/@babel/runtime
+1532 silly REMOVE node_modules/@babel/helper-validator-identifier
+1533 silly REMOVE node_modules/@babel/code-frame
+1534 silly REMOVE node_modules/@adobe/css-tools
+1535 verbose cwd D:\expertonc website
+1536 verbose os Windows_NT 10.0.26100
+1537 verbose node v20.18.0
+1538 verbose npm  v11.0.0
+1539 verbose exit 0
+1540 info ok

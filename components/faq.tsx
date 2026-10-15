@@ -1,0 +1,2 @@
+import {faqs} from "@/content/site";
+export function FAQ(){return <div className="faq">{faqs.map((q,i)=><details key={q}><summary>{q}</summary><p>{i===7?"No. ExpertOnc is intended to organize and explain information. It does not diagnose, treat, or replace your oncology team. Always follow your care team's guidance.":"Awaiting a client-approved answer. This item is intentionally not published as a product or policy claim."}</p></details>)}</div>}

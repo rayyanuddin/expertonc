@@ -1,0 +1,1055 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\91988\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.0.0
+2 info using node@v20.18.0
+3 silly config load:file:C:\Users\91988\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\expertonc website\.npmrc
+5 silly config load:file:C:\Users\91988\.npmrc
+6 silly config load:file:C:\Users\91988\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\expertonc website\.npm-cache\_logs\2026-10-08T06_37_14_989Z-
+10 verbose logfile D:\expertonc website\.npm-cache\_logs\2026-10-08T06_37_14_989Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\jsdom' ]
+16 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\postcss' ]
+17 silly reify mark retired [
+17 silly reify   'D:\\expertonc website\\node_modules\\autoprefixer',
+17 silly reify   'D:\\expertonc website\\node_modules\\.bin\\autoprefixer',
+17 silly reify   'D:\\expertonc website\\node_modules\\.bin\\autoprefixer.cmd',
+17 silly reify   'D:\\expertonc website\\node_modules\\.bin\\autoprefixer.ps1'
+17 silly reify ]
+18 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\lucide-react' ]
+19 silly reify mark retired [
+19 silly reify   'D:\\expertonc website\\node_modules\\next',
+19 silly reify   'D:\\expertonc website\\node_modules\\.bin\\next',
+19 silly reify   'D:\\expertonc website\\node_modules\\.bin\\next.cmd',
+19 silly reify   'D:\\expertonc website\\node_modules\\.bin\\next.ps1'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'D:\\expertonc website\\node_modules\\qrcode',
+20 silly reify   'D:\\expertonc website\\node_modules\\.bin\\qrcode',
+20 silly reify   'D:\\expertonc website\\node_modules\\.bin\\qrcode.cmd',
+20 silly reify   'D:\\expertonc website\\node_modules\\.bin\\qrcode.ps1'
+20 silly reify ]
+21 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\react' ]
+22 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\react-dom' ]
+23 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\react-hook-form' ]
+24 silly reify mark retired [
+24 silly reify   'D:\\expertonc website\\node_modules\\vitest',
+24 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vitest',
+24 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vitest.cmd',
+24 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vitest.ps1'
+24 silly reify ]
+25 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\zod' ]
+26 silly reify mark retired [
+26 silly reify   'D:\\expertonc website\\node_modules\\typescript',
+26 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tsc',
+26 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tsc.cmd',
+26 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tsc.ps1',
+26 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tsserver',
+26 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tsserver.cmd',
+26 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tsserver.ps1'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'D:\\expertonc website\\node_modules\\tailwindcss',
+27 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwind',
+27 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwind.cmd',
+27 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwind.ps1',
+27 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwindcss',
+27 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwindcss.cmd',
+27 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwindcss.ps1'
+27 silly reify ]
+28 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@hookform\\resolvers' ]
+29 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@testing-library\\jest-dom' ]
+30 silly reify mark retired [
+30 silly reify   'D:\\expertonc website\\node_modules\\@playwright\\test',
+30 silly reify   'D:\\expertonc website\\node_modules\\.bin\\playwright',
+30 silly reify   'D:\\expertonc website\\node_modules\\.bin\\playwright.cmd',
+30 silly reify   'D:\\expertonc website\\node_modules\\.bin\\playwright.ps1'
+30 silly reify ]
+31 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@types\\node' ]
+32 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@testing-library\\react' ]
+33 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@types\\react-dom' ]
+34 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@types\\qrcode' ]
+35 silly reify mark retired [ 'D:\\expertonc website\\node_modules\\@types\\react' ]
+36 silly reify moves {
+36 silly reify   'D:\\expertonc website\\node_modules\\jsdom': 'D:\\expertonc website\\node_modules\\.jsdom-eACWigNf',
+36 silly reify   'D:\\expertonc website\\node_modules\\postcss': 'D:\\expertonc website\\node_modules\\.postcss-8LYKOn7T',
+36 silly reify   'D:\\expertonc website\\node_modules\\autoprefixer': 'D:\\expertonc website\\node_modules\\.autoprefixer-lJH1LDyB',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\autoprefixer': 'D:\\expertonc website\\node_modules\\.bin\\.autoprefixer-ox6H6KeG',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\autoprefixer.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.autoprefixer.cmd-NZCeklXG',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\autoprefixer.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.autoprefixer.ps1-5W3imBhH',
+36 silly reify   'D:\\expertonc website\\node_modules\\lucide-react': 'D:\\expertonc website\\node_modules\\.lucide-react-JPu8f6qT',
+36 silly reify   'D:\\expertonc website\\node_modules\\next': 'D:\\expertonc website\\node_modules\\.next-AWc1aeFk',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\next': 'D:\\expertonc website\\node_modules\\.bin\\.next-UeThS4ow',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\next.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.next.cmd-RofTMc6A',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\next.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.next.ps1-cvI12lI9',
+36 silly reify   'D:\\expertonc website\\node_modules\\qrcode': 'D:\\expertonc website\\node_modules\\.qrcode-HhoR37k6',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\qrcode': 'D:\\expertonc website\\node_modules\\.bin\\.qrcode-jIaYLDgJ',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\qrcode.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.qrcode.cmd-QL0PFwLa',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\qrcode.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.qrcode.ps1-Dpd3M7Eu',
+36 silly reify   'D:\\expertonc website\\node_modules\\react': 'D:\\expertonc website\\node_modules\\.react-499Bg68P',
+36 silly reify   'D:\\expertonc website\\node_modules\\react-dom': 'D:\\expertonc website\\node_modules\\.react-dom-h1Vnc0Es',
+36 silly reify   'D:\\expertonc website\\node_modules\\react-hook-form': 'D:\\expertonc website\\node_modules\\.react-hook-form-FcpfQyGf',
+36 silly reify   'D:\\expertonc website\\node_modules\\vitest': 'D:\\expertonc website\\node_modules\\.vitest-5qcvcxUl',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vitest': 'D:\\expertonc website\\node_modules\\.bin\\.vitest-MRSxGy0P',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vitest.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.vitest.cmd-QM3DiMoh',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\vitest.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.vitest.ps1-4CCChtOY',
+36 silly reify   'D:\\expertonc website\\node_modules\\zod': 'D:\\expertonc website\\node_modules\\.zod-kajJFtTW',
+36 silly reify   'D:\\expertonc website\\node_modules\\typescript': 'D:\\expertonc website\\node_modules\\.typescript-yNiOoYIa',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tsc': 'D:\\expertonc website\\node_modules\\.bin\\.tsc-nlogfZF5',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tsc.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.tsc.cmd-CzJVJkh1',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tsc.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.tsc.ps1-7Y74vQvO',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tsserver': 'D:\\expertonc website\\node_modules\\.bin\\.tsserver-XGrGNf79',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tsserver.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.tsserver.cmd-8FNSXnwn',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tsserver.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.tsserver.ps1-AzreyHQf',
+36 silly reify   'D:\\expertonc website\\node_modules\\tailwindcss': 'D:\\expertonc website\\node_modules\\.tailwindcss-32VEolpe',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwind': 'D:\\expertonc website\\node_modules\\.bin\\.tailwind-DAQ1GDaT',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwind.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.tailwind.cmd-bTPZSYtM',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwind.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.tailwind.ps1-AYkGV326',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwindcss': 'D:\\expertonc website\\node_modules\\.bin\\.tailwindcss-RczgxbJy',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwindcss.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.tailwindcss.cmd-CK9GiAmy',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\tailwindcss.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.tailwindcss.ps1-9GVp5wdn',
+36 silly reify   'D:\\expertonc website\\node_modules\\@hookform\\resolvers': 'D:\\expertonc website\\node_modules\\@hookform\\.resolvers-mqHxZySi',
+36 silly reify   'D:\\expertonc website\\node_modules\\@testing-library\\jest-dom': 'D:\\expertonc website\\node_modules\\@testing-library\\.jest-dom-l84EpNGC',
+36 silly reify   'D:\\expertonc website\\node_modules\\@playwright\\test': 'D:\\expertonc website\\node_modules\\@playwright\\.test-VtryAdiX',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\playwright': 'D:\\expertonc website\\node_modules\\.bin\\.playwright-34ZtvmXs',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\playwright.cmd': 'D:\\expertonc website\\node_modules\\.bin\\.playwright.cmd-G0RzJWgq',
+36 silly reify   'D:\\expertonc website\\node_modules\\.bin\\playwright.ps1': 'D:\\expertonc website\\node_modules\\.bin\\.playwright.ps1-WbCiOSw9',
+36 silly reify   'D:\\expertonc website\\node_modules\\@types\\node': 'D:\\expertonc website\\node_modules\\@types\\.node-UCfS5hD4',
+36 silly reify   'D:\\expertonc website\\node_modules\\@testing-library\\react': 'D:\\expertonc website\\node_modules\\@testing-library\\.react-GOzQ5njF',
+36 silly reify   'D:\\expertonc website\\node_modules\\@types\\react-dom': 'D:\\expertonc website\\node_modules\\@types\\.react-dom-BUpSJZXQ',
+36 silly reify   'D:\\expertonc website\\node_modules\\@types\\qrcode': 'D:\\expertonc website\\node_modules\\@types\\.qrcode-EJUyZcfH',
+36 silly reify   'D:\\expertonc website\\node_modules\\@types\\react': 'D:\\expertonc website\\node_modules\\@types\\.react-ieqdGBin'
+36 silly reify }
+37 http fetch GET 200 https://registry.npmjs.org/npm 416ms
+38 silly audit bulk request {
+38 silly audit   '@adobe/css-tools': [ '4.5.0' ],
+38 silly audit   '@alloc/quick-lru': [ '5.3.0' ],
+38 silly audit   '@asamuzakjp/css-color': [ '3.2.0' ],
+38 silly audit   '@babel/code-frame': [ '7.29.7' ],
+38 silly audit   '@babel/helper-validator-identifier': [ '7.29.7' ],
+38 silly audit   '@babel/runtime': [ '7.29.10' ],
+38 silly audit   '@csstools/color-helpers': [ '5.1.0' ],
+38 silly audit   '@csstools/css-calc': [ '2.1.4' ],
+38 silly audit   '@csstools/css-color-parser': [ '3.1.0' ],
+38 silly audit   '@csstools/css-parser-algorithms': [ '3.0.5' ],
+38 silly audit   '@csstools/css-tokenizer': [ '3.0.4' ],
+38 silly audit   '@emnapi/runtime': [ '1.11.3' ],
+38 silly audit   '@esbuild/aix-ppc64': [ '0.21.5' ],
+38 silly audit   '@esbuild/android-arm': [ '0.21.5' ],
+38 silly audit   '@esbuild/android-arm64': [ '0.21.5' ],
+38 silly audit   '@esbuild/android-x64': [ '0.21.5' ],
+38 silly audit   '@esbuild/darwin-arm64': [ '0.21.5' ],
+38 silly audit   '@esbuild/darwin-x64': [ '0.21.5' ],
+38 silly audit   '@esbuild/freebsd-arm64': [ '0.21.5' ],
+38 silly audit   '@esbuild/freebsd-x64': [ '0.21.5' ],
+38 silly audit   '@esbuild/linux-arm': [ '0.21.5' ],
+38 silly audit   '@esbuild/linux-arm64': [ '0.21.5' ],
+38 silly audit   '@esbuild/linux-ia32': [ '0.21.5' ],
+38 silly audit   '@esbuild/linux-loong64': [ '0.21.5' ],
+38 silly audit   '@esbuild/linux-mips64el': [ '0.21.5' ],
+38 silly audit   '@esbuild/linux-ppc64': [ '0.21.5' ],
+38 silly audit   '@esbuild/linux-riscv64': [ '0.21.5' ],
+38 silly audit   '@esbuild/linux-s390x': [ '0.21.5' ],
+38 silly audit   '@esbuild/linux-x64': [ '0.21.5' ],
+38 silly audit   '@esbuild/netbsd-x64': [ '0.21.5' ],
+38 silly audit   '@esbuild/openbsd-x64': [ '0.21.5' ],
+38 silly audit   '@esbuild/sunos-x64': [ '0.21.5' ],
+38 silly audit   '@esbuild/win32-arm64': [ '0.21.5' ],
+38 silly audit   '@esbuild/win32-ia32': [ '0.21.5' ],
+38 silly audit   '@esbuild/win32-x64': [ '0.21.5' ],
+38 silly audit   '@hookform/resolvers': [ '3.10.0' ],
+38 silly audit   '@img/colour': [ '1.1.0' ],
+38 silly audit   '@img/sharp-darwin-arm64': [ '0.35.5' ],
+38 silly audit   '@img/sharp-darwin-x64': [ '0.35.5' ],
+38 silly audit   '@img/sharp-freebsd-wasm32': [ '0.35.5' ],
+38 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.3.4' ],
+38 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.3.4' ],
+38 silly audit   '@img/sharp-libvips-linux-arm': [ '1.3.4' ],
+38 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.3.4' ],
+38 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.3.4' ],
+38 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.3.4' ],
+38 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.3.4' ],
+38 silly audit   '@img/sharp-libvips-linux-x64': [ '1.3.4' ],
+38 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.3.4' ],
+38 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.3.4' ],
+38 silly audit   '@img/sharp-linux-arm': [ '0.35.5' ],
+38 silly audit   '@img/sharp-linux-arm64': [ '0.35.5' ],
+38 silly audit   '@img/sharp-linux-ppc64': [ '0.35.5' ],
+38 silly audit   '@img/sharp-linux-riscv64': [ '0.35.5' ],
+38 silly audit   '@img/sharp-linux-s390x': [ '0.35.5' ],
+38 silly audit   '@img/sharp-linux-x64': [ '0.35.5' ],
+38 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.35.5' ],
+38 silly audit   '@img/sharp-linuxmusl-x64': [ '0.35.5' ],
+38 silly audit   '@img/sharp-wasm32': [ '0.35.5' ],
+38 silly audit   '@img/sharp-webcontainers-wasm32': [ '0.35.5' ],
+38 silly audit   '@img/sharp-win32-arm64': [ '0.35.5' ],
+38 silly audit   '@img/sharp-win32-ia32': [ '0.35.5' ],
+38 silly audit   '@img/sharp-win32-x64': [ '0.35.5' ],
+38 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+38 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+38 silly audit   '@jridgewell/sourcemap-codec': [ '1.6.0' ],
+38 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+38 silly audit   '@napi-rs/lzma-linux-x64-gnu': [ '1.5.1' ],
+38 silly audit   '@next/env': [ '15.5.27' ],
+38 silly audit   '@next/swc-darwin-arm64': [ '15.5.27' ],
+38 silly audit   '@next/swc-darwin-x64': [ '15.5.27' ],
+38 silly audit   '@next/swc-linux-arm64-gnu': [ '15.5.27' ],
+38 silly audit   '@next/swc-linux-arm64-musl': [ '15.5.27' ],
+38 silly audit   '@next/swc-linux-x64-gnu': [ '15.5.27' ],
+38 silly audit   '@next/swc-linux-x64-musl': [ '15.5.27' ],
+38 silly audit   '@next/swc-win32-arm64-msvc': [ '15.5.27' ],
+38 silly audit   '@next/swc-win32-x64-msvc': [ '15.5.27' ],
+38 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+38 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+38 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+38 silly audit   '@playwright/test': [ '1.64.0' ],
+38 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-android-arm64': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-darwin-arm64': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-darwin-x64': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-freebsd-x64': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-openbsd-x64': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.64.2' ],
+38 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.64.2' ],
+38 silly audit   '@swc/helpers': [ '0.5.15' ],
+38 silly audit   '@testing-library/dom': [ '10.4.2' ],
+38 silly audit   '@testing-library/jest-dom': [ '6.9.1' ],
+38 silly audit   'dom-accessibility-api': [ '0.6.3', '0.5.16' ],
+38 silly audit   '@testing-library/react': [ '16.3.3' ],
+38 silly audit   '@types/aria-query': [ '5.0.4' ],
+38 silly audit   '@types/estree': [ '1.0.9' ],
+38 silly audit   '@types/node': [ '22.20.5' ],
+38 silly audit   '@types/qrcode': [ '1.5.6' ],
+38 silly audit   '@types/react': [ '19.3.0' ],
+38 silly audit   '@types/react-dom': [ '19.3.0' ],
+38 silly audit   '@vitest/expect': [ '2.1.9' ],
+38 silly audit   '@vitest/mocker': [ '2.1.9' ],
+38 silly audit   '@vitest/pretty-format': [ '2.1.9' ],
+38 silly audit   '@vitest/runner': [ '2.1.9' ],
+38 silly audit   '@vitest/snapshot': [ '2.1.9' ],
+38 silly audit   '@vitest/spy': [ '2.1.9' ],
+38 silly audit   '@vitest/utils': [ '2.1.9' ],
+38 silly audit   'agent-base': [ '7.1.4' ],
+38 silly audit   'ansi-regex': [ '5.0.1' ],
+38 silly audit   'ansi-styles': [ '5.2.0', '4.3.0' ],
+38 silly audit   'any-promise': [ '1.3.0' ],
+38 silly audit   anymatch: [ '3.1.3' ],
+38 silly audit   arg: [ '5.0.2' ],
+38 silly audit   'aria-query': [ '5.3.0' ],
+38 silly audit   'assertion-error': [ '2.0.1' ],
+38 silly audit   asynckit: [ '0.4.0' ],
+38 silly audit   autoprefixer: [ '10.6.1' ],
+38 silly audit   'baseline-browser-mapping': [ '2.11.27' ],
+38 silly audit   'binary-extensions': [ '2.3.0' ],
+38 silly audit   braces: [ '3.0.3' ],
+38 silly audit   browserslist: [ '4.29.3' ],
+38 silly audit   cac: [ '6.7.14' ],
+38 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+38 silly audit   camelcase: [ '5.3.1' ],
+38 silly audit   'camelcase-css': [ '2.0.1' ],
+38 silly audit   'caniuse-lite': [ '1.0.30001815' ],
+38 silly audit   chai: [ '5.3.3' ],
+38 silly audit   'check-error': [ '2.1.3' ],
+38 silly audit   chokidar: [ '3.6.0' ],
+38 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+38 silly audit   'client-only': [ '0.0.1' ],
+38 silly audit   cliui: [ '6.0.0' ],
+38 silly audit   'color-convert': [ '2.0.1' ],
+38 silly audit   'color-name': [ '1.1.4' ],
+38 silly audit   'combined-stream': [ '1.0.8' ],
+38 silly audit   commander: [ '4.1.1' ],
+38 silly audit   'css.escape': [ '1.5.1' ],
+38 silly audit   cssesc: [ '3.0.0' ],
+38 silly audit   cssstyle: [ '4.6.0' ],
+38 silly audit   'rrweb-cssom': [ '0.8.0', '0.7.1' ],
+38 silly audit   csstype: [ '3.2.3' ],
+38 silly audit   'data-urls': [ '5.0.0' ],
+38 silly audit   debug: [ '4.4.3' ],
+38 silly audit   decamelize: [ '1.2.0' ],
+38 silly audit   'decimal.js': [ '10.6.0' ],
+38 silly audit   'deep-eql': [ '5.0.2' ],
+38 silly audit   'delayed-stream': [ '1.0.0' ],
+38 silly audit   dequal: [ '2.0.3' ],
+38 silly audit   'detect-libc': [ '2.1.2' ],
+38 silly audit   didyoumean: [ '1.2.2' ],
+38 silly audit   dijkstrajs: [ '1.0.3' ],
+38 silly audit   dlv: [ '1.1.3' ],
+38 silly audit   'dunder-proto': [ '1.0.1' ],
+38 silly audit   'electron-to-chromium': [ '1.5.451' ],
+38 silly audit   'emoji-regex': [ '8.0.0' ],
+38 silly audit   entities: [ '6.0.1' ],
+38 silly audit   'es-define-property': [ '1.0.1' ],
+38 silly audit   'es-errors': [ '1.3.0' ],
+38 silly audit   'es-module-lexer': [ '1.7.0' ],
+38 silly audit   'es-object-atoms': [ '1.1.2' ],
+38 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+38 silly audit   esbuild: [ '0.21.5' ],
+38 silly audit   escalade: [ '3.2.0' ],
+38 silly audit   'estree-walker': [ '3.0.3' ],
+38 silly audit   'expect-type': [ '1.4.0' ],
+38 silly audit   'fast-glob': [ '3.3.3' ],
+38 silly audit   fastq: [ '1.20.3' ],
+38 silly audit   'fill-range': [ '7.1.1' ],
+38 silly audit   'find-up': [ '4.1.0' ],
+38 silly audit   'form-data': [ '4.0.6' ],
+38 silly audit   'fraction.js': [ '5.3.4' ],
+38 silly audit   fsevents: [ '2.3.3' ],
+38 silly audit   'function-bind': [ '1.1.2' ],
+38 silly audit   'get-caller-file': [ '2.0.5' ],
+38 silly audit   'get-intrinsic': [ '1.3.0' ],
+38 silly audit   'get-proto': [ '1.0.1' ],
+38 silly audit   gopd: [ '1.2.0' ],
+38 silly audit   'has-symbols': [ '1.1.0' ],
+38 silly audit   'has-tostringtag': [ '1.0.2' ],
+38 silly audit   hasown: [ '2.0.4' ],
+38 silly audit   'html-encoding-sniffer': [ '4.0.0' ],
+38 silly audit   'http-proxy-agent': [ '7.0.2' ],
+38 silly audit   'https-proxy-agent': [ '7.0.6' ],
+38 silly audit   'iconv-lite': [ '0.6.3' ],
+38 silly audit   'indent-string': [ '4.0.0' ],
+38 silly audit   'is-binary-path': [ '2.1.0' ],
+38 silly audit   'is-core-module': [ '2.17.0' ],
+38 silly audit   'is-extglob': [ '2.1.1' ],
+38 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+38 silly audit   'is-glob': [ '4.0.3' ],
+38 silly audit   'is-number': [ '7.0.0' ],
+38 silly audit   'is-potential-custom-element-name': [ '1.0.1' ],
+38 silly audit   jiti: [ '1.21.7' ],
+38 silly audit   'js-tokens': [ '4.0.0' ],
+38 silly audit   jsdom: [ '25.0.1' ],
+38 silly audit   lilconfig: [ '3.1.3' ],
+38 silly audit   'lines-and-columns': [ '1.2.4' ],
+38 silly audit   'locate-path': [ '5.0.0' ],
+38 silly audit   loupe: [ '3.2.1' ],
+38 silly audit   'lru-cache': [ '10.4.3' ],
+38 silly audit   'lucide-react': [ '0.468.0' ],
+38 silly audit   'lz-string': [ '1.5.0' ],
+38 silly audit   'magic-string': [ '0.30.21' ],
+38 silly audit   'math-intrinsics': [ '1.1.0' ],
+38 silly audit   merge2: [ '1.4.1' ],
+38 silly audit   micromatch: [ '4.0.8' ],
+38 silly audit   'mime-db': [ '1.52.0' ],
+38 silly audit   'mime-types': [ '2.1.35' ],
+38 silly audit   'min-indent': [ '1.0.1' ],
+38 silly audit   ms: [ '2.1.3' ],
+38 silly audit   mz: [ '2.7.0' ],
+38 silly audit   nanoid: [ '3.3.20' ],
+38 silly audit   next: [ '15.5.27' ],
+38 silly audit   postcss: [ '8.4.31', '8.5.29' ],
+38 silly audit   'node-releases': [ '2.0.57' ],
+38 silly audit   'normalize-path': [ '3.0.0' ],
+38 silly audit   nwsapi: [ '2.2.28' ],
+38 silly audit   'object-assign': [ '4.1.1' ],
+38 silly audit   'object-hash': [ '3.0.0' ],
+38 silly audit   'p-limit': [ '2.3.0' ],
+38 silly audit   'p-locate': [ '4.1.0' ],
+38 silly audit   'p-try': [ '2.2.0' ],
+38 silly audit   parse5: [ '7.3.0' ],
+38 silly audit   'path-exists': [ '4.0.0' ],
+38 silly audit   'path-parse': [ '1.0.7' ],
+38 silly audit   pathe: [ '1.1.2' ],
+38 silly audit   pathval: [ '2.0.1' ],
+38 silly audit   picocolors: [ '1.1.1' ],
+38 silly audit   picomatch: [ '2.3.2', '4.0.7' ],
+38 silly audit   pirates: [ '4.0.7' ],
+38 silly audit   playwright: [ '1.64.0' ],
+38 silly audit   'playwright-core': [ '1.64.0' ],
+38 silly audit   pngjs: [ '5.0.0' ],
+38 silly audit   'postcss-import': [ '15.1.0' ],
+38 silly audit   'postcss-js': [ '4.1.0' ],
+38 silly audit   'postcss-load-config': [ '6.0.1' ],
+38 silly audit   'postcss-nested': [ '6.2.0' ],
+38 silly audit   'postcss-selector-parser': [ '6.1.4' ],
+38 silly audit   'postcss-value-parser': [ '4.2.0' ],
+38 silly audit   'pretty-format': [ '27.5.1' ],
+38 silly audit   punycode: [ '2.3.1' ],
+38 silly audit   qrcode: [ '1.5.4' ],
+38 silly audit   'queue-microtask': [ '1.2.3' ],
+38 silly audit   react: [ '19.3.0' ],
+38 silly audit   'react-dom': [ '19.3.0' ],
+38 silly audit   'react-hook-form': [ '7.89.0' ],
+38 silly audit   'react-is': [ '17.0.2' ],
+38 silly audit   'read-cache': [ '1.0.2' ],
+38 silly audit   readdirp: [ '3.6.0' ],
+38 silly audit   redent: [ '3.0.0' ],
+38 silly audit   'require-directory': [ '2.1.1' ],
+38 silly audit   'require-main-filename': [ '2.0.0' ],
+38 silly audit   resolve: [ '1.22.13' ],
+38 silly audit   reusify: [ '1.1.0' ],
+38 silly audit   rollup: [ '4.64.2' ],
+38 silly audit   'run-parallel': [ '1.2.0' ],
+38 silly audit   'safer-buffer': [ '2.1.2' ],
+38 silly audit   saxes: [ '6.0.0' ],
+38 silly audit   scheduler: [ '0.28.0' ],
+38 silly audit   semver: [ '7.8.5' ],
+38 silly audit   'set-blocking': [ '2.0.0' ],
+38 silly audit   sharp: [ '0.35.5' ],
+38 silly audit   siginfo: [ '2.0.0' ],
+38 silly audit   'source-map-js': [ '1.2.2' ],
+38 silly audit   stackback: [ '0.0.2' ],
+38 silly audit   'std-env': [ '3.10.0' ],
+38 silly audit   'string-width': [ '4.2.3' ],
+38 silly audit   'strip-ansi': [ '6.0.1' ],
+38 silly audit   'strip-indent': [ '3.0.0' ],
+38 silly audit   'styled-jsx': [ '5.1.6' ],
+38 silly audit   sucrase: [ '3.35.1' ],
+38 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+38 silly audit   'symbol-tree': [ '3.2.4' ],
+38 silly audit   tailwindcss: [ '3.4.19' ],
+38 silly audit   thenify: [ '3.3.1' ],
+38 silly audit   'thenify-all': [ '1.6.0' ],
+38 silly audit   tinybench: [ '2.9.0' ],
+38 silly audit   tinyexec: [ '0.3.2' ],
+38 silly audit   tinyglobby: [ '0.2.17' ],
+38 silly audit   fdir: [ '6.5.0' ],
+38 silly audit   tinypool: [ '1.1.1' ],
+38 silly audit   tinyrainbow: [ '1.2.0' ],
+38 silly audit   tinyspy: [ '3.0.2' ],
+38 silly audit   tldts: [ '6.1.86' ],
+38 silly audit   'tldts-core': [ '6.1.86' ],
+38 silly audit   'to-regex-range': [ '5.0.1' ],
+38 silly audit   'tough-cookie': [ '5.1.2' ],
+38 silly audit   tr46: [ '5.1.1' ],
+38 silly audit   'ts-interface-checker': [ '0.1.13' ],
+38 silly audit   tslib: [ '2.8.1' ],
+38 silly audit   typescript: [ '5.9.3' ],
+38 silly audit   'undici-types': [ '6.21.0' ],
+38 silly audit   'update-browserslist-db': [ '1.3.4' ],
+38 silly audit   'util-deprecate': [ '1.0.2' ],
+38 silly audit   vite: [ '5.4.21' ],
+38 silly audit   'vite-node': [ '2.1.9' ],
+38 silly audit   vitest: [ '2.1.9' ],
+38 silly audit   'w3c-xmlserializer': [ '5.0.0' ],
+38 silly audit   'webidl-conversions': [ '7.0.0' ],
+38 silly audit   'whatwg-encoding': [ '3.1.1' ],
+38 silly audit   'whatwg-mimetype': [ '4.0.0' ],
+38 silly audit   'whatwg-url': [ '14.2.0' ],
+38 silly audit   'which-module': [ '2.0.1' ],
+38 silly audit   'why-is-node-running': [ '2.3.0' ],
+38 silly audit   'wrap-ansi': [ '6.2.0' ],
+38 silly audit   ws: [ '8.22.0' ],
+38 silly audit   'xml-name-validator': [ '5.0.0' ],
+38 silly audit   xmlchars: [ '2.2.0' ],
+38 silly audit   y18n: [ '4.0.3' ],
+38 silly audit   yargs: [ '15.4.1' ],
+38 silly audit   'yargs-parser': [ '18.1.3' ],
+38 silly audit   zod: [ '3.25.76' ]
+38 silly audit }
+39 verbose reify failed optional dependency D:\expertonc website\node_modules\fsevents
+40 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\fsevents' ]
+41 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-win32-ia32-msvc
+42 silly reify mark deleted [
+42 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-win32-ia32-msvc'
+42 silly reify ]
+43 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-win32-arm64-msvc
+44 silly reify mark deleted [
+44 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-win32-arm64-msvc'
+44 silly reify ]
+45 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-openharmony-arm64
+46 silly reify mark deleted [
+46 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-openharmony-arm64'
+46 silly reify ]
+47 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-openbsd-x64
+48 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@rollup\\rollup-openbsd-x64' ]
+49 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-x64-musl
+50 silly reify mark deleted [
+50 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-x64-musl'
+50 silly reify ]
+51 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-x64-gnu
+52 silly reify mark deleted [
+52 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-x64-gnu'
+52 silly reify ]
+53 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-s390x-gnu
+54 silly reify mark deleted [
+54 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-s390x-gnu'
+54 silly reify ]
+55 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-riscv64-musl
+56 silly reify mark deleted [
+56 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-riscv64-musl'
+56 silly reify ]
+57 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-riscv64-gnu
+58 silly reify mark deleted [
+58 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-riscv64-gnu'
+58 silly reify ]
+59 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-ppc64-musl
+60 silly reify mark deleted [
+60 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-ppc64-musl'
+60 silly reify ]
+61 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-ppc64-gnu
+62 silly reify mark deleted [
+62 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-ppc64-gnu'
+62 silly reify ]
+63 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-loong64-musl
+64 silly reify mark deleted [
+64 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-loong64-musl'
+64 silly reify ]
+65 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-loong64-gnu
+66 silly reify mark deleted [
+66 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-loong64-gnu'
+66 silly reify ]
+67 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-arm64-musl
+68 silly reify mark deleted [
+68 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-arm64-musl'
+68 silly reify ]
+69 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-arm64-gnu
+70 silly reify mark deleted [
+70 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-arm64-gnu'
+70 silly reify ]
+71 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-arm-musleabihf
+72 silly reify mark deleted [
+72 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-arm-musleabihf'
+72 silly reify ]
+73 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-linux-arm-gnueabihf
+74 silly reify mark deleted [
+74 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-linux-arm-gnueabihf'
+74 silly reify ]
+75 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-freebsd-x64
+76 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@rollup\\rollup-freebsd-x64' ]
+77 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-freebsd-arm64
+78 silly reify mark deleted [
+78 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-freebsd-arm64'
+78 silly reify ]
+79 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-darwin-x64
+80 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@rollup\\rollup-darwin-x64' ]
+81 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-darwin-arm64
+82 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@rollup\\rollup-darwin-arm64' ]
+83 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-android-arm64
+84 silly reify mark deleted [
+84 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-android-arm64'
+84 silly reify ]
+85 verbose reify failed optional dependency D:\expertonc website\node_modules\@rollup\rollup-android-arm-eabi
+86 silly reify mark deleted [
+86 silly reify   'D:\\expertonc website\\node_modules\\@rollup\\rollup-android-arm-eabi'
+86 silly reify ]
+87 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-win32-arm64-msvc
+88 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-win32-arm64-msvc' ]
+89 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-linux-x64-musl
+90 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-linux-x64-musl' ]
+91 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-linux-x64-gnu
+92 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-linux-x64-gnu' ]
+93 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-linux-arm64-musl
+94 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-linux-arm64-musl' ]
+95 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-linux-arm64-gnu
+96 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-linux-arm64-gnu' ]
+97 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-darwin-x64
+98 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-darwin-x64' ]
+99 verbose reify failed optional dependency D:\expertonc website\node_modules\@next\swc-darwin-arm64
+100 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@next\\swc-darwin-arm64' ]
+101 verbose reify failed optional dependency D:\expertonc website\node_modules\@napi-rs\lzma-linux-x64-gnu
+102 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@napi-rs\\lzma-linux-x64-gnu' ]
+103 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-win32-ia32
+104 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-win32-ia32' ]
+105 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-win32-arm64
+106 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-win32-arm64' ]
+107 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-webcontainers-wasm32
+108 silly reify mark deleted [
+108 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-webcontainers-wasm32'
+108 silly reify ]
+109 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linuxmusl-x64
+110 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linuxmusl-x64' ]
+111 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linuxmusl-arm64
+112 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linuxmusl-arm64' ]
+113 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linux-x64
+114 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linux-x64' ]
+115 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linux-s390x
+116 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linux-s390x' ]
+117 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linux-riscv64
+118 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linux-riscv64' ]
+119 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linux-ppc64
+120 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linux-ppc64' ]
+121 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linux-arm64
+122 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linux-arm64' ]
+123 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-linux-arm
+124 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-linux-arm' ]
+125 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linuxmusl-x64
+126 silly reify mark deleted [
+126 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+126 silly reify ]
+127 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linuxmusl-arm64
+128 silly reify mark deleted [
+128 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+128 silly reify ]
+129 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linux-x64
+130 silly reify mark deleted [
+130 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linux-x64'
+130 silly reify ]
+131 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linux-s390x
+132 silly reify mark deleted [
+132 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linux-s390x'
+132 silly reify ]
+133 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linux-riscv64
+134 silly reify mark deleted [
+134 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+134 silly reify ]
+135 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linux-ppc64
+136 silly reify mark deleted [
+136 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+136 silly reify ]
+137 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linux-arm64
+138 silly reify mark deleted [
+138 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linux-arm64'
+138 silly reify ]
+139 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-linux-arm
+140 silly reify mark deleted [
+140 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-linux-arm'
+140 silly reify ]
+141 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-darwin-x64
+142 silly reify mark deleted [
+142 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-darwin-x64'
+142 silly reify ]
+143 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-libvips-darwin-arm64
+144 silly reify mark deleted [
+144 silly reify   'D:\\expertonc website\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+144 silly reify ]
+145 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-freebsd-wasm32
+146 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-freebsd-wasm32' ]
+147 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-darwin-x64
+148 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-darwin-x64' ]
+149 verbose reify failed optional dependency D:\expertonc website\node_modules\@img\sharp-darwin-arm64
+150 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@img\\sharp-darwin-arm64' ]
+151 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\win32-ia32
+152 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\win32-ia32' ]
+153 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\win32-arm64
+154 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\win32-arm64' ]
+155 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\sunos-x64
+156 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\sunos-x64' ]
+157 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\openbsd-x64
+158 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\openbsd-x64' ]
+159 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\netbsd-x64
+160 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\netbsd-x64' ]
+161 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-x64
+162 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-x64' ]
+163 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-s390x
+164 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-s390x' ]
+165 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-riscv64
+166 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-riscv64' ]
+167 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-ppc64
+168 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-ppc64' ]
+169 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-mips64el
+170 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-mips64el' ]
+171 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-loong64
+172 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-loong64' ]
+173 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-ia32
+174 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-ia32' ]
+175 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-arm64
+176 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-arm64' ]
+177 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\linux-arm
+178 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\linux-arm' ]
+179 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\freebsd-x64
+180 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\freebsd-x64' ]
+181 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\freebsd-arm64
+182 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\freebsd-arm64' ]
+183 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\darwin-x64
+184 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\darwin-x64' ]
+185 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\darwin-arm64
+186 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\darwin-arm64' ]
+187 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\android-x64
+188 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\android-x64' ]
+189 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\android-arm64
+190 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\android-arm64' ]
+191 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\android-arm
+192 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\android-arm' ]
+193 verbose reify failed optional dependency D:\expertonc website\node_modules\@esbuild\aix-ppc64
+194 silly reify mark deleted [ 'D:\\expertonc website\\node_modules\\@esbuild\\aix-ppc64' ]
+195 http cache @testing-library/react@https://registry.npmjs.org/@testing-library/react/-/react-16.3.3.tgz 1ms (cache hit)
+196 http cache @types/qrcode@https://registry.npmjs.org/@types/qrcode/-/qrcode-1.5.6.tgz 0ms (cache hit)
+197 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz 0ms (cache hit)
+198 http cache @playwright/test@https://registry.npmjs.org/@playwright/test/-/test-1.64.0.tgz 0ms (cache hit)
+199 http cache @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz 0ms (cache hit)
+200 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-22.20.5.tgz 0ms (cache hit)
+201 http cache @testing-library/jest-dom@https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-6.9.1.tgz 0ms (cache hit)
+202 http cache @hookform/resolvers@https://registry.npmjs.org/@hookform/resolvers/-/resolvers-3.10.0.tgz 0ms (cache hit)
+203 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz 0ms (cache hit)
+204 http cache zod@https://registry.npmjs.org/zod/-/zod-3.25.76.tgz 0ms (cache hit)
+205 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+206 http cache vitest@https://registry.npmjs.org/vitest/-/vitest-2.1.9.tgz 0ms (cache hit)
+207 http cache react-hook-form@https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.89.0.tgz 0ms (cache hit)
+208 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 0ms (cache hit)
+209 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz 0ms (cache hit)
+210 http cache react@https://registry.npmjs.org/react/-/react-19.3.0.tgz 0ms (cache hit)
+211 http cache qrcode@https://registry.npmjs.org/qrcode/-/qrcode-1.5.4.tgz 0ms (cache hit)
+212 http cache next@https://registry.npmjs.org/next/-/next-15.5.27.tgz 0ms (cache hit)
+213 http cache lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.468.0.tgz 0ms (cache hit)
+214 http cache autoprefixer@https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.6.1.tgz 0ms (cache hit)
+215 silly tarball no local data for @testing-library/react@https://registry.npmjs.org/@testing-library/react/-/react-16.3.3.tgz. Extracting by manifest.
+216 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.29.tgz 0ms (cache hit)
+217 http cache dom-accessibility-api@https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.6.3.tgz 0ms (cache hit)
+218 http cache jsdom@https://registry.npmjs.org/jsdom/-/jsdom-25.0.1.tgz 0ms (cache hit)
+219 silly tarball no local data for @types/qrcode@https://registry.npmjs.org/@types/qrcode/-/qrcode-1.5.6.tgz. Extracting by manifest.
+220 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz. Extracting by manifest.
+221 silly tarball no local data for @playwright/test@https://registry.npmjs.org/@playwright/test/-/test-1.64.0.tgz. Extracting by manifest.
+222 silly tarball no local data for @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz. Extracting by manifest.
+223 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-22.20.5.tgz. Extracting by manifest.
+224 silly tarball no local data for @testing-library/jest-dom@https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-6.9.1.tgz. Extracting by manifest.
+225 silly tarball no local data for @hookform/resolvers@https://registry.npmjs.org/@hookform/resolvers/-/resolvers-3.10.0.tgz. Extracting by manifest.
+226 silly tarball no local data for tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz. Extracting by manifest.
+227 silly tarball no local data for zod@https://registry.npmjs.org/zod/-/zod-3.25.76.tgz. Extracting by manifest.
+228 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+229 silly tarball no local data for vitest@https://registry.npmjs.org/vitest/-/vitest-2.1.9.tgz. Extracting by manifest.
+230 silly tarball no local data for react-hook-form@https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.89.0.tgz. Extracting by manifest.
+231 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz. Extracting by manifest.
+232 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz. Extracting by manifest.
+233 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-19.3.0.tgz. Extracting by manifest.
+234 silly tarball no local data for qrcode@https://registry.npmjs.org/qrcode/-/qrcode-1.5.4.tgz. Extracting by manifest.
+235 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-15.5.27.tgz. Extracting by manifest.
+236 silly tarball no local data for lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.468.0.tgz. Extracting by manifest.
+237 silly tarball no local data for autoprefixer@https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.6.1.tgz. Extracting by manifest.
+238 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.29.tgz. Extracting by manifest.
+239 silly tarball no local data for dom-accessibility-api@https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.6.3.tgz. Extracting by manifest.
+240 silly tarball no local data for jsdom@https://registry.npmjs.org/jsdom/-/jsdom-25.0.1.tgz. Extracting by manifest.
+241 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 383ms
+242 silly audit report {
+242 silly audit report   '@vitest/mocker': [
+242 silly audit report     {
+242 silly audit report       id: 1193684,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-82fw-gwwq-j7x9',
+242 silly audit report       title: 'Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock',
+242 silly audit report       severity: 'moderate',
+242 silly audit report       vulnerable_versions: '>=2.1.0 <4.1.11',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     }
+242 silly audit report   ],
+242 silly audit report   braces: [
+242 silly audit report     {
+242 silly audit report       id: 1240992,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-vfj7-8cjw-p6xm',
+242 silly audit report       title: 'braces vulnerable to stack-exhaustion denial of service through deeply nested patterns',
+242 silly audit report       severity: 'high',
+242 silly audit report       vulnerable_versions: '<=3.0.3',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     }
+242 silly audit report   ],
+242 silly audit report   esbuild: [
+242 silly audit report     {
+242 silly audit report       id: 1102341,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-67mh-4wv8-2f99',
+242 silly audit report       title: 'esbuild enables any website to send any requests to the development server and read the response',
+242 silly audit report       severity: 'moderate',
+242 silly audit report       vulnerable_versions: '<=0.24.2',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     }
+242 silly audit report   ],
+242 silly audit report   postcss: [
+242 silly audit report     {
+242 silly audit report       id: 1130709,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-fxqj-rqcc-2cmp',
+242 silly audit report       title: 'PostCSS: incomplete fix of GHSA-6g55-p6wh-862q — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset',
+242 silly audit report       severity: 'moderate',
+242 silly audit report       vulnerable_versions: '<=8.5.22',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     },
+242 silly audit report     {
+242 silly audit report       id: 1117015,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-qx2v-qp2m-jg93',
+242 silly audit report       title: 'PostCSS has XSS via Unescaped </style> in its CSS Stringify Output',
+242 silly audit report       severity: 'moderate',
+242 silly audit report       vulnerable_versions: '<8.5.10',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     },
+242 silly audit report     {
+242 silly audit report       id: 1124252,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-6g55-p6wh-862q',
+242 silly audit report       title: 'PostCSS: Arbitrary file read and information disclosure via attacker-controlled sourceMappingURL in CSS comments',
+242 silly audit report       severity: 'high',
+242 silly audit report       vulnerable_versions: '<=8.5.11',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     },
+242 silly audit report     {
+242 silly audit report       id: 1139510,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-r28c-9q8g-f849',
+242 silly audit report       title: 'PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure',
+242 silly audit report       severity: 'high',
+242 silly audit report       vulnerable_versions: '<=8.5.17',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     }
+242 silly audit report   ],
+242 silly audit report   'postcss-selector-parser': [
+242 silly audit report     {
+242 silly audit report       id: 1241232,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-rj75-hqrm-r3gf',
+242 silly audit report       title: 'PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion',
+242 silly audit report       severity: 'moderate',
+242 silly audit report       vulnerable_versions: '<7.1.6',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     }
+242 silly audit report   ],
+242 silly audit report   tinypool: [
+242 silly audit report     {
+242 silly audit report       id: 1241260,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-5gmw-xhrv-c9v3',
+242 silly audit report       title: 'Tinypool: Prototype Pollution gadget in worker options leads to Remote Code Execution',
+242 silly audit report       severity: 'critical',
+242 silly audit report       vulnerable_versions: '<=2.1.0',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     },
+242 silly audit report     {
+242 silly audit report       id: 1241261,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-85c8-ppgw-ccpr',
+242 silly audit report       title: 'Tinypool: Prototype Pollution Gadget to RCE in run() options',
+242 silly audit report       severity: 'critical',
+242 silly audit report       vulnerable_versions: '<2.1.2',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     }
+242 silly audit report   ],
+242 silly audit report   vite: [
+242 silly audit report     {
+242 silly audit report       id: 1120784,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-v6wh-96g9-6wx3',
+242 silly audit report       title: 'launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows',
+242 silly audit report       severity: 'moderate',
+242 silly audit report       vulnerable_versions: '<=6.4.2',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     },
+242 silly audit report     {
+242 silly audit report       id: 1116229,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-4w7w-66w2-5vf9',
+242 silly audit report       title: 'Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling',
+242 silly audit report       severity: 'moderate',
+242 silly audit report       vulnerable_versions: '<=6.4.1',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     },
+242 silly audit report     {
+242 silly audit report       id: 1123525,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-fx2h-pf6j-xcff',
+242 silly audit report       title: 'vite: `server.fs.deny` bypass on Windows alternate paths',
+242 silly audit report       severity: 'high',
+242 silly audit report       vulnerable_versions: '<=6.4.2',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     }
+242 silly audit report   ],
+242 silly audit report   vitest: [
+242 silly audit report     {
+242 silly audit report       id: 1139528,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-5xrq-8626-4rwp',
+242 silly audit report       title: 'When Vitest UI server is listening, arbitrary file can be read and executed',
+242 silly audit report       severity: 'critical',
+242 silly audit report       vulnerable_versions: '<3.2.6',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     },
+242 silly audit report     {
+242 silly audit report       id: 1193683,
+242 silly audit report       url: 'https://github.com/advisories/GHSA-82fw-gwwq-j7x9',
+242 silly audit report       title: 'Vitest: Path Traversal / Arbitrary File Read via @vitest/mocker Redirect Mock',
+242 silly audit report       severity: 'moderate',
+242 silly audit report       vulnerable_versions: '>=2.1.0 <4.1.11',
+242 silly audit report       cwe: [Array],
+242 silly audit report       cvss: [Object]
+242 silly audit report     }
+242 silly audit report   ]
+242 silly audit report }
+243 silly packumentCache corgi:https://registry.npmjs.org/@vitest%2fmocker cache-miss
+244 silly packumentCache corgi:https://registry.npmjs.org/braces cache-miss
+245 silly packumentCache corgi:https://registry.npmjs.org/esbuild cache-miss
+246 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+247 silly packumentCache corgi:https://registry.npmjs.org/postcss-selector-parser cache-miss
+248 silly packumentCache corgi:https://registry.npmjs.org/tinypool cache-miss
+249 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+250 silly packumentCache corgi:https://registry.npmjs.org/vitest cache-miss
+251 http fetch GET 200 https://registry.npmjs.org/@types/qrcode/-/qrcode-1.5.6.tgz 566ms (cache miss)
+252 http fetch GET 200 https://registry.npmjs.org/tinypool 216ms (cache miss)
+253 silly packumentCache corgi:https://registry.npmjs.org/tinypool set size:undefined disposed:false
+254 http fetch GET 200 https://registry.npmjs.org/braces 224ms (cache miss)
+255 silly packumentCache corgi:https://registry.npmjs.org/braces set size:undefined disposed:false
+256 http fetch GET 200 https://registry.npmjs.org/postcss-selector-parser 268ms (cache miss)
+257 silly packumentCache corgi:https://registry.npmjs.org/postcss-selector-parser set size:undefined disposed:false
+258 http fetch GET 200 https://registry.npmjs.org/@playwright/test/-/test-1.64.0.tgz 632ms (cache miss)
+259 http fetch GET 200 https://registry.npmjs.org/@vitest%2fmocker 282ms (cache miss)
+260 silly packumentCache corgi:https://registry.npmjs.org/@vitest%2fmocker set size:undefined disposed:false
+261 http fetch GET 200 https://registry.npmjs.org/postcss 325ms (cache miss)
+262 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:undefined disposed:false
+263 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz 712ms (cache miss)
+264 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz 838ms (cache miss)
+265 http fetch GET 200 https://registry.npmjs.org/react/-/react-19.3.0.tgz 849ms (cache miss)
+266 http fetch GET 200 https://registry.npmjs.org/vitest 519ms (cache miss)
+267 silly packumentCache corgi:https://registry.npmjs.org/vitest set size:undefined disposed:false
+268 http fetch GET 200 https://registry.npmjs.org/@testing-library/react/-/react-16.3.3.tgz 941ms (cache miss)
+269 http fetch GET 200 https://registry.npmjs.org/esbuild 598ms (cache miss)
+270 silly packumentCache corgi:https://registry.npmjs.org/esbuild set size:undefined disposed:false
+271 http fetch GET 200 https://registry.npmjs.org/vite 714ms (cache miss)
+272 silly packumentCache corgi:https://registry.npmjs.org/vite set size:undefined disposed:false
+273 http fetch GET 200 https://registry.npmjs.org/@testing-library/jest-dom/-/jest-dom-6.9.1.tgz 1165ms (cache miss)
+274 http fetch GET 200 https://registry.npmjs.org/qrcode/-/qrcode-1.5.4.tgz 1161ms (cache miss)
+275 silly packumentCache corgi:https://registry.npmjs.org/chokidar cache-miss
+276 silly packumentCache corgi:https://registry.npmjs.org/micromatch cache-miss
+277 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.29.tgz 1253ms (cache miss)
+278 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 1261ms (cache miss)
+279 http fetch GET 200 https://registry.npmjs.org/micromatch 84ms (cache miss)
+280 silly packumentCache corgi:https://registry.npmjs.org/micromatch set size:undefined disposed:false
+281 http fetch GET 200 https://registry.npmjs.org/dom-accessibility-api/-/dom-accessibility-api-0.6.3.tgz 1338ms (cache miss)
+282 http fetch GET 200 https://registry.npmjs.org/chokidar 100ms (cache miss)
+283 silly packumentCache corgi:https://registry.npmjs.org/chokidar set size:undefined disposed:false
+284 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+285 http fetch GET 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.6.1.tgz 1540ms (cache miss)
+286 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-22.20.5.tgz 1816ms (cache miss)
+287 http fetch GET 200 https://registry.npmjs.org/vitest/-/vitest-2.1.9.tgz 1833ms (cache miss)
+288 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-19.3.0.tgz 1978ms (cache miss)
+289 http fetch GET 200 https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.89.0.tgz 2372ms (cache miss)
+290 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz 2691ms (cache miss)
+291 http fetch GET 200 https://registry.npmjs.org/next 1367ms (cache miss)
+292 silly packumentCache corgi:https://registry.npmjs.org/next set size:undefined disposed:false
+293 silly packumentCache corgi:https://registry.npmjs.org/postcss-nested cache-miss
+294 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss cache-miss
+295 http fetch GET 200 https://registry.npmjs.org/postcss-nested 53ms (cache miss)
+296 silly packumentCache corgi:https://registry.npmjs.org/postcss-nested set size:undefined disposed:false
+297 http fetch GET 200 https://registry.npmjs.org/@hookform/resolvers/-/resolvers-3.10.0.tgz 3531ms (cache miss)
+298 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 3557ms (cache miss)
+299 http fetch GET 200 https://registry.npmjs.org/tailwindcss 243ms (cache miss)
+300 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss set size:undefined disposed:false
+301 silly packumentCache corgi:https://registry.npmjs.org/vite-node cache-miss
+302 http fetch GET 200 https://registry.npmjs.org/vite-node 163ms (cache miss)
+303 silly packumentCache corgi:https://registry.npmjs.org/vite-node set size:undefined disposed:false
+304 silly packumentCache corgi:https://registry.npmjs.org/fast-glob cache-miss
+305 http fetch GET 200 https://registry.npmjs.org/jsdom/-/jsdom-25.0.1.tgz 4500ms (cache miss)
+306 http fetch GET 200 https://registry.npmjs.org/fast-glob 229ms (cache miss)
+307 silly packumentCache corgi:https://registry.npmjs.org/fast-glob set size:undefined disposed:false
+308 http fetch GET 200 https://registry.npmjs.org/zod/-/zod-3.25.76.tgz 5636ms (cache miss)
+309 http fetch GET 200 https://registry.npmjs.org/lucide-react/-/lucide-react-0.468.0.tgz 9718ms (cache miss)
+310 http fetch GET 200 https://registry.npmjs.org/next/-/next-15.5.27.tgz 17083ms (cache miss)
+311 silly ADD
+312 silly ADD
+313 silly ADD
+314 silly ADD
+315 silly ADD
+316 silly ADD
+317 silly ADD
+318 silly ADD
+319 silly ADD
+320 silly ADD
+321 silly ADD
+322 silly ADD
+323 silly ADD
+324 silly ADD
+325 silly ADD
+326 silly ADD
+327 silly ADD
+328 silly ADD
+329 silly ADD
+330 silly ADD
+331 silly ADD
+332 silly ADD
+333 silly ADD
+334 silly ADD
+335 silly ADD
+336 silly ADD
+337 silly ADD
+338 silly ADD
+339 silly ADD
+340 silly ADD
+341 silly ADD
+342 silly ADD
+343 silly ADD
+344 silly ADD
+345 silly ADD
+346 silly ADD
+347 silly ADD
+348 silly ADD
+349 silly ADD
+350 silly ADD
+351 silly ADD
+352 silly ADD
+353 silly ADD
+354 silly ADD
+355 silly ADD
+356 silly ADD
+357 silly ADD
+358 silly ADD
+359 silly ADD
+360 silly ADD
+361 silly ADD
+362 silly ADD
+363 silly ADD
+364 silly ADD
+365 silly ADD
+366 silly ADD
+367 silly ADD
+368 silly ADD
+369 silly ADD
+370 silly ADD
+371 silly ADD
+372 silly ADD
+373 silly ADD
+374 silly ADD
+375 silly ADD
+376 silly ADD
+377 silly ADD
+378 silly ADD
+379 silly ADD
+380 silly ADD
+381 silly ADD
+382 silly ADD
+383 silly ADD
+384 silly ADD
+385 silly ADD
+386 silly ADD
+387 silly ADD
+388 silly ADD
+389 silly CHANGE node_modules/@types/react
+390 silly CHANGE node_modules/@types/qrcode
+391 silly CHANGE node_modules/@types/react-dom
+392 silly CHANGE node_modules/@testing-library/react
+393 silly CHANGE node_modules/@types/node
+394 silly CHANGE node_modules/@playwright/test
+395 silly CHANGE node_modules/@testing-library/jest-dom
+396 silly ADD node_modules/@testing-library/jest-dom/node_modules/dom-accessibility-api
+397 silly CHANGE node_modules/@hookform/resolvers
+398 silly CHANGE node_modules/tailwindcss
+399 silly CHANGE node_modules/typescript
+400 silly CHANGE node_modules/zod
+401 silly CHANGE node_modules/vitest
+402 silly CHANGE node_modules/react-hook-form
+403 silly CHANGE node_modules/react-dom
+404 silly CHANGE node_modules/react
+405 silly CHANGE node_modules/qrcode
+406 silly CHANGE node_modules/next
+407 silly ADD node_modules/next/node_modules/postcss
+408 silly CHANGE node_modules/lucide-react
+409 silly CHANGE node_modules/autoprefixer
+410 silly CHANGE node_modules/postcss
+411 silly CHANGE node_modules/jsdom
+412 verbose cwd D:\expertonc website
+413 verbose os Windows_NT 10.0.26100
+414 verbose node v20.18.0
+415 verbose npm  v11.0.0
+416 notice
+416 notice New major version of npm available! 11.0.0 -> 12.2.0
+416 notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+416 notice To update run: npm install -g npm@12.2.0
+416 notice  { force: true, [Symbol(proc-log.meta)]: true }
+417 verbose exit 0
+418 info ok

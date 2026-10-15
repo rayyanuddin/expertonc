@@ -1,0 +1,1 @@
+import type{MetadataRoute}from"next";export default function manifest():MetadataRoute.Manifest{return{name:"ExpertOnc",short_name:"ExpertOnc",description:"Expert guidance. Every step of the way.",start_url:"/",display:"standalone",background_color:"#F4F6FA",theme_color:"#0A1A33"}}
