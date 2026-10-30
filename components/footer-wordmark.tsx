@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -52,20 +53,20 @@ export function FooterWordmark() {
         });
       }
 
-      const reveal = (scale: number, y: number, end: string) => {
+      const reveal = () => {
         gsap.fromTo(
           wordmark,
-          { y, scale, autoAlpha: 0.2, transformOrigin: "50% 50%" },
+          { y: 14, scale: 0.96, autoAlpha: 0.55, transformOrigin: "left center" },
           {
             y: 0,
             scale: 1,
             autoAlpha: 1,
-            ease: "none",
+            duration: 0.65,
+            ease: "power3.out",
             scrollTrigger: {
               trigger: wordmark,
-              start: "top 96%",
-              end,
-              scrub: 0.7,
+              start: "top 92%",
+              once: true,
               invalidateOnRefresh: true,
             },
           },
@@ -74,11 +75,11 @@ export function FooterWordmark() {
 
       media.add(
         "(min-width: 801px) and (prefers-reduced-motion: no-preference)",
-        () => reveal(0.22, 96, "top 82%"),
+        reveal,
       );
       media.add(
         "(max-width: 800px) and (prefers-reduced-motion: no-preference)",
-        () => reveal(0.72, 28, "top 75%"),
+        reveal,
       );
 
       return () => media.revert();
@@ -88,7 +89,12 @@ export function FooterWordmark() {
 
   return (
     <Link ref={wordmarkRef} href="/" className="footerWordmark" aria-label="ExpertOnc home">
-      Expert<span>Onc</span>
+      <Image
+        src="/brand/expertonc-logo.png"
+        width={990}
+        height={620}
+        alt="ExpertOnc"
+      />
     </Link>
   );
 }

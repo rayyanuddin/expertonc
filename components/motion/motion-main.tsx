@@ -162,14 +162,14 @@ export function MotionMain({ children }: MotionMainProps) {
         const intro = gsap.timeline({ defaults: { ease: EASE } });
         intro
           .from(hero.querySelectorAll(".eyebrow, .tagline"), { y: 18, duration: 0.55 }, 0.12)
-          .from(hero.querySelectorAll("p, .btn, .storeBadge"), { y: 22, duration: 0.65, stagger: 0.07 }, 0.28)
+          .from(hero.querySelectorAll("p, .btn, .storeBadge, .comingSoonNotice"), { y: 22, duration: 0.65, stagger: 0.07 }, 0.28)
           .from(hero.querySelectorAll(".phone, .demo"), { autoAlpha: 0, y: 48, scale: 0.94, duration: 1, stagger: 0.12 }, 0.2)
           .fromTo(demoCards[0], { autoAlpha: 0.45, scale: 0.96 }, { autoAlpha: 1, scale: 1, duration: 0.45 }, 0.65)
           .fromTo(demoCards[0]?.querySelectorAll(".motion-type-word") ?? [], { autoAlpha: 0, y: 5 }, { autoAlpha: 1, y: 0, duration: 0.06, stagger: 0.055 }, 0.78)
           .to(demoCards[0], { autoAlpha: 0.62, scale: 0.985, duration: 0.4 }, 1.55)
           .fromTo(demoCards[1], { autoAlpha: 0.45, scale: 0.96 }, { autoAlpha: 1, scale: 1, duration: 0.45 }, 1.55)
           .fromTo(demoCards[1]?.querySelectorAll(".motion-type-word") ?? [], { autoAlpha: 0, y: 5 }, { autoAlpha: 1, y: 0, duration: 0.06, stagger: 0.05 }, 1.68)
-          .set(hero.querySelectorAll(".btn, .tagline"), { clearProps: "transform" }, 2.6);
+          .set(hero.querySelectorAll(".btn, .tagline, .comingSoonNotice"), { clearProps: "transform" }, 2.6);
 
         const waveBars = hero.querySelectorAll<HTMLElement>(".waveform i");
         gsap.fromTo(waveBars, { scaleY: 0.35 }, {

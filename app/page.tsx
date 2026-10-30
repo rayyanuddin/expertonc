@@ -4,7 +4,8 @@ import { ArrowRight, HeartHandshake } from "lucide-react";
 import { FAQ } from "@/components/faq";
 import { Phone } from "@/components/phone";
 import { RecordingFlow } from "@/components/recording-flow";
-import { disclaimer, downloadLabel } from "@/lib/config";
+import { ComingSoonNotice } from "@/components/coming-soon-notice";
+import { appIsLive, disclaimer, downloadLabel } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: "Every visit, understood.",
@@ -61,6 +62,7 @@ export default function Home() {
       <section className="hero">
         <div className="container heroGrid">
           <div className="heroIntro">
+            {!appIsLive ? <ComingSoonNotice prominent /> : null}
             <h1>
               Every visit, <span>understood.</span>
             </h1>
@@ -68,10 +70,12 @@ export default function Home() {
               Record your oncology appointments and get a clear summary, next
               steps, and a daily plan you can actually follow.
             </p>
-            <Link className="btn" href="/download">
-              {downloadLabel}
-              <ArrowRight size={18} />
-            </Link>
+            <div className="heroActions">
+              <Link className="btn" href="/download">
+                {downloadLabel}
+                <ArrowRight size={18} />
+              </Link>
+            </div>
             <p className="tagline">Expert guidance. Every step of the way.</p>
           </div>
           <div className="heroShowcase">
