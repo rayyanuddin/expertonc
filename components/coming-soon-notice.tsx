@@ -22,7 +22,7 @@ export function ComingSoonNotice({
       </span>
       <span className="comingSoonCopy">
         {prominent ? (
-          <strong>APP COMING SOON</strong>
+          <strong>App coming soon</strong>
         ) : (
           <>
             <strong>Coming soon</strong>

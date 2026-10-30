@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { disclaimer } from "@/lib/config";
 import { FooterWordmark } from "@/components/footer-wordmark";
 
@@ -6,6 +7,17 @@ export function Footer() {
   return (
     <footer className="footer">
       <div className="container">
+        <div className="footerTop">
+          <div className="footerBrand">
+            <FooterWordmark />
+            <p className="footerTagline">Expert guidance. Every step of the way.</p>
+          </div>
+          <Link className="btn footerCta" href="/download">
+            Get early access
+            <ArrowRight size={18} aria-hidden="true" />
+          </Link>
+        </div>
+
         <nav className="footerGrid" aria-label="Footer navigation">
           <FooterCol title="App" links={[["Features", "/features"], ["Download", "/download"]]} />
           <FooterCol title="Resources" links={[["All resources", "/resources"], ["Education library", "/resources#education"]]} />
@@ -13,14 +25,8 @@ export function Footer() {
           <FooterCol title="Legal" links={[["Privacy", "/privacy"], ["Terms", "/terms"]]} />
         </nav>
 
-        <FooterWordmark />
-
         <div className="footerBottom">
           <p className="tiny">{disclaimer}</p>
-          <div className="footerLegal">
-            <Link href="/privacy">Privacy</Link>
-            <Link href="/terms">Terms</Link>
-          </div>
         </div>
       </div>
     </footer>

@@ -179,6 +179,21 @@
   text-align: center;
 }
 
+.page :global(.resourceOrganizations .resourceDisclaimer) {
+  width: 100%;
+  max-width: none;
+  margin: 30px 0 0;
+  padding: 20px 24px;
+  border: 1px solid #f5e5c5;
+  border-left: 3px solid var(--warning);
+  border-radius: 12px;
+  background: linear-gradient(110deg, #fffaf0, #fffdf8);
+  color: #34445b;
+  font-size: 15px;
+  line-height: 1.65;
+  text-align: left;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .page :global(.btn),
   .page :global(.card),
@@ -276,6 +291,14 @@
   .page :global(.resourceDisclaimer) {
     max-width: 52ch;
     font-size: 0.75rem;
+  }
+
+  .page :global(.resourceOrganizations .resourceDisclaimer) {
+    width: 100%;
+    max-width: none;
+    margin-top: 24px;
+    padding: 16px 17px;
+    font-size: 14px;
   }
 
   .page :global(.demoArrow) {

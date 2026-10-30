@@ -965,3 +965,221 @@ body {
     transform: none;
   }
 }
+
+/* Make the launch status an intentional part of the first impression. */
+.heroIntro > .comingSoonNoticeProminent {
+  position: relative;
+  display: grid;
+  width: min(100%, 440px);
+  min-height: 76px;
+  grid-template-columns: 46px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 25px;
+  padding: 11px 14px;
+  border: 1px solid rgb(255 255 255 / 17%);
+  border-radius: 16px;
+  background: rgb(19 35 63 / 88%);
+  box-shadow: 0 8px 24px rgb(0 0 0 / 12%);
+  text-align: left;
+}
+
+.heroIntro > .comingSoonNoticeProminent::before {
+  content: none;
+}
+
+.comingSoonNoticeProminent .comingSoonIcon {
+  width: 44px;
+  height: 44px;
+  border-color: rgb(47 140 255 / 28%);
+  border-radius: 13px;
+  background: rgb(47 140 255 / 11%);
+  box-shadow: none;
+}
+
+.comingSoonNoticeProminent .comingSoonIcon::after {
+  content: none;
+}
+
+.comingSoonNoticeProminent .comingSoonCopy {
+  min-width: 0;
+  min-height: 0;
+  gap: 4px;
+  align-content: center;
+}
+
+.comingSoonNoticeProminent .comingSoonCopy strong {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -.015em;
+  line-height: 1.2;
+}
+
+.comingSoonNoticeProminent .comingSoonPlatforms {
+  gap: 8px;
+  margin: 0 0 0 2px;
+  padding-left: 12px;
+  border-left: 1px solid rgb(255 255 255 / 16%);
+}
+
+.comingSoonNoticeProminent .comingSoonPlatforms > span {
+  padding: 5px 7px;
+  border-color: rgb(255 255 255 / 14%);
+  border-radius: 7px;
+  background: rgb(255 255 255 / 5%);
+  color: #dbe6f4;
+  font-size: 11px;
+  line-height: 1;
+}
+
+@media (max-width: 480px) {
+  .heroIntro > .comingSoonNoticeProminent {
+    width: 100%;
+    min-height: 90px;
+    grid-template-columns: 44px minmax(0, 1fr);
+    gap: 8px 11px;
+    padding: 11px 12px;
+    border-radius: 15px;
+  }
+
+  .comingSoonNoticeProminent .comingSoonIcon {
+    width: 42px;
+    height: 42px;
+    grid-row: 1 / span 2;
+  }
+
+  .comingSoonNoticeProminent .comingSoonPlatforms {
+    grid-column: 2;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .comingSoonNoticeProminent .comingSoonPlatforms > span {
+    padding: 5px 7px;
+    font-size: 11px;
+  }
+}
+
+/* Footer hierarchy: a clear brand/action row, then the site's link groups. */
+.footer {
+  padding-block: clamp(3rem, 5vw, 4.5rem) 2rem;
+}
+
+.footerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgb(255 255 255 / 14%);
+}
+
+.footerBrand {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 18px;
+}
+
+.footer .footerWordmark {
+  width: 104px;
+  flex: 0 0 auto;
+  margin: 0 !important;
+}
+
+.footerTagline {
+  max-width: 24ch;
+  margin: 0;
+  color: #c3d0e0;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.footer .footerCta {
+  flex: 0 0 auto;
+  min-height: 46px;
+  padding-inline: 18px;
+  border: 1px solid rgb(255 255 255 / 20%);
+  box-shadow: none;
+}
+
+.footer .footerCta:hover {
+  box-shadow: 0 8px 20px rgb(0 0 0 / 16%);
+}
+
+.footerGrid {
+  gap: clamp(1.5rem, 5vw, 4rem);
+  margin-top: 0;
+  padding-top: 29px;
+  border-top: 0;
+}
+
+.footerGrid strong {
+  margin-bottom: 15px;
+}
+
+.footerBottom {
+  margin-top: 22px;
+  padding-top: 17px;
+  border-top: 1px solid rgb(255 255 255 / 13%);
+}
+
+.footerBottom .tiny {
+  max-width: 92ch;
+  font-size: 12px;
+}
+
+@media (max-width: 640px) {
+  .footerTop {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 22px;
+  }
+
+  .footerBrand {
+    gap: 14px;
+  }
+
+  .footer .footerWordmark {
+    width: 92px;
+  }
+
+  .footerTagline {
+    font-size: 15px;
+  }
+
+  .footer .footerCta {
+    width: 100%;
+  }
+
+  .footerGrid {
+    gap: 26px 24px;
+    padding-top: 25px;
+  }
+
+  .footerBottom {
+    margin-top: 23px;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 360px) {
+  .footerBrand {
+    gap: 10px;
+  }
+
+  .footer .footerWordmark {
+    width: 82px;
+  }
+
+  .footerTagline {
+    font-size: 14px;
+  }
+
+  .footerGrid {
+    column-gap: 16px;
+  }
+}
